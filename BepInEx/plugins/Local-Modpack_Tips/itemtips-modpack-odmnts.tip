@@ -1,0 +1,514 @@
+{
+ "metadata": {
+  "name": "Modpack tips: Oddments",
+  "url": "",
+  "version": "2.0.0"
+ },
+ "items": {
+  "odmnts:acrid_rounds": {
+   "name": "Acrid Rounds",
+   "notes": "Each bullet has an 8.5% chance to mark an enemy for 6 seconds. Marked enemies leave a pool of poisonous goop when they die."
+  },
+  "odmnts:ammo_repurposer": {
+   "name": "Ammo Repurposer",
+   "notes": "Ammo pickups overfill the held gun past its maximum: one pickup type adds a full extra max load, the other adds 25% of max and reloads. The second type also gives your other guns 12.5% of their max."
+  },
+  "odmnts:ammo_upgrade": {
+   "name": "ammo upgrade",
+   "notes": "Ammo pickups have a 50% chance to be replaced by an Endless Ammo Crate, which gives infinite ammo for 60 seconds."
+  },
+  "odmnts:ano-rounds": {
+   "name": "Ano-Rounds",
+   "notes": "Every bullet gains damage, highest (up to 1.5x) at the start of the clip and falling back to 1x over the last 6 shots."
+  },
+  "odmnts:armorgeneratingonroomclearitem": {
+   "name": "ArmorGeneratingOnRoomClearItem",
+   "notes": "Gives 1 armor after a set number of room clears, starting at 3."
+  },
+  "odmnts:array_bullets": {
+   "name": "Array Bullets",
+   "notes": "Each bullet you fire also spawns 4 copies from the same spot and angle. The original and copies 2 and 3 do 30% damage at half size; copies 1 and 4 are full strength."
+  },
+  "odmnts:assist_trophy": {
+   "name": "Assist Trophy",
+   "notes": "Gives you a random gun for 12 seconds. Recharges over 200 seconds. Cannot be used while your gun is locked."
+  },
+  "odmnts:benthicbloomitem": {
+   "name": "BenthicBloomItem",
+   "notes": "Meant to, on each new floor, replace 4 random held passive items of quality 1 to 4 with one tier higher versions."
+  },
+  "odmnts:big_ammo_crate": {
+   "name": "Big Ammo Crate",
+   "notes": "Interact with it to spawn an ammo pickup (regular or spread ammo) at a nearby reward spot. Single use."
+  },
+  "odmnts:biggerammodropsitem": {
+   "name": "BiggerAmmoDropsItem",
+   "notes": "Currently has no effect: this item is unfinished in its mod."
+  },
+  "odmnts:blackcatitem": {
+   "name": "BlackCatItem",
+   "notes": "Currently has no effect: this item is unfinished in its mod."
+  },
+  "odmnts:blank_ammo": {
+   "name": "Blank Ammo",
+   "notes": "Using a blank grants infinite ammo for 6 seconds."
+  },
+  "odmnts:blank_rounds": {
+   "name": "blank rounds",
+   "notes": "Each bullet applies a 6 second effect that fires an easy blank at the enemy when it dies."
+  },
+  "odmnts:blended_heart": {
+   "name": "Blended Heart",
+   "notes": "Heals you if you are missing health; otherwise gives 1 armor."
+  },
+  "odmnts:broken_stopwatch": {
+   "name": "Broken Stopwatch",
+   "notes": "+15% damage, and boosts movement speed and two other stats by 15% to 20%."
+  },
+  "odmnts:bullet_on_the_cob": {
+   "name": "Bullet on the Cob",
+   "notes": "Currently has no effect: this item is unfinished in its mod."
+  },
+  "odmnts:bullet_shrimp": {
+   "name": "Bullet Shrimp",
+   "notes": "Every ammo pickup is replaced by an Endless Ammo Crate, which gives infinite ammo for 60 seconds."
+  },
+  "odmnts:bulletpowerdrainitem": {
+   "name": "BulletPowerDrainItem",
+   "notes": "Charge item (25 charge). While in combat, enemy bullets passing very close to you become black bullets, each using 1 charge. Using it adds 10% damage, reset when you enter a new room."
+  },
+  "odmnts:cadueleus": {
+   "name": "Cadueleus",
+   "notes": "Red hearts and armor pickups are replaced with Blended Hearts. A Blended Heart heals when you are below full health, otherwise it grants 1 armor."
+  },
+  "odmnts:cardinallets": {
+   "name": "Cardinallets",
+   "notes": "Each shot has a 25% chance to add 3 extra copies of a bullet, fired 90, 180 and 270 degrees from the aim to form a cross. Extra bullets use no ammo."
+  },
+  "odmnts:catho-rounds": {
+   "name": "Catho-Rounds",
+   "notes": "Every bullet gains damage, rising from 1x to 1.5x over the first 6 shots of the clip and then holding at 1.5x."
+  },
+  "odmnts:cellophane": {
+   "name": "cellophane",
+   "notes": "Each enemy gets two translucent copies, one on each side, shown as red or blue afterimages. The copies are visual only and do not deal damage."
+  },
+  "odmnts:chrome_splash": {
+   "name": "Chrome Splash",
+   "notes": "Active, recharged by dealing damage (150 to 1250 depending on gun quality). On use: replaces your current gun with a random gun one quality tier higher."
+  },
+  "odmnts:clockhanditem": {
+   "name": "ClockHandItem",
+   "notes": "Each volley adds free extra copies of every bullet, placed at an angle based on time spent unalerted."
+  },
+  "odmnts:consolation_shield": {
+   "name": "Consolation Shield",
+   "notes": "Grants 1 armor on pickup. Taking damage raises a counter that lowers the room-clear reward chance, and each room-clear item drop reduces it."
+  },
+  "odmnts:cool_gun_waxer": {
+   "name": "cool gun waxer",
+   "notes": "Using it only runs the base item use, since the wax and sharpness tracking is never applied to a gun."
+  },
+  "odmnts:corinthian_casing": {
+   "name": "Corinthian Casing",
+   "notes": "Bronze casings have an 8% chance to be replaced by the silver casing pickup."
+  },
+  "odmnts:crown_of_love": {
+   "name": "Crown of Love",
+   "notes": "While held, every chest that spawns drops items instead of guns. Synergy chests are not affected."
+  },
+  "odmnts:crown_of_quality": {
+   "name": "Crown of Quality",
+   "notes": "While held, D-tier chests are replaced with C-tier chests, so D-tier chests no longer spawn."
+  },
+  "odmnts:crown_of_synergies": {
+   "name": "Crown of Synergies",
+   "notes": "While held, every chest that spawns is a synergy chest."
+  },
+  "odmnts:crown_of_war": {
+   "name": "Crown of War",
+   "notes": "While held, every chest that spawns drops guns instead of items. Synergy chests are not affected."
+  },
+  "odmnts:cubic_shells": {
+   "name": "Cubic Shells",
+   "notes": "Halves reload time. Each bullet follows a zigzag wave path, and the side alternates from shot to shot."
+  },
+  "odmnts:daisuke's_gift": {
+   "name": "Daisuke's Gift",
+   "notes": "On first pickup each run, grants three different random stat changes picked from a pool of ten. Most of the pool are increases, with two small decreases."
+  },
+  "odmnts:damned_round": {
+   "name": "Damned Round",
+   "notes": "Mastery token pickup that adds +10% damage, +1 curse, and +1 to a second stat."
+  },
+  "odmnts:dealmakers": {
+   "name": "Dealmakers",
+   "notes": "While held, every shop item gets a random price between 10 and 74 coins."
+  },
+  "odmnts:decanter": {
+   "name": "Decanter",
+   "notes": "Three uses. Cancels curse for the rest of the floor, so curse counts as zero, and any jammed enemy that spawns is killed instantly (bosses excepted). Resets on each new floor."
+  },
+  "odmnts:derringer's_sack": {
+   "name": "Derringer's Sack",
+   "notes": "Single use. Spawns three random floor items; picking one up removes the other two, and the next set of three appears after 0.75 seconds, for up to three rounds."
+  },
+  "odmnts:dodge_target": {
+   "name": "Dodge Target",
+   "notes": "Once per enemy: when you damage it, there is a 90% chance (always on a killing blow) that all bullets it fired are cleared in an expanding ring around it."
+  },
+  "odmnts:double_chamber": {
+   "name": "Double Chamber",
+   "notes": "On reload: for 0.4 seconds of time not spent reloading, adds +2 fire rate and turns semi-automatic guns fully automatic. Reloading again during the buff restarts it."
+  },
+  "odmnts:doubleroomclearitem": {
+   "name": "DoubleRoomClearItem",
+   "notes": "Room clear rewards get a +33% extra reward chance, and each item dropped when a room is cleared is spawned a second time."
+  },
+  "odmnts:electricroundsitem": {
+   "name": "ElectricRoundsItem",
+   "notes": "When each of your bullets ends, it arcs lightning up to 3 times. The first arc reaches the nearest enemy in the room; later arcs need an enemy within 3 units. With no enemy, it arcs 3 units back along the path."
+  },
+  "odmnts:empty_chamber": {
+   "name": "Empty Chamber",
+   "notes": "Reloading an empty gun fires a mini-blank. Has a 10 second cooldown between uses."
+  },
+  "odmnts:endless_ammo_crate": {
+   "name": "Endless Ammo Crate",
+   "notes": "Interact with it to gain infinite ammo for 60 seconds."
+  },
+  "odmnts:eternal_idol": {
+   "name": "Eternal Idol",
+   "notes": "Each new normal enemy is chained to a random nearby normal enemy within 75 units in the same room. When one chained enemy dies, the other dies too. Bosses are not chained."
+  },
+  "odmnts:eternal_slugs": {
+   "name": "Eternal Slugs",
+   "notes": "Each bullet that hits an enemy returns one round to the clip it was fired from, as long as the gun has reserve ammo."
+  },
+  "odmnts:flimsy_coupon": {
+   "name": "Flimsy Coupon",
+   "notes": "While held, your casings can never drop below 15."
+  },
+  "odmnts:fortune_cookie": {
+   "name": "Fortune Cookie",
+   "notes": "On use: shows a random fortune message with no other effect."
+  },
+  "odmnts:frost_leech": {
+   "name": "Frost Leech",
+   "notes": "While held, when any active item is recharging, healing reduces the cooldown of every active item instead of restoring health. Health pickups are still collected for this."
+  },
+  "odmnts:fuckybarrelitem": {
+   "name": "FuckyBarrelItem",
+   "notes": "While held, every projectile in a volley is split into two copies angled 45 degrees either side of the original aim."
+  },
+  "odmnts:gene_splicer": {
+   "name": "gene splicer",
+   "notes": "On each new floor, a random gun gets an ammo-free helix copy of each of its shots, plus a 0.83 multiplier on one stat."
+  },
+  "odmnts:gigantic_amythest": {
+   "name": "Gigantic Amythest",
+   "notes": "Instantly reloads your current gun and clears its cooldowns. Cannot be used with a full clip. Recharges after you deal 7 damage."
+  },
+  "odmnts:golden_magnet": {
+   "name": "Golden Magnet",
+   "notes": "While held, each casing gain is increased by 30%, with the extra rounded randomly up or down."
+  },
+  "odmnts:grimoire": {
+   "name": "Grimoire",
+   "notes": "+25% fire rate and +1 curse. Items with a curse penalty are rolled with 5 times the weight, so cursed items show up much more often."
+  },
+  "odmnts:gungeon_veins": {
+   "name": "Gungeon Veins",
+   "notes": "+3 curse. After clearing a room without taking damage, there is a 15% chance one adjacent hidden room with enemies is cleared at once and revealed on the minimap."
+  },
+  "odmnts:gunupgradeitem": {
+   "name": "GunUpgradeItem",
+   "notes": "Chests of one chest type generate contents one tier higher. On your first pickup in a run, existing chests of that type are rerolled."
+  },
+  "odmnts:hellfire's_rounds": {
+   "name": "Hellfire's Rounds",
+   "notes": "Each bullet has an 8.5% chance to mark an enemy for 6 seconds. Marked enemies explode when they die."
+  },
+  "odmnts:hideous_bullets": {
+   "name": "Hideous Bullets",
+   "notes": "Every bullet you fire pulses between 0.5x and 2x size, with damage pulsing between 0.8x and 1.4x in step."
+  },
+  "odmnts:hippocratic_rounds": {
+   "name": "Hippocratic Rounds",
+   "notes": "+15% fire rate and immunity to poison, fire and electricity. Enemy status effects are blocked and deal 6 damage per second of effect duration, up to 8 seconds."
+  },
+  "odmnts:humbling_bundle": {
+   "name": "humbling bundle",
+   "notes": "Full hearts, keys and blanks each have a 50% chance to be replaced by stacked armor, a key ring or stacked blanks."
+  },
+  "odmnts:hunt'ers_harpoon": {
+   "name": "hunt'ers harpoon",
+   "notes": "On reload, gives a temporary +2 boost to one stat for 0.8 seconds, counting only time not spent reloading."
+  },
+  "odmnts:infinite_lockbox": {
+   "name": "Infinite Lockbox",
+   "notes": "Single-use active that needs at least 1 key. Uses all your keys to spawn floor(2 + 1.5 per key) random item rewards from the floor, skipping keys."
+  },
+  "odmnts:itemthatprintsmoneyitem": {
+   "name": "ItemThatPrintsMoneyItem",
+   "notes": "On use: spawns 20 coins at your feet. Has a long recharge."
+  },
+  "odmnts:jam_idol": {
+   "name": "Jam Idol",
+   "notes": "While held, each enemy has a 20% chance to become Jammed."
+  },
+  "odmnts:jet": {
+   "name": "Jet",
+   "notes": "On use: for 8 seconds, multiplies three stats by 1.25, 2 and 1.2. You take 1 damage when it ends."
+  },
+  "odmnts:key_of_love": {
+   "name": "Key of Love",
+   "notes": "Grants 2 keys on first pickup, and is meant to let you spend health in place of keys when you are out of keys."
+  },
+  "odmnts:king_worm": {
+   "name": "Spid-AR",
+   "notes": "AK-47 base that adds four projectile modules, with 5-round clips, 0.75 cooldown and 5 damage per bullet."
+  },
+  "odmnts:knockoutroundsitem": {
+   "name": "KnockoutRoundsItem",
+   "notes": "9% of your bullets that hit an enemy knock it back with 3 times the bullet's force."
+  },
+  "odmnts:lead_cross": {
+   "name": "Lead Cross",
+   "notes": "Heart pickups have a 50% chance to become armor pickups."
+  },
+  "odmnts:lead_heart": {
+   "name": "Lead Heart",
+   "notes": "While held, taking damage removes every empty heart slot and converts each removed unit into 2 armor. The first pickup each run also gives 3 armor."
+  },
+  "odmnts:lemeguon": {
+   "name": "Lemeguon",
+   "notes": "On use, summons a random passive item of its own quality that orbits you, skipping 8 blocked items. Cooldown is 325."
+  },
+  "odmnts:lightweight_armour": {
+   "name": "Lightweight Armour",
+   "notes": "While held, you gain +1.5 movement speed, but knockback you take is doubled."
+  },
+  "odmnts:majestic_censer": {
+   "name": "Majestic Censer",
+   "notes": "Active, 100 cooldown. After your attacks kill a non-boss enemy, the censer stores that enemy type. On use, it summons a charmed copy at your aim for 20 seconds, then it dies."
+  },
+  "odmnts:massdevolveitem": {
+   "name": "MassDevolveItem",
+   "notes": "On use: each vulnerable enemy in the room is transformed into a random enemy one tier lower in the Devolver enemy chain. Enemies on the Devolver ignore list are skipped."
+  },
+  "odmnts:member_card": {
+   "name": "Member Card",
+   "notes": "Each shop purchase paid in casings adds 7.5% of its price (rounded down) to a running total. Your casings can never fall below that total."
+  },
+  "odmnts:metamoney_to_damage": {
+   "name": "metamoney to damage",
+   "notes": "Each meta currency you collect adds +1% damage, and the bonuses stack."
+  },
+  "odmnts:mimic_bait": {
+   "name": "Mimic Bait",
+   "notes": "While held, adds 33% to each chest's chance to become a mimic, and picking it up rolls the unopened chests already on the floor. With Mimic Tooth Necklace, 33% of spawned mimics die to your next shot."
+  },
+  "odmnts:mortal_rounds": {
+   "name": "Mortal Rounds",
+   "notes": "+1 curse. Each bullet has a 0.125% chance per point of damage fired since the last proc to trigger. Triggered bullets fire the player's on-kill effects when they hit any enemy."
+  },
+  "odmnts:odd_shells": {
+   "name": "Odd Shells",
+   "notes": "While held, every 10 seconds (the first after 5) it copies a random bullet modifier item from the pool and applies its effect as if you held it."
+  },
+  "odmnts:omegacoreitem": {
+   "name": "OmegaCoreItem",
+   "notes": "Normal enemies that spawn bounce off walls, taking 56 damage and being knocked back per bounce. Their knockback is doubled."
+  },
+  "odmnts:packed_shells": {
+   "name": "Packed Shells",
+   "notes": "Bullets burst when they head toward an enemy within about 4.6 units, releasing 0 to 2 extra shrapnel bullets in a spread."
+  },
+  "odmnts:poppopitem": {
+   "name": "PopPopItem",
+   "notes": "On use: fires the gun's ready shots as an extra volley at double ammo cost, and puts those shots on double cooldown. Needs more than one round loaded."
+  },
+  "odmnts:potion_of_haste-loading": {
+   "name": "Potion of Haste-loading",
+   "notes": "On use: for 14 seconds, reload time is cut by 999 (effectively instant reloads) and one other stat rises by 1."
+  },
+  "odmnts:quickfreezeitem": {
+   "name": "QuickFreezeItem",
+   "notes": "18% of your shots carry a frost effect. Enemy freeze effects have an 18% chance to be boosted (150, or 100 vs bosses), at most once per 6 seconds per enemy."
+  },
+  "odmnts:radar_bullets": {
+   "name": "Radar Bullets",
+   "notes": "Each bullet has a 10% chance to tag the enemy it hits for 8 seconds. While held, every bullet you fire homes toward tagged enemies within about 6 tiles."
+  },
+  "odmnts:razor_chamber": {
+   "name": "Razor Chamber",
+   "notes": "Reloading an empty gun damages enemies within 8 units of its barrel. Damage scales with the gun's reload time and shot cooldowns."
+  },
+  "odmnts:reg_money_to_curse_damage": {
+   "name": "reg money to curse damage",
+   "notes": "Every 60 casings collected adds +7.5% damage and +1 curse."
+  },
+  "odmnts:rejuvenation_rack": {
+   "name": "Rejuvenation Rack",
+   "notes": "While held, all healing you receive is doubled."
+  },
+  "odmnts:reloadium": {
+   "name": "Reloadium",
+   "notes": "While held, taking damage triggers the on-reload effects of your current gun. Also speeds up reloading."
+  },
+  "odmnts:rightful_curtsy": {
+   "name": "rightful curtsy",
+   "notes": "About half of your shots get double knockback and are 10% larger. Also gives +0.1 to one other stat."
+  },
+  "odmnts:ring_of_odd_friendship": {
+   "name": "Ring of Odd Friendship",
+   "notes": "Gives you a random companion item that re-rolls each time you start a new floor. Unlocks after every vanilla companion is unlocked."
+  },
+  "odmnts:rocket_ouroboros": {
+   "name": "Rocket Ouroboros",
+   "notes": "While held, using a blank also fires an evenly spaced ring of 3 projectiles."
+  },
+  "odmnts:roomclearonlyheals": {
+   "name": "RoomClearOnlyHeals",
+   "notes": "Adds three full-heart entries, each weighted 0.33, to the reward pool for every room you clear."
+  },
+  "odmnts:royal_guard": {
+   "name": "Royal Guard",
+   "notes": "Active, 200 cooldown. Meant to summon a charmed gun nut at your aim point for 20 seconds, then it dies. As coded, no enemy is ever set to summon, so it appears unusable."
+  },
+  "odmnts:safety_scissors": {
+   "name": "Safety Scissors",
+   "notes": "While held, chests no longer spawn with fuses. Synergy chests keep their fuse."
+  },
+  "odmnts:sales_101": {
+   "name": "Sales 101",
+   "notes": "Dropped guns and items vanish when they land and pay out coins equal to 45% of their price, up to 200. Special-quality items pay 3 coins."
+  },
+  "odmnts:sanguine_hook": {
+   "name": "Sanguine Hook",
+   "notes": "This file sets no custom damage or effects of its own."
+  },
+  "odmnts:sharpenign_stone": {
+   "name": "sharpenign stone",
+   "notes": "Using it only runs the base item use, since the wax and sharpness tracking is never applied to a gun."
+  },
+  "odmnts:shelleton_hand": {
+   "name": "Shelleton Hand",
+   "notes": "On each new floor, a random gun you hold that can gain ammo and is not full is refilled to max ammo."
+  },
+  "odmnts:shellfire": {
+   "name": "Shellfire",
+   "notes": "Every enemy that spawns is set to explode on death. After a 0.75 second blink it fires four beams and a blast, then dies."
+  },
+  "odmnts:shelltans_touch": {
+   "name": "shelltans touch",
+   "notes": "On each new floor, a random gun gains +0.2 to one stat and +2 to another."
+  },
+  "odmnts:shotgun_charm": {
+   "name": "Shotgun Charm",
+   "notes": "Guns that fire 3 or more projectiles, and all shotguns, fire about a third more pellets at no ammo cost. Shotguns become 5x more common."
+  },
+  "odmnts:shrapnel_test_item": {
+   "name": "SHRAPNEL TEST ITEM",
+   "notes": "Unused test item from its mod; normally never appears."
+  },
+  "odmnts:siphon_item": {
+   "name": "Siphon Item",
+   "notes": "On use: fires the active items stored in it, then destroys the nearest item within 1 unit and keeps its stat boosts permanently. Absorbed active items are stored so later uses fire them."
+  },
+  "odmnts:slab_of_null": {
+   "name": "Slab of Null",
+   "notes": "Using an active item also uses a random item from a fixed pool, with a 10 second cooldown between triggers."
+  },
+  "odmnts:slinking_bullets": {
+   "name": "Slinking Bullets",
+   "notes": "Adds one duplicate shot to each volley. Bullet speed pulses in a repeating wave, with alternating bullets out of phase."
+  },
+  "odmnts:space_slug": {
+   "name": "Space Slug",
+   "notes": "While held, each boss room you clear adds 10% damage to the gun you are holding at that moment, stacking each time. Its projectiles and beams grow stronger as the bonus rises."
+  },
+  "odmnts:spawnfriendlygrenadeitem": {
+   "name": "SpawnFriendlyGrenadeItem",
+   "notes": "When an enemy is killed, a grenade-carrying enemy spawns where it died. Companions and grenade enemies do not trigger it."
+  },
+  "odmnts:spidar": {
+   "name": "Spid-AR",
+   "notes": "AK-47 based gun that fires 3-round bursts from 20-round clips, dealing 5 damage per bullet. Each bullet leaves player-friendly web goop where it collides."
+  },
+  "odmnts:spider_boots": {
+   "name": "Spider Boots",
+   "notes": "While held, phase web is replaced with friendly web, and you leave web patches while moving: each frame there is a 10% chance to drop one, and every frame during a roll."
+  },
+  "odmnts:splitter": {
+   "name": "splitter",
+   "notes": "Each ammo pickup also gives every other gun you carry 25% of its max ammo."
+  },
+  "odmnts:strange_whistle": {
+   "name": "Strange Whistle",
+   "notes": "On use: targets a locked chest within 1 unit in your room (not already a mimic, not a synergy chest), tries to turn it into a mimic, then unlocks it."
+  },
+  "odmnts:supremacy": {
+   "name": "Supremacy",
+   "notes": "Each cleared room arms an air strike (a copy of the Air Strike active), and one is armed on first pickup. While armed, each shot you fire calls in the strike."
+  },
+  "odmnts:synergrace's_blessing": {
+   "name": "Synergrace's Blessing",
+   "notes": "While held, each chest has a 37.5% extra chance to spawn as a synergy chest."
+  },
+  "odmnts:tapeflower": {
+   "name": "tapeflower",
+   "notes": "On each new floor, a random gun that cannot be dropped and is not already taped is duct-taped to another random gun."
+  },
+  "odmnts:the_book_of_sin": {
+   "name": "The Book of Sin",
+   "notes": "On use: spawns one random item from the floor's single-item reward pool next to you. Cooldown is 6 rooms cleared."
+  },
+  "odmnts:the_master's_pact": {
+   "name": "The Master's Pact",
+   "notes": "On a floor where a mastery pedestal offers a mastery token, that pedestal's reward is swapped for a Damned Round."
+  },
+  "odmnts:the_wholly_ghost": {
+   "name": "The Wholly Ghost",
+   "notes": "While held, when an enemy takes damage there is a 20% chance it is re-animated as a hollowpoint. Hollowpoints made this way are permanently charmed to your side."
+  },
+  "odmnts:throwing_knife": {
+   "name": "Throwing Knife",
+   "notes": "On use: throws a knife for 10 damage at double speed that passes through one enemy and makes it bleed. Holds 3 uses before a 250 cooldown."
+  },
+  "odmnts:tissue_sample": {
+   "name": "Tissue Sample",
+   "notes": "Fully heals you when first picked up in a run, and again about 1.5 seconds after each new floor loads."
+  },
+  "odmnts:toothy_bullets": {
+   "name": "Toothy Bullets",
+   "notes": "Each bullet has a 15% chance to bleed the enemy it hits, leaving damaging blood behind. With the Gum disease synergy, the bullet applies a poison-bleed effect instead."
+  },
+  "odmnts:two_dollar_coin": {
+   "name": "Two Dollar Coin",
+   "notes": "Gives 100 casings once per run, on first pickup."
+  },
+  "odmnts:unnamed_test_gun": {
+   "name": "Spid-AR",
+   "notes": "Its shots are projectiles that steer toward the nearest enemy, deal 6 damage on contact, and last 4 seconds."
+  },
+  "odmnts:venusianroundsitem": {
+   "name": "VenusianRoundsItem",
+   "notes": "Unfinished item with no working effect."
+  },
+  "odmnts:volleyonblankitem": {
+   "name": "VolleyOnBlankItem",
+   "notes": "When you use a blank, fires a full-circle volley of projectiles. The shot count depends on the variant: 8, 3 or 16."
+  },
+  "odmnts:weaver's_charm": {
+   "name": "Weaver's Charm",
+   "notes": "While held, Phaser Spiders start as permanent allies, and their phase web is replaced with player web that catches enemies."
+  },
+  "odmnts:wicked_soul": {
+   "name": "Wicked Soul",
+   "notes": "While held, total curse is doubled and the Curse Reaper will not spawn on the floor. It also gives +0.5 curse and +2 max health."
+  }
+ },
+ "synergies": {}
+}

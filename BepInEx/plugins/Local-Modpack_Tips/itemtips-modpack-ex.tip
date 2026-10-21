@@ -1,0 +1,38 @@
+{
+ "metadata": {
+  "name": "Modpack tips: Expand The Gungeon (extra)",
+  "url": "",
+  "version": "2.0.0"
+ },
+ "items": {
+  "ex:angels_revolver": {
+   "name": "Angel's Revolver",
+   "notes": "Fires 6-shot clips at 0.07 seconds per shot, with a 1 second reload and 350 max ammo. Shots cost no ammo and deal 6 damage each."
+  },
+  "ex:hotshot_shotgun": {
+   "name": "HotShot Shotgun",
+   "notes": "Shotgun that fires six pellets per shot in a spread. It has 150 max ammo and a 1.8 second reload."
+  },
+  "ex:mr_cap": {
+   "name": "Mr Cap",
+   "notes": "Throws a hat that flies straight briefly, then steers toward your aim for 2 seconds before returning to you, with a 3 second cooldown. If it latches onto an enemy, using again releases it and sets a 60 second cooldown."
+  },
+  "ex:nomes_revolver": {
+   "name": "Nome's Revolver",
+   "notes": "Fires 6-shot clips at 0.07 seconds per shot, with a 1 second reload and 350 max ammo. Shots cost no ammo and deal 6 damage each."
+  },
+  "ex:old_key": {
+   "name": "Old Key",
+   "notes": "Key item that unlocks the big west lock on Expand secret doors. It gives no key bullets."
+  },
+  "ex:sonic_ring": {
+   "name": "ex:sonic_ring",
+   "notes": "Currency pickup worth one casing. It is pulled toward the player and collected on contact."
+  },
+  "ex:tucs_revolver": {
+   "name": "Tuc's Revolver",
+   "notes": "Fires 6-shot clips at 0.07 seconds per shot, with a 1 second reload and 350 max ammo. Shots cost no ammo and deal 6 damage each."
+  }
+ },
+ "synergies": {}
+}

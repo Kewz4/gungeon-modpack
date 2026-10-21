@@ -1,0 +1,86 @@
+{
+ "metadata": {
+  "name": "Modpack tips: Knife to a Gunfight (extra)",
+  "url": "",
+  "version": "2.0.0"
+ },
+ "items": {
+  "ski:b_drone": {
+   "name": "B_drone",
+   "notes": "An orbiting drone that circles you at a 2-unit radius at 90 degrees per second."
+  },
+  "ski:bloody_charm": {
+   "name": "Bloody Charm",
+   "notes": "On use: attaches to your current gun (one charm per gun). For every 800 damage dealt with that gun, you heal 0.5 health."
+  },
+  "ski:bomb_charm": {
+   "name": "Bomb Charm",
+   "notes": "On use: attaches to your current gun (one charm per gun). Each hit on an enemy has about a 5% chance to apply Blastblight."
+  },
+  "ski:boxing_charm": {
+   "name": "Boxing Charm",
+   "notes": "On use: attaches to your current gun (one charm per gun). Adds +1 knockback to that gun."
+  },
+  "ski:chaos_charm": {
+   "name": "Chaos Charm",
+   "notes": "On use: attaches to your current gun (one charm per gun). Each shot has a 40% chance to get one of 14 random effects, such as fire, poison, freeze, homing, splitting, or an explosion."
+  },
+  "ski:charm_machine": {
+   "name": "Charm Machine",
+   "notes": "On use: consumes the nearest floor item within 1.5 units. After 2.5s it drops 1 to 5 Charm PrizeBalls, more for higher-quality items. Radioactive items spawn a contamination bomb instead and the machine is used up."
+  },
+  "ski:charm_prizeball": {
+   "name": "Charm PrizeBall",
+   "notes": "Picking it up gives one random weapon charm: 40% common, 30% uncommon, 22% rare, 8% legendary."
+  },
+  "ski:chicken_charm": {
+   "name": "Chicken Charm",
+   "notes": "On use: attaches to your current gun (one charm per gun). Each projectile that kills an enemy summons 3 micro chickens that deal 6 damage and move 1.5x faster."
+  },
+  "ski:dawn_charm": {
+   "name": "Dawn Charm",
+   "notes": "On use: attaches to your current gun (one charm per gun). Adds +50% damage to bosses. Non-lethal hits remove the jammed (black phantom) state from enemies."
+  },
+  "ski:exothermic_shotgun": {
+   "name": "Exothermic Shotgun",
+   "notes": "Reloads one shell at a time, pausing 0.3s after each shot. Pellets deal 6 damage, travel 1.5x faster, and can set enemies on fire or freeze them."
+  },
+  "ski:im_blue": {
+   "name": "Im blue",
+   "notes": "Slows Player and Some Enemies Everything you see is blue."
+  },
+  "ski:lnc+": {
+   "name": "Sir lot o lance Engine",
+   "notes": "Infinite ammo. Each shot is a 1-second sweep along a 2.5-unit line that damages enemies for 30% of your damage stat (50% with Dragun Slayer) and reflects enemy bullets. Reload makes you hop."
+  },
+  "ski:meat": {
+   "name": "Meat",
+   "notes": "Picking it up adds +1 to your damage stat for 5 seconds."
+  },
+  "ski:ouroboros_charm": {
+   "name": "Ouroboros Charm",
+   "notes": "On use: attaches to your current gun and gives it infinite ammo, for guns that can gain ammo."
+  },
+  "ski:phalanx_syn": {
+   "name": "Phalanx_syn",
+   "notes": "Fires 12 blocklets per shot on a 0.35s cooldown. Each deals 3.5 damage and carries a 2-HP shield that breaks, after which the blocklet keeps flying."
+  },
+  "ski:retro_boy": {
+   "name": "RetroBoy",
+   "notes": "Fires 4-damage shots from a 25-round clip and reloads gradually. Each reload start throws a capture ball for 4 ammo, with a 1.5s cooldown. The ball can catch non-boss enemies under 40% health, more likely the lower their health."
+  },
+  "ski:shatter_bow_big": {
+   "name": "Shatter bow big",
+   "notes": "Charge to fire a 10-damage arrow that pierces one enemy. On hitting an enemy or wall it shatters into 8 bouncing 2-damage pellets. With Shatter Slugs, a 50% chance to fire an 18-damage slug instead."
+  },
+  "ski:sushi_charm": {
+   "name": "Sushi Charm",
+   "notes": "On use: attaches to your current gun (one charm per gun). Each shot has about a 7% chance to also fire a fish projectile."
+  },
+  "ski:thornstone": {
+   "name": "Thornstone",
+   "notes": "An orbiting thorn that circles you at a 2-unit radius at 10 degrees per second."
+  }
+ },
+ "synergies": {}
+}

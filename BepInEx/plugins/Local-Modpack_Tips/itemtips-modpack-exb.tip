@@ -1,0 +1,18 @@
+{
+ "metadata": {
+  "name": "Modpack tips: Expanded Bossfights (extra)",
+  "url": "",
+  "version": "2.0.0"
+ },
+ "items": {
+  "exb:gunslingersidearm": {
+   "name": "gunslingersidearm",
+   "notes": "Gun whose shots stick to enemies. Each stuck shot adds a spike to that enemy, up to 6, and when it dies those spikes burst out in random directions. Clip of 7, 0.3 seconds between shots."
+  },
+  "exb:leafshotgun": {
+   "name": "leafshotgun",
+   "notes": "Gun whose shots stick to enemies. Each stuck shot adds a spike to that enemy, up to 6, and when it dies those spikes burst out in random directions. Clip of 7, 0.3 seconds between shots."
+  }
+ },
+ "synergies": {}
+}

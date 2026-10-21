@@ -1,0 +1,14 @@
+{
+ "metadata": {
+  "name": "Modpack tips: SpecialAPI items (extra)",
+  "url": "",
+  "version": "2.0.0"
+ },
+ "items": {
+  "spapi:imposters_knife": {
+   "name": "Imposter's Knife",
+   "notes": "On use, stabs in the aimed direction for up to 300 damage over 1 second to the first enemy in short reach, breaking up to 2 minor breakables in the way. Also stealths you for 6.5 seconds, then becomes a Voting Interface."
+  }
+ },
+ "synergies": {}
+}

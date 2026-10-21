@@ -1,0 +1,410 @@
+{
+ "metadata": {
+  "name": "Modpack tips: Children of Kaliber",
+  "url": "",
+  "version": "2.0.0"
+ },
+ "items": {
+  "ck:66_kaliber": {
+   "name": ".66 Kaliber",
+   "notes": "Fires rail rounds from a 4-shot clip with a 1.4 second cooldown and 3 second reload. Each hit spawns 3 to 5 fragments within 30 degrees either side, each exploding on contact or after 0.25 seconds. Main shots do not pierce."
+  },
+  "ck:[_____]_bullets": {
+   "name": "[_____] Bullets",
+   "notes": "+10% damage for each blank you carry."
+  },
+  "ck:a_rock": {
+   "name": "A Rock",
+   "notes": "Has no ammo. Each shot fires a projectile with 0 damage, 0 force and 0 range, so it deals no damage."
+  },
+  "ck:accursed_shackles": {
+   "name": "Accursed Shackles",
+   "notes": "+1 curse. Taking damage while health is exactly 1 below max lowers max health by 1. After 100 kills, lost max health returns and rate of fire gains 30%. Can't be dropped before that."
+  },
+  "ck:acme_supply_crate": {
+   "name": "ACME Supply Crate",
+   "notes": "On use, gives a random gun for 12 seconds. It is locked to you and destroyed when the time ends, preferring guns you do not already own."
+  },
+  "ck:ak-141": {
+   "name": "AK-141",
+   "notes": "90-round clip, 0.06s between shots, 3 ammo per shot and 1.5s reload. Each shot also fires 2 extra rounds to the sides. After 45 kills while held, it turns into the AK-188."
+  },
+  "ck:ak_188": {
+   "name": "AK-188",
+   "notes": "120-round clip, 0.06s between shots, 4 ammo per shot and 2s reload. Each shot also fires 3 extra rounds. Cannot be dropped or sold. After 55 kills while held, it turns into the Infinite AK."
+  },
+  "ck:ak_94": {
+   "name": "AK-94",
+   "notes": "Costs 2 ammo per shot with a 60-round clip and 0.11s between shots. Each shot also fires a round behind you. After 30 kills while held, it turns into the AK-141."
+  },
+  "ck:akffinity": {
+   "name": "Akffinity",
+   "notes": "While holding an AK-type gun: +25% damage plus two other gun stat changes. Increases the chance to find AK-type guns, 30x for most and 15x for AK-94."
+  },
+  "ck:auric_vial": {
+   "name": "Auric Vial",
+   "notes": "Each cleared room gives 3 casings, or 6 if you also hold Gilded Bullets."
+  },
+  "ck:auto_shotgun": {
+   "name": "Auto Shotgun",
+   "notes": "Fires 4-projectile volleys with an 8-shot clip, 0.4s between shots and a 2.2s reload. Each projectile deals 0.72x damage with range 35."
+  },
+  "ck:ballistic_rounds": {
+   "name": "Ballistic Rounds",
+   "notes": "Bullets ignore the boss damage cap."
+  },
+  "ck:banana_jam_hands": {
+   "name": "Banana Jam Hands",
+   "notes": "After a reload, if the held gun's clip reads 0, it fires a 7-damage projectile from that gun."
+  },
+  "ck:bashellisk_rifle": {
+   "name": "Bashellisk Rifle",
+   "notes": "Fires automatic toxic rounds from a 25-shot clip, with a 0.11s cooldown and 0.6s reload. Each hit has a 25% chance to inflict Venom."
+  },
+  "ck:billiard_bouncer": {
+   "name": "Billiard Bouncer",
+   "notes": "Fires a 3-ball volley per shot, 8 shots per clip, 0.6s between shots. Each ball bounces off walls up to 6 times. Each enemy hit uses one bounce, sends the ball in a random direction and adds 1 pierce."
+  },
+  "ck:bismuth_ammolet": {
+   "name": "Bismuth Ammolet",
+   "notes": "Using a blank applies Venom to every enemy in the room. Gives +1 blank per floor."
+  },
+  "ck:bloated_rounds": {
+   "name": "Bloated Rounds",
+   "notes": "Each shot has a 30% base chance, scaled by the player's effect stat, to apply Bloat, a poison-based effect. Bloated enemies burst into friendly bullets when they die."
+  },
+  "ck:citrine_ammolet": {
+   "name": "Citrine Ammolet",
+   "notes": "Using a blank creates a pool of fire goop under you. Gives immunity to fire damage and +1 blank per floor."
+  },
+  "ck:corrupt_heart": {
+   "name": "Corrupt Heart",
+   "notes": "On use, deals 20 damage to every normal enemy and non-harmless boss in the room. With a specific companion item held, each enemy it kills has a 5% chance to give a bonus item."
+  },
+  "ck:crystal_heart": {
+   "name": "Crystal Heart",
+   "notes": "+1 heart container. Each time you take damage, normal enemies in the room die and bosses or sub-bosses take 150 damage. The item is destroyed on the 3rd hit."
+  },
+  "ck:cup_of_water": {
+   "name": "Cup of Water",
+   "notes": "On use: instantly reloads the held gun and triggers its on-reload effects. Has 10 uses, then recharges when you buy an item from a shop. While held, gives +3 coolness."
+  },
+  "ck:d6": {
+   "name": "D6",
+   "notes": "On use: rerolls the nearest item on the ground in your room into another item of the same type. About 10% chance to drop a quality tier and 20% to rise one. If no item is in the room, it rerolls the nearest loose gun."
+  },
+  "ck:ddr": {
+   "name": "DDR",
+   "notes": "Moving exactly right gives +30% projectile speed, up gives +30% rate of fire, left gives +30% damage, and down cuts reload time by 30%. Only one bonus applies at a time, and only on exact directions."
+  },
+  "ck:dispenser": {
+   "name": "Dispenser",
+   "notes": "Gun: 9-round clip, 180 max ammo, 1.2 second reload, 0.25 seconds between shots. Fires crossbow-style bolts at 75% damage and 77% speed."
+  },
+  "ck:dragun_claw": {
+   "name": "Dragun Claw",
+   "notes": "+10% reload speed. Each reload leaves a radius-3 oil pool under you. Immune to fire damage."
+  },
+  "ck:dragun_heart": {
+   "name": "Dragun Heart",
+   "notes": "+1 health. Each time you take damage, a radius-8 napalm pool forms around you. Immune to fire damage."
+  },
+  "ck:dragun_skull": {
+   "name": "Dragun Skull",
+   "notes": "Replaces your shots with fireballs dealing 1.2 times the original damage. They have no damage type, so fire immunity cannot block them. Infinite-ammo guns and some others are skipped."
+  },
+  "ck:dragun_wing": {
+   "name": "Dragun Wing",
+   "notes": "+15% movement speed. Each kill starts an 8-second fire aura of radius 3.5 around you, dealing 10 damage per second to nearby enemies. A new aura cannot start while one is active."
+  },
+  "ck:drone": {
+   "name": "Drone",
+   "notes": "Rapid-fire plasma gun with a 420-round clip and 0.11s between shots, dealing 62.5% of base projectile damage."
+  },
+  "ck:drone_2": {
+   "name": "Drone 2",
+   "notes": "Rapid-fire plasma gun with a 420-round clip and 0.11s between shots, dealing 62.5% of base projectile damage."
+  },
+  "ck:drone_controller": {
+   "name": "Drone Controller",
+   "notes": "Rapid-fire gun with a 500-round clip and 0.11s between shots. While held, grants immunity to electric damage."
+  },
+  "ck:elite_bullets": {
+   "name": "Elite Bullets",
+   "notes": "+10% damage. Bullets home in on nearby enemies, except when fired from guns with a particular fire style."
+  },
+  "ck:evil_charmed_bow": {
+   "name": "Evil Charmed Bow",
+   "notes": "Single-shot crossbow: 1 round per clip, 1.2s reload, 0.25s between shots. Each bolt deals 1.1x damage at double speed and has a 33% chance to poison."
+  },
+  "ck:fallout": {
+   "name": "Fallout",
+   "notes": "Fires one very heavy blast per clip: 16x base damage, 5x projectile speed, 1000x range. Clip size is 1, so every shot needs a reload (1.4s), with a 0.75s cooldown."
+  },
+  "ck:firework_rifle": {
+   "name": "Firework Rifle",
+   "notes": "Fires 12-shot clips of explosive rounds at 0.2s cooldown and 0.8s reload. Each round explodes for 15 damage in a 1.5 radius, does not hurt you, and does not pierce."
+  },
+  "ck:floop_bullets": {
+   "name": "Floop Bullets",
+   "notes": "Shot speed -25%. When a bullet hits an enemy, it gets 20% faster and 20% weaker, gains 1 pierce, and has a 70% chance to head toward the nearest other enemy."
+  },
+  "ck:funky_bullets": {
+   "name": "Funky Bullets",
+   "notes": "Damage x0.8, shot speed x0.85, rate of fire x1.35, reload speed x0.7, and two other bullet stats change (x0.75 and +1)."
+  },
+  "ck:golden_record": {
+   "name": "Golden Record",
+   "notes": "On use, saves your current gun, one random other gun, two random passives and a random active to a file on disk, then loads the previous save. With no earlier save, gives a random gun and two other items."
+  },
+  "ck:gravity_well_module": {
+   "name": "Gravity Well Module",
+   "notes": "Reduces knockback to 60% and raises damage by 10%."
+  },
+  "ck:gunlust": {
+   "name": "Gunlust",
+   "notes": "Each kill adds 0.5% damage, up to +15%. Each hit taken removes 5%, and a new floor resets it. Adds +1.5 curse."
+  },
+  "ck:guunther": {
+   "name": "Günther",
+   "notes": "Fires 5-round clips at 0.08s between shots with 1.5x damage, and reloads in 1 second."
+  },
+  "ck:holoprinter": {
+   "name": "Holoprinter",
+   "notes": "Active with a 600-second cooldown. The first use destroys your held gun and stores it. Later uses spawn a hologram copy of that gun for 14 seconds. Cannot be used while holding an infinite-ammo gun."
+  },
+  "ck:ignition_powder": {
+   "name": "Ignition Powder",
+   "notes": "While on fire, damage is increased by 45%. Reloading an empty clip spawns fire on the ground under you. Fire damage taken is multiplied by 0.65."
+  },
+  "ck:imp's_horn": {
+   "name": "Imp's Horn",
+   "notes": "Each shot has an 8% chance to inflict green fire, dealing 10 damage per second to enemies. Beam hits have an 8% chance per second. Adds +1 curse."
+  },
+  "ck:incremental": {
+   "name": "Incremental",
+   "notes": "Fires automatic shots from a 30-shot clip. Each shot in the clip raises damage by 5%, compounding (up to about 4.3x by the last shot), and it resets on reload. Base damage is about 55% of a standard bullet."
+  },
+  "ck:infinite_ak": {
+   "name": "Infinite AK",
+   "notes": "Infinite ammo with no reload. Each 0.08s shot deals 1.5x damage at 2x speed and refills the clip to 2 rounds. Cannot be dropped or sold."
+  },
+  "ck:ion_fist": {
+   "name": "Ion Fist",
+   "notes": "Charge to dash: a quick tap gives 4 range at 4x damage, 0.6s gives 7.5 range at 8x, and 1.2s gives 14 range at 15x. Holding it grants electric immunity. Dashing removes touch damage, and a full-charge dash reflects enemy bullets."
+  },
+  "ck:iron_heart": {
+   "name": "Iron Heart",
+   "notes": "Single use. Lowers max health to 1 and gives armor equal to twice your previous max health, plus 3 more with a specific companion item."
+  },
+  "ck:leaking_syringe": {
+   "name": "Leaking Syringe",
+   "notes": "3x damage, reduced by 0.025 for each enemy killed until it reaches 1x, which takes 80 kills. Dropping it destroys it."
+  },
+  "ck:malachite_ammolet": {
+   "name": "Malachite Ammolet",
+   "notes": "Using a blank creates a pool of poison goop under you. Gives immunity to poison damage and +1 blank per floor."
+  },
+  "ck:mark_of_the_wind": {
+   "name": "Mark Of The Wind",
+   "notes": "When combat starts, time slows to 40% in an area around you for 5 seconds, then the slow fades over 2 seconds."
+  },
+  "ck:matchsticks": {
+   "name": "Matchsticks",
+   "notes": "On use, fires a flare in the aim direction. Holds 10 uses, then recharges after taking 350 damage."
+  },
+  "ck:memetic_kill_agent": {
+   "name": "Memetic Kill Agent",
+   "notes": "Gives +2 Curse. Weak enemies from a set list are stunned, then killed 1.8 seconds after they spawn. Moderate enemies from another list are stunned and take 33% of max health as damage. Jammed enemies are not affected."
+  },
+  "ck:mercury_ammolet": {
+   "name": "Mercury Ammolet",
+   "notes": "Using a blank creates a pool of venom goop under you. Gives +1 blank per floor."
+  },
+  "ck:mininomocon": {
+   "name": "Mininomocon",
+   "notes": "With Absolute Insanity, extras vary in size and speed, and sometimes 1-3 more fire."
+  },
+  "ck:needle_bullets": {
+   "name": "Needle Bullets",
+   "notes": "Shot speed x2.5, damage x1.1, +1 curse, and bullets pierce through enemies."
+  },
+  "ck:nen_fist": {
+   "name": "Nen Fist",
+   "notes": "Each shot cycles three forms: a fireball (1.5x damage), a spear after a 0.4s charge (7.5 range), and a 1.2s charge dash (14 range, 14x damage) that reflects enemy bullets. Reloading resets to the fireball."
+  },
+  "ck:panic_pistol": {
+   "name": "Panic Pistol",
+   "notes": "Fires 38 Special rounds from an 8-shot clip. Reload speed uses a multiplier of 1 minus 0.1 per active enemy in the room, so it shifts by about 10% for each enemy present."
+  },
+  "ck:pepper_box": {
+   "name": "Pepper Box",
+   "notes": "Fires a wide spray of half-damage bullets with up to 50 degrees of random spread, using 9 ammo per shot. Reload takes 2.8 seconds."
+  },
+  "ck:pet_rock": {
+   "name": "Pet Rock",
+   "notes": "+3 coolness. Each cleared room shows an encouraging notification, with no combat effect."
+  },
+  "ck:phantom_pistol": {
+   "name": "Phantom Pistol",
+   "notes": "Records each shot it fires. On reload, those shots are fired again as hologram copies about 0.1s apart that cannot hit the player. Clip 4; recordings are cleared when the gun is dropped or switched away."
+  },
+  "ck:phase_burst": {
+   "name": "Phase Burst",
+   "notes": "On use: for 6 seconds you cannot attack, and a radial slow (3 second hold) hits nearby enemies while you leave an afterimage trail. Recharge uses a damage-based cooldown of 400."
+  },
+  "ck:phazor": {
+   "name": "Phazor",
+   "notes": "Gun with a 16-round clip, 320 max ammo and 1.2 second reload. Rate of fire rises 17% per second while held, and bullets deal about 2.3 times the base rifle damage."
+  },
+  "ck:plasma_cannon": {
+   "name": "Plasma Cannon",
+   "notes": "One shot per clip with a 2s reload and 0.2s cooldown. Each shot deals 5x damage with unlimited range and 4x speed, knocks you back, and explodes for 35 damage in a radius of 5. The blast hurts you at half damage."
+  },
+  "ck:poison_poltergeist": {
+   "name": "Poison Poltergeist",
+   "notes": "Each shot has a 70% chance to poison the enemy it hits. A poisonous spectre enemy spawns in the room on pickup and again 4 seconds after each new floor loads."
+  },
+  "ck:pray_k_47": {
+   "name": "Pray-k 47",
+   "notes": "Fires AK-47 rounds from a 40-shot clip with a 0.15 second cooldown. Deals 20% bonus damage to jammed enemies."
+  },
+  "ck:primal_charcoal": {
+   "name": "Primal Charcoal",
+   "notes": "Reloading an empty clip releases a 2-second charcoal dust aura with a 6.5 radius around you, applying a charcoal dust effect to nearby enemies. Holding it with Primal Sulfur, Saltpeter and Nitric Acid grants True Gunpowder."
+  },
+  "ck:primal_nitric_acid": {
+   "name": "Primal Nitric Acid",
+   "notes": "Each shot has a 33% chance to poison enemies with nitric acid. Holding it together with Primal Charcoal, Saltpeter and Sulfur grants True Gunpowder."
+  },
+  "ck:primal_saltpeter": {
+   "name": "Primal Saltpeter",
+   "notes": "Non-boss enemies start with their effect resistances set to zero. Holding it with Primal Nitric Acid, Sulfur and Charcoal grants True Gunpowder."
+  },
+  "ck:primal_sulfur": {
+   "name": "Primal Sulfur",
+   "notes": "On entering combat, up to 4 random enemies in the room get a sulfur mark, which makes them explode on death. Holding it with Primal Charcoal, Saltpeter and Nitric Acid grants True Gunpowder."
+  },
+  "ck:psi_focus": {
+   "name": "Psi Focus",
+   "notes": "On use, turns nearby enemy projectiles into friendly ones and fires them at the nearest enemy, dealing 7 base damage each scaled by damage stat. Count is 4 plus stat bonuses, doubled at half a heart. 7 second cooldown."
+  },
+  "ck:psi_scale": {
+   "name": "Psi Scale",
+   "notes": "Fires 10-shot clips of psychic bolts aimed at the nearest enemy within 13 units. If no enemy is in range, the shot produces no bolt and only a purple puff."
+  },
+  "ck:quest_log": {
+   "name": "Quest Log",
+   "notes": "On use: assigns a random quest (kill 4-10 enemies, buy 1-2 items, flip 2-5 tables, use a blank, or clear 3-7 rooms). Use it again after completing a quest to claim a random reward, such as 10-25 casings."
+  },
+  "ck:reloaded_rifle": {
+   "name": "Reloaded Rifle",
+   "notes": "Three timed active reloads each give a boost: a 2x damage window, an accuracy boost, and a 1.65x fire rate boost that ends the reload. An accuracy reload with an empty clip fires a 7-damage shot that stuns for 2 seconds."
+  },
+  "ck:rgg": {
+   "name": "R.G.G.",
+   "notes": "Gun whose stats are re-rolled at the start of each run: damage 5.5-12, bullet speed 12-50, clip 6-100, max ammo 100-650, reload 0.5-1.3 seconds, and a random ammo type."
+  },
+  "ck:ritual_dagger": {
+   "name": "Ritual Dagger",
+   "notes": "Each kill fires 4 homing daggers in four directions, each dealing 3.5 times your damage stat. Adds +1 curse."
+  },
+  "ck:russian_revolver": {
+   "name": "Russian Revolver",
+   "notes": "Fires 6-shot clips where only one random chamber per reload deals damage (35 times your damage stat); the other shots are removed in the air. Holding a specific item makes every shot deal damage."
+  },
+  "ck:sawblade": {
+   "name": "Sawblade",
+   "notes": "Each shot has a 20% chance to also fire a sawblade for 7 damage, and beam hits roll the same 20% chance. With the Bleeding Edge synergy, sawblades also apply a damage-over-time effect. Adds +1 curse."
+  },
+  "ck:shell_bank": {
+   "name": "Shell Bank",
+   "notes": "Casings collected while held go into a bank rather than your wallet. Taking damage removes 15% of the bank. Dropping the item pays out the bank at 2x and destroys it."
+  },
+  "ck:shocking_battery": {
+   "name": "Shocking Battery",
+   "notes": "On use, for 8 seconds: movement speed x1.5, rate of fire x1.2, shot speed x1.3, dodge roll speed x1.5, faster reloads, and electrified goop under you. Electric damage is blocked through the effect plus 3 seconds."
+  },
+  "ck:skeleton": {
+   "name": "Skeleton",
+   "notes": "Fully automatic gun with a 512-shot clip and no reload time, firing every 0.11s. With the S H A K E N synergy active, it deals 2.5x damage and fires a different shot pattern."
+  },
+  "ck:snare_bullets": {
+   "name": "Snare Bullets",
+   "notes": "Each shot has a 10% chance to slow the enemy hit for 10 seconds. Beam hits have a 10% chance per second."
+  },
+  "ck:spinel_tonic": {
+   "name": "Spinel Tonic",
+   "notes": "On use: for 12 seconds, boosts damage, rate of fire, speed, reload and one other stat. Each use adds about 5% damage, 8% rate of fire, 3.5% speed and 5% faster reload. While held: -10% damage, rate of fire and speed."
+  },
+  "ck:spirit_of_the_dragun": {
+   "name": "Spirit Of The Dragun",
+   "notes": "Each empty-clip reload cycles between fire (45 fast shots), bounce (20 shots that bounce once) and rockets (3 explosive rockets). Rockets burst into 16 shots when they hit an enemy or wall, and leave fire where they land."
+  },
+  "ck:stake_launcher": {
+   "name": "Stake Launcher",
+   "notes": "Fires 5-shot clips of crossbow stakes. Base damage is about 18% of a standard bullet, but jammed enemies take 7.5x damage from it. Cooldown 0.5s, reload 0.7s."
+  },
+  "ck:steam_sale": {
+   "name": "Steam Sale",
+   "notes": "Halves shop prices. It breaks after 5 purchases."
+  },
+  "ck:support_contract": {
+   "name": "Support Contract",
+   "notes": "On use: summons 5 allied Bullet Kin for 15 seconds, each with 3x health and harmless to you, that shoot at enemies. Cooldown is damage-based (650). With Calling In The Heavy Support, 2 more gun-wielding allies also appear."
+  },
+  "ck:suspiscious_strongbox": {
+   "name": "Suspiscious Strongbox",
+   "notes": "Single use. Spawns an unlocked Rainbow Chest at a good reward spot in the current room."
+  },
+  "ck:sympathy_bullets": {
+   "name": "Sympathy Bullets",
+   "notes": "Hitting an enemy also damages other enemies of the same type in the room: half the hit's damage is split among them, or 25% if only one. With Bloodless these become 65% and 33%."
+  },
+  "ck:temporal_rounds": {
+   "name": "Temporal Rounds",
+   "notes": "Each shot has a 15% base chance, scaled by effect stat, to be recorded. Reloading replays recorded shots as holographic copies from their original position and angle, which cannot hit you. Records clear on room clear."
+  },
+  "ck:temporal_shift": {
+   "name": "Temporal Shift",
+   "notes": "15% chance to negate each hit. After a negated hit, rate of fire is x1.3 for 2.5 seconds. Cannot be dropped or sold."
+  },
+  "ck:terrible_ammo_bag": {
+   "name": "Terrible Ammo Bag",
+   "notes": "Each cleared room has a 20% chance to spawn pickup 600."
+  },
+  "ck:tesla": {
+   "name": "Tesla",
+   "notes": "Fires bursts of 5 electric shots, 0.1s apart, with a 0.8s cooldown and a 50-shot clip, at 1.25x base damage. While held, you are immune to electric damage."
+  },
+  "ck:test_item": {
+   "name": "Test Item",
+   "notes": "On use: opens a web link in the browser, then enters a loop that never ends, which freezes the game."
+  },
+  "ck:the_bullet": {
+   "name": "The Bullet",
+   "notes": "Single use, needs more than 3 max health. Costs 3 max health for permanent x2 damage, x1.5 fire rate and x1.2 on another stat."
+  },
+  "ck:the_last_chamber": {
+   "name": "The Last Chamber",
+   "notes": "Single shot that breaks the gun after firing. If the bullet hits an enemy without killing it, a slow-motion clockhair sequence kills that enemy and destroys enemy bullets on screen."
+  },
+  "ck:true_gunpowder": {
+   "name": "True Gunpowder",
+   "notes": "Every 80 damage you deal kills a random enemy in the room. Bosses take 60 damage instead. It cannot be dropped or sold."
+  },
+  "ck:vacuum": {
+   "name": "Vacuum",
+   "notes": "After each shot, non-boss enemies within a 5.5 radius that have 10% health or less are sucked up and removed. Fires 240-round clips at 0.035s between shots, with 0.15x damage and bullets that speed up in flight."
+  },
+  "ck:venom_rounds": {
+   "name": "Venom Rounds",
+   "notes": "Each bullet that hits an enemy has a 12.5% chance to inflict Venom."
+  },
+  "ck:void_bottle": {
+   "name": "Void Bottle",
+   "notes": "On use, costs 1 point of current health to remove 1 curse. Needs more than 1 health and at least 1 curse. With a specific companion item, each use also adds +1 to another stat."
+  }
+ },
+ "synergies": {}
+}

@@ -1,0 +1,298 @@
+{
+ "metadata": {
+  "name": "Modpack tips: Frost and Gunfire",
+  "url": "",
+  "version": "2.0.0"
+ },
+ "items": {
+  "kp:#item_string_not_found": {
+   "name": "#ITEM_STRING_NOT_FOUND",
+   "notes": "On use: uses a random active item from a fixed list of 23 for you, then your sprite glitches for 10 seconds. Cooldown is per room."
+  },
+  "kp:afflicted_ammolet": {
+   "name": "Afflicted Ammolet",
+   "notes": "Using a blank makes enemies in the room flee from you for 3.5 seconds."
+  },
+  "kp:b.f.o": {
+   "name": "B.F.O",
+   "notes": "Flying companion that follows you and can block bullets. When combat starts, one random enemy is marked: normal enemies lose about a third of max health and 10% speed, bosses 10% of each."
+  },
+  "kp:baby_good_cannon_kin": {
+   "name": "Baby Good Cannon Kin",
+   "notes": "Companion that follows you and walks toward enemies. Every 3 seconds it fires a sky rocket at a random enemy in the room, if that enemy is in range. It cannot be damaged."
+  },
+  "kp:barter": {
+   "name": "Barter",
+   "notes": "On use, only in a shop, costs 15 casings. Replaces most guns, actives and passives in every shop with random items of one fixed quality. 1 second cooldown."
+  },
+  "kp:beastly_pistol": {
+   "name": "Beastly Pistol",
+   "notes": "Fires 8-round clips of ak-47 style shots with 1.5x base damage. Each active enemy in the room multiplies each shot's damage by 1.6, speed by 1.5 and size by 1.4, so shots grow with more enemies."
+  },
+  "kp:bh__vgvgbjbjmvjvvhgthn_y": {
+   "name": "bh  vgvgbjbjmvjvvhgthn y",
+   "notes": "This is the mimic companion Table Tech Life spawns: it shoots the nearest non-boss enemy within 5 units every 1.2 seconds, with 7 damage when a certain item is held."
+  },
+  "kp:big_sniper_rifle": {
+   "name": "Big Sniper Rifle",
+   "notes": "Sniper rifle with 1.7x bullet damage, 8 per clip and a 1.4 second reload. Reloading consumes certain enemy types within 7 units, gaining 1 ammo for each one consumed."
+  },
+  "kp:biggunron_sword": {
+   "name": "Biggunron Sword",
+   "notes": "Gun with 3x damage, 10x bullet size and a range of 1.5 that applies strong knockback to you when fired. Holds 250 rounds total, 0.4 seconds between shots, and gives +2.5 to a passive stat while equipped."
+  },
+  "kp:blamulet": {
+   "name": "Blamulet",
+   "notes": "Whenever you use a blank or take damage, it explodes with a 5.5 unit radius, dealing 40 damage to enemies and none to you. The blast destroys projectiles and secret walls."
+  },
+  "kp:bloodied_key": {
+   "name": "Bloodied Key",
+   "notes": "On use: opens a locked chest next to you by spending 1.5 health (2 armor for one character). Only usable with a locked chest in reach and enough health. Also grants two small passive stat boosts."
+  },
+  "kp:blue_balloon": {
+   "name": "Blue Balloon",
+   "notes": "While held, a balloon companion follows you. It dies from one hit, and on death fires a blank with a 25 unit radius. If it is dead, a new one appears every 3 cleared rooms."
+  },
+  "kp:broken_duplicator": {
+   "name": "Broken Duplicator",
+   "notes": "Use next to a chest: 65% chance to spawn a new random chest in the room. The other 35% it backfires: explodes at the chest, adds 1 curse, spawns an item and is destroyed. Damage-based cooldown of 850."
+  },
+  "kp:build-a-gun": {
+   "name": "Build-A-Gun",
+   "notes": "Based on an AK-47 with 6 shots per clip and a 1.1 second reload. Certain held items add random per-shot effects such as stun, fear or extra projectiles, with chances ranging from 5% to 90%."
+  },
+  "kp:bullet_sponge": {
+   "name": "Bullet Sponge",
+   "notes": "Passive. Orbits you and counts enemy bullets that hit it. At the 10th hit it fires a ring of 17 bullets outward, then resets the count."
+  },
+  "kp:burst_bullets": {
+   "name": "Burst Bullets",
+   "notes": "Passive. Each shot has a 10% chance to be destroyed and replaced by a radial burst of bullets around you, with the same 10% chance per beam tick. 2 second internal cooldown. Reverb adds a second burst after 1 second."
+  },
+  "kp:cluster_shot": {
+   "name": "Cluster Shot",
+   "notes": "Passive. Each shot has a 20% chance to be held back. The next shot then releases a cluster of 10 smaller bullets in a spread. 4 second internal cooldown. Jammed synergy adds an explosion on each hold."
+  },
+  "kp:crystal_die": {
+   "name": "Crystal Die",
+   "notes": "On use: rolls one of 18 random outcomes, mixing good and bad, such as healing, armor, coins, a free chest, a stat change, emptying your gun's ammo, or an explosion. Usable 3 times, 10 second cooldown."
+  },
+  "kp:cursed_cylinder": {
+   "name": "Cursed Cylinder",
+   "notes": "Adds 1 curse. Reloading makes enemies in the room flee from you for 3 seconds, at most once every 11 seconds."
+  },
+  "kp:devil's_discount": {
+   "name": "Devil's Discount",
+   "notes": "-0.4 to one stat and +1 to another. Each shop purchase adds another +1 to that second stat, and an extra +1 if one specific other item (pickup ID 336) is also held."
+  },
+  "kp:drawn": {
+   "name": "Drawn",
+   "notes": "Fires 7-shot clips at 2.5 shots a second with a 1.5 second reload. Shots do 0.9x damage at 1.3x speed. Holding one specific pickup gives a 30% chance per shot to fire an extra harmless projectile."
+  },
+  "kp:elemental_force": {
+   "name": "Elemental Force",
+   "notes": "Shotgun with 2 shots per clip and a 0.6 second reload. Pellets have 30 range, knock enemies back, and push you back too."
+  },
+  "kp:emergency_supplies": {
+   "name": "Emergency Supplies",
+   "notes": "Single use: gains 1 armor and 0.5 health, then drops four pickups at your position."
+  },
+  "kp:flamethrower": {
+   "name": "Flamethrower",
+   "notes": "Sprays short-range flames about 25 times a second from a 1500-round clip, with 13 degrees of spread and 7 units of range. Holding one specific pickup also grants fire damage immunity."
+  },
+  "kp:frost_armor": {
+   "name": "Frost Armor",
+   "notes": "Grants +1 armor once when picked up. Each time you take damage, active items still recharging a damage-based cooldown lose 25% of their full cooldown."
+  },
+  "kp:frostfire": {
+   "name": "Frostfire",
+   "notes": "Built on the Cold .45 projectile, with 14 shots per clip at 10 shots a second and a 1 second reload. Shots deal 1.2x damage and have a 99% chance to set enemies on fire."
+  },
+  "kp:frozen_heart": {
+   "name": "Frozen Heart",
+   "notes": "Trades health and armor: converts health into twice as much armor, and armor into half as much health. While you have armor, health is converted automatically. Cannot be dropped and has no cooldown."
+  },
+  "kp:fury": {
+   "name": "Fury",
+   "notes": "Passive based on armor. Without armor: +25% damage, +0.15 to one stat and -0.75 to another. With armor: +0.35 to one stat, -0.15 to another and +0.07 to a third."
+  },
+  "kp:gold_chainz": {
+   "name": "Gold Chainz",
+   "notes": "While held, grants a stat bonus based on your coins: 0.27 per coin up to 185 coins, then a fixed cap of about 50. The bonus updates when you enter combat or clear a room."
+  },
+  "kp:graviton": {
+   "name": "Graviton",
+   "notes": "Fires 10-round clips of bullets with 1.8x damage that nearly stop in place. If you reload while they are still in the air, they launch at high speed after about 0.3 seconds."
+  },
+  "kp:greed": {
+   "name": "Greed",
+   "notes": "Passive, cannot be dropped. 5% chance per fatal kill of a normal ground enemy to drop a 15-casing pouch. Chests cost 40 casings to open, locks and locked doors 20. Picking up a key sets keys to 0 and gives 30 casings."
+  },
+  "kp:handgun": {
+   "name": "Handgun",
+   "notes": "Fires RPG-based rockets at 1.6x speed, 10 per clip with 0.7 seconds between shots and a 0.9 second reload. Max ammo 100."
+  },
+  "kp:heartburn": {
+   "name": "Heartburn",
+   "notes": "Active with no cooldown that toggles health and armor: one use turns armor into half its value in health, the next turns health into double its value in armor. While armored, health keeps converting into armor."
+  },
+  "kp:hfhvbsbsbb_hsv": {
+   "name": "hfhvbsbsbb hsv",
+   "notes": "A penguin variant that fires at non-boss enemies within 5 units every 3 seconds (2 with certain items), each attack lasting 0.3 seconds, for 2.5 damage (4 with a certain item)."
+  },
+  "kp:holy_rounds": {
+   "name": "Holy Rounds",
+   "notes": "Negates your total curse. Adds +10% damage and -0.1 to another stat, and +40% more damage while holding one specific item."
+  },
+  "kp:hotshot": {
+   "name": "Hotshot",
+   "notes": "Gun with a 5-round clip, 0.1 s between shots and 1.3 s reload. Bullets deal 90% damage. The last shot of each clip also fires one fast extra projectile at 30% damage."
+  },
+  "kp:ibuy": {
+   "name": "iBuy",
+   "notes": "On use: destroys the nearest passive item, active item or gun within reach and pays casings for it, 10 to 59 depending on quality. 1 second cooldown."
+  },
+  "kp:ice": {
+   "name": "Ice",
+   "notes": "Passive, dropped by Ice Tray. While held, the first recharging active item loses 45% of its full cooldown (55% with one specific item), then this item is dropped."
+  },
+  "kp:ice_tray": {
+   "name": "Ice Tray",
+   "notes": "Passive. After each cleared room there is a 50% chance an Ice item spawns on the floor. Also raises the max ammo of one specific gun to 150."
+  },
+  "kp:icepick": {
+   "name": "Icepick",
+   "notes": "Gun with a 7-round clip, 0.31 s between shots and 1.3 s reload. Bullets deal half damage and travel at 70% speed."
+  },
+  "kp:locked_armor": {
+   "name": "Locked Armor",
+   "notes": "Gives 2 keys on pickup. While you hold keys, each hit that would damage you is negated and uses up one key, with a silencer blast on each hit."
+  },
+  "kp:longshot": {
+   "name": "Longshot",
+   "notes": "Adds +2 to one stat, which the item text says doubles range. While holding certain specific items, it also applies -0.3 to a second stat."
+  },
+  "kp:medal_of_perfection": {
+   "name": "Medal of Perfection",
+   "notes": "While held, grants a large set of stat boosts with small penalties to a few stats. The first time you take damage it grants +2 curse, then drops and destroys itself."
+  },
+  "kp:meltdown": {
+   "name": "Meltdown",
+   "notes": "Passive based on armor. Without armor: +25% damage, +0.15 to one stat and -0.75 to another. With armor: +0.35 to one stat, -0.15 to another and +0.1 to a third."
+  },
+  "kp:mini_muncher": {
+   "name": "Mini Muncher",
+   "notes": "On use: eats your current gun, which must be droppable and have limited ammo. Five seconds later a random gun of the same quality spawns; the third use spawns it immediately."
+  },
+  "kp:mirror_guon_stone": {
+   "name": "Mirror Guon Stone",
+   "notes": "Orbits you at 2.5 units, turning 180 degrees per second. Enemy bullets that touch it are reflected back as your own projectiles."
+  },
+  "kp:orbiter": {
+   "name": "Orbiter",
+   "notes": "Gun with a 400-round clip, 0.25 s between shots and no reload. Bullets bounce off walls, pierce up to 10 enemies and orbit you for 15 seconds. With one specific held item, 10% of shots also fire an extra projectile."
+  },
+  "kp:penguin": {
+   "name": "Penguin",
+   "notes": "While held, a penguin companion moves toward the nearest enemy and fires a bolt every 0.9 seconds at targets within 5 units, for 2.5 damage (4 with certain items)."
+  },
+  "kp:pocket_pistol": {
+   "name": "Pocket Pistol",
+   "notes": "On use: fires one tiny shot dealing 1 damage, 0.3 second cooldown, 150 uses. A certain item adds three extra spread shots at half size, and holding Elemental Force gives a 50% chance to refund 2 uses."
+  },
+  "kp:potion_of_gun_swiftness": {
+   "name": "Potion Of Gun Swiftness",
+   "notes": "On use: for 10 seconds, multiplies damage by 1.5 and doubles fire rate and reload speed. Recharges after you deal 650 damage."
+  },
+  "kp:pouch": {
+   "name": "Pouch",
+   "notes": "Pickup object: touching it gives the player 15 casings."
+  },
+  "kp:pure_flower": {
+   "name": "Pure Flower",
+   "notes": "On pickup and after each cleared room, a random aura replaces the last and changes your stats. The blue aura also blocks 20% of hits and gives pit immunity, but its block chance is zero after the first cleared room."
+  },
+  "kp:r.n.gun": {
+   "name": "R.N.GUN",
+   "notes": "Gun with a clip that is re-rolled to 1 to 14 rounds at each reload. Every shot gets random damage (about 1x to 3.8x), speed, knockback and bullet size. 0.4 s between shots, 1.1 s reload."
+  },
+  "kp:rage_rifle": {
+   "name": "Rage Rifle",
+   "notes": "Fires 20-round clips of fast shots whose damage and size scale with your total curse, at 0.6 plus 0.1 per curse. With a certain item it scales at 1 plus 0.2 per curse and shots turn magenta. Adds +1 curse while equipped."
+  },
+  "kp:ratdie_virus": {
+   "name": "RATDIE Virus",
+   "notes": "Passive. Immune to poison damage. Each non-boss enemy killed by a fatal hit leaves a poison goop puddle that does not hurt enemies. Certain items swap in a different goop."
+  },
+  "kp:remote_detonator": {
+   "name": "Remote Detonator",
+   "notes": "Gun whose every shot calls in a sky rocket aimed at the target point instead of firing a bullet. Holds 40 shots, with 0.4 seconds between shots and a 1.1 second reload."
+  },
+  "kp:rusty_ammolet": {
+   "name": "Rusty Ammolet",
+   "notes": "Using a blank stops enemies in the room from targeting you for 3.5 seconds. Also grants +1 curse while held."
+  },
+  "kp:sack": {
+   "name": "Sack",
+   "notes": "Passive, cannot be dropped. Each new floor gives 35 casings but costs 1 key. Whenever you take damage, half of your casings spill out as coin pickups."
+  },
+  "kp:slime_ammolet": {
+   "name": "Slime Ammolet",
+   "notes": "Using a blank halves the movement speed of all enemies in the room for 3 seconds. With a certain item, the blank also leaves a poison goop pool under you."
+  },
+  "kp:smelter": {
+   "name": "Smelter",
+   "notes": "On use: spends 2 blanks (1 with a certain item) to gain 1 armor. 1 second cooldown, and it can only be used with enough blanks."
+  },
+  "kp:spent_sack": {
+   "name": "Spent Sack",
+   "notes": "Each shot has a 25% chance to store a shell, up to 70 (100 with a certain item). On use, needs 15 shells and a limited-ammo gun; it refills your gun with the stored shells and empties the sack. 3 second cooldown."
+  },
+  "kp:squire": {
+   "name": "Squire",
+   "notes": "Companion that follows you. While enemies are in the room, it raises a breakable shield on you every 6 seconds, lasting 5 seconds, or 8 seconds if you also hold one specific item."
+  },
+  "kp:super_shroom": {
+   "name": "Super Shroom",
+   "notes": "Recharges after 270 damage dealt."
+  },
+  "kp:swindler's_shotgun": {
+   "name": "Swindler's Shotgun",
+   "notes": "Infinite-ammo shotgun with a 4-round clip and 1.1 s reload. Each shot is a volley from four modules, each firing a burst of four pellets with random speed and 17 degrees of spread."
+  },
+  "kp:table_tech_life": {
+   "name": "Table Tech Life",
+   "notes": "Each table you flip spawns a Table Boi companion that shoots the nearest enemy within about 7 units every 2.5 seconds. Certain items make flips spawn a mimic companion instead, which fires every 1.2 seconds."
+  },
+  "kp:table_tech_petrify": {
+   "name": "Table Tech Petrify",
+   "notes": "Passive. When you flip a table, about 1 second later all enemies in the room are petrified. Triggers at most once every 12 seconds."
+  },
+  "kp:table_tech_shame": {
+   "name": "Table Tech Shame",
+   "notes": "Plays a random angry voice line whenever you flip a table. No other effect, and it cannot be dropped."
+  },
+  "kp:toy_chest": {
+   "name": "Toy Chest",
+   "notes": "Every 4th room you clear, drops a random single item from the floor's reward table at your feet."
+  },
+  "kp:trash_bag": {
+   "name": "Trash Bag",
+   "notes": "Adds +1 to a stat, which the item says gives carrying room. Each cleared room has an 8% chance to spawn a specific bonus item, and held copies of certain items add to another stat."
+  },
+  "kp:void_bullets": {
+   "name": "Void Bullets",
+   "notes": "While held, each shot has a 1% chance to also fire a fast black hole projectile dealing 5 damage. Holding certain other items raises the chance to 2%."
+  },
+  "kp:void_chest": {
+   "name": "Void Chest",
+   "notes": "On use: destroys the nearest pickup, item or gun within about 5 units. The first five uses do this; the sixth spawns a random chest and resets. Until then it needs a valid target nearby."
+  },
+  "kp:wisper": {
+   "name": "Wisper",
+   "notes": "Companion that floats beside you. It reveals all secret rooms on the minimap when picked up and on each new floor, and marks chests with an icon guessing whether they hold a gun or an item."
+  }
+ },
+ "synergies": {}
+}

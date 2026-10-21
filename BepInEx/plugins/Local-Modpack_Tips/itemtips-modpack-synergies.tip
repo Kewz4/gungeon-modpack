@@ -1,0 +1,1972 @@
+{
+ "metadata": {
+  "name": "Modpack tips: modded synergies",
+  "url": "",
+  "version": "2.0.0"
+ },
+ "items": {},
+ "synergies": {
+  "...Another Time": {
+   "notes": "Spending a key gives a Blank item instead of the forced blank effect."
+  },
+  "...Badda Boom!": {
+   "notes": "While the Nitroglycylinder is held, each reload sets off a blast around you that does not hurt you. The blast is radius 4 and 50 damage while Nitro Bullets are held, otherwise radius 2.5 and 25."
+  },
+  ".null": {
+   "notes": "Bracket Key also grants 15 seconds of damage immunity."
+  },
+  "1 in 177 Billion": {
+   "notes": "Item quality rolls favor higher tiers: the shop weights change from 0.35/0.30/0.25/0.10 to 0.15/0.35/0.30/0.20 across the tier chances, so better items show up more often."
+  },
+  "1000 Degree Knife": {
+   "notes": "The Combat Knife's slash applies the Hot Lead status effect to enemies it hits."
+  },
+  "3 + 1 = 4": {
+   "notes": "Each bullet splits into one more piece than normal after its split distance, and beams it creates split one extra time."
+  },
+  "<charge/decimate/kaboom>": {
+   "notes": "The gun switches to a charge form: charging for 0.8, 1.6 or 2.4 seconds fires an implosion shot that pulls in enemies and explodes for 45, 90 or 135 damage."
+  },
+  "<pierce/penetrate/eviscerate>": {
+   "notes": "The gun switches to a charge form: holding fire for 1 second releases a 70-damage shot that passes through one extra enemy and through walls. Max ammo is 2."
+  },
+  "<shatter/break/unmake>": {
+   "notes": "The gun switches to a shotgun-style form: each shot fires five 20-damage pellets in a wide spread, with short range and 6 max ammo."
+  },
+  "<spin/rotate/shred>": {
+   "notes": "The gun switches to a rapid automatic form: 10-damage bullets at about 20 shots per second, double bullet speed, and 29 max ammo."
+  },
+  "A Bomby Nation": {
+   "notes": "While you hold Grenade Launcher or Lil' Bomber, Bombinomicon places two bombs on each enemy instead of one, and that gun gains ammo."
+  },
+  "A Moste Accursed Brew": {
+   "notes": "Enemies transformed by the Alchemy Crucible have their max health halved, and keep the same health percentage."
+  },
+  "AA": {
+   "notes": "The Accumulator gun and the Shock Rifle are dual wielded as a pair, so both fire together."
+  },
+  "Absolute Insanity": {
+   "notes": "Random extra shots fire at a random size and speed. Each such shot also has a 30% chance to fire 1 to 3 more random projectiles within 8 degrees of the aim."
+  },
+  "Absolute Radiance": {
+   "notes": "Beams split along their length into extra beams about every 1 tile, spread over 90 degrees, and each split beam deals 25% of the damage."
+  },
+  "Accelent": {
+   "notes": "Shots that hit enemy bullets slow them to half speed and speed the shot up by 20%. Each such hit also leaves a small fire puddle where the shot is."
+  },
+  "Acceptable Substitutes": {
+   "notes": "The M70 and Type 56 can be dual wielded as a pair, one in each hand."
+  },
+  "Accumulator": {
+   "notes": "Reloading drops the gun two power levels instead of resetting it to its weakest state."
+  },
+  "Ad Infinitum": {
+   "notes": "The Repeatovolver has infinite ammo while this synergy is active, so it never runs out."
+  },
+  "Ad Nauseum": {
+   "notes": "The first shot of each clip is tinted purple and applies plague. The last shot of each clip is tinted green and applies irradiated lead."
+  },
+  "Added Effect - Lockdown": {
+   "notes": "The first shot of every clip always locks the enemy it hits in place for 4 seconds."
+  },
+  "Added Effect - Plague": {
+   "notes": "The first shot of every clip always applies plague. Other shots still have the normal 12% plague chance."
+  },
+  "Added Effect - Reave": {
+   "notes": "The first shot of each volley always applies Reave, instead of only the 15% base chance. A non-lethal Reave hit spawns a damage-free projectile at the enemy, angled along the bullet."
+  },
+  "Added Effect - Shrink": {
+   "notes": "The first shot of every clip always shrinks what it hits: the bullet is 30% smaller and the enemy is shrunk to 40% size for 10 seconds."
+  },
+  "Addiction Breaker": {
+   "notes": "Using Cigarettes while carrying this gun deals 5 damage to each normal enemy in the room, stuns them for 2 seconds and leaves gum on them for 20 seconds."
+  },
+  "Adhesive": {
+   "notes": "Blanks leave a poison puddle under you, and you take no poison damage while carrying this combination."
+  },
+  "Advanced Ammomancy": {
+   "notes": "Shots no longer re-aim on their own after 1.5 seconds. They are held instead, and pressing reload sends all of them at the nearest enemy at high speed."
+  },
+  "Afterblam": {
+   "notes": "While you carry the Tear Jerker, Pure Flower's room-clear aura picks from a stronger list of random buffs with bigger stat boosts."
+  },
+  "Aim Twice, Shoot Once": {
+   "notes": "Blanks used in a sealed room summon two kin companions instead of one."
+  },
+  "All Locked Up": {
+   "notes": "Each use of Heart Padlock gives 2 health (or 2 armor at zero health) instead of 1."
+  },
+  "All Out Of Love": {
+   "notes": "The Charmed Bow transforms into the Evil Charmed Bow: a single-shot crossbow with a 1.2 second reload and 10 percent more damage per shot."
+  },
+  "All Seeing": {
+   "notes": "Enemies killed in combat return a second later as allied copies every time, instead of half the time."
+  },
+  "Allegro": {
+   "notes": "The Crescendo Blaster fires in bursts instead of its normal firing style."
+  },
+  "Amethyst Weapon": {
+   "notes": "The last shot of every clip always applies plague, on top of the normal 12% chance per shot."
+  },
+  "Ammo Economy Inflation": {
+   "notes": "Killing an enemy with a thrown gun restores 20% of its max ammo instead of 10%."
+  },
+  "Any Way The Wind Blows": {
+   "notes": "A shot that kills an enemy within its first tile of travel fires five bullets in random directions from that spot, and these bullets pass through dead enemies."
+  },
+  "Apple A Day": {
+   "notes": "Using an Apple heals 3 health instead of 1.5, and used at zero health it also gives one extra pickup."
+  },
+  "Armoured Armoured Armour": {
+   "notes": "Every second armour pickup rolls for one bonus armour, with a 25% chance instead of 50%."
+  },
+  "Arrow+": {
+   "notes": "On use, calls in one extra allied companion on top of the random squad. Usable only in combat."
+  },
+  "Artemisfire": {
+   "notes": "When a thrown gun kills an enemy, it fires 5 shots or beams in random directions from that spot, using the thrown gun's projectile."
+  },
+  "Ashes To Ashes, To Ashes": {
+   "notes": "While the player is on fire, Revenant shots deal 33% more damage. Non-boss enemies killed by Revenant shots leave a fire pool."
+  },
+  "Associated Disassociations": {
+   "notes": "Paraglocks deals double damage on top of its normal 1.3x while transformed into one of the specific guns this synergy buffs."
+  },
+  "Atomic Blombk": {
+   "notes": "Explosions fire a full-size blank 20% of the time instead of the usual mini blank."
+  },
+  "BIGGEST SHOT": {
+   "notes": "Shots are doubled in size and deal 25% more damage."
+  },
+  "BLOOD IS FUEL": {
+   "notes": "Kills that trigger a burst also heal you 0.5 health if the enemy died within 4 tiles of you."
+  },
+  "Back For Seconds": {
+   "notes": "Capacitor reduces active item cooldowns faster: each tick removes 20 instead of 15, and ticks come 0.2 seconds sooner while idle."
+  },
+  "Back Muscle": {
+   "notes": "Shots use up health before armour, and armour is only spent once health reaches zero."
+  },
+  "Back in Grozny": {
+   "notes": "After a dodge roll, the rate-of-fire boost peaks at 4x instead of 3x, then fades back to normal over 3.5 seconds."
+  },
+  "Backstabber!": {
+   "notes": "Back Warder bullets keep slashing nearby enemies once per second instead of ending after one slash, dealing their normal damage with no knockback to you."
+  },
+  "Backwards Compatible": {
+   "notes": "Variable shots deal triple damage when they hit an enemy that is not one of the last two enemies hit, instead of double for a new target."
+  },
+  "Ballistic Fingers": {
+   "notes": "The Shroomed Gun's two side shots now fire 10 degrees from centre instead of 30, so its spread is much tighter."
+  },
+  "Banality Of Eternity": {
+   "notes": "Each kill with these guns summons a soul guon stone orbital that lasts 10 seconds."
+  },
+  "Bandana+": {
+   "notes": "Each Reinforcement Radio use summons one extra friendly enemy, on top of its random squad."
+  },
+  "Bane of Arthropods": {
+   "notes": "Each hit kills Phaser Spiders, Shotgrubs and Creeches outright."
+  },
+  "Bazooka Joe": {
+   "notes": "Reloading an empty gun fires a homing bazooka rocket every 2 seconds. Other bazooka rockets explode into gum, stunning enemies within 7 tiles for 1 second and leaving them stuck for 7 seconds."
+  },
+  "Beam Me Up!": {
+   "notes": "Laser Bullets have a 20% chance to fire the beam projectile of a beam-type gun the player carries, instead of the default beam."
+  },
+  "Behind the Goops": {
+   "notes": "Each Camera shot leaves a poison goop patch under the shooter."
+  },
+  "Below Zero": {
+   "notes": "The bullets' damage aura and beam can freeze enemies (Frost Bullets), with a 50% chance on the ring aura and 100% on the beam."
+  },
+  "Belting Out": {
+   "notes": "While you hold fire with the Belt Feeder and are not reloading, a gun stat multiplier climbs from 1x to 4x over 10 seconds, then resets when you let go."
+  },
+  "Big Blam": {
+   "notes": "Blanks explode for 40 damage in a 5.5 radius without hurting you. With bomb-type items held, using a blank or taking damage also drops bomb objects at your feet."
+  },
+  "Big Borz": {
+   "notes": "The gun transforms into a heavier form with a 70-round clip, 700 max ammo, 6 damage per shot and a tighter spread."
+  },
+  "Big Fungus": {
+   "notes": "When a spore burst releases spores, it also fires 3 to 6 extra projectiles at random angles."
+  },
+  "Big Shocking Gun 9000": {
+   "notes": "The tethers reach about 2.5 times farther, and the Big Shocking Gun shots are half size and tether enemies within a wider radius."
+  },
+  "Binocular": {
+   "notes": "Its 10-second use adds one more hovering gun, and on use it fires three shots at once spaced 120 degrees apart."
+  },
+  "Birdie!": {
+   "notes": "While the Golf Rifle is your active gun, you can fly and dodge roll while airborne."
+  },
+  "Black Paradox": {
+   "notes": "On use, The Shellactery drops a loot pickup, or two when a specific extra item is held."
+  },
+  "Blacker Guon Stone": {
+   "notes": "Enemy bullets the stone hits have a 25% chance to fire a projectile away from the player at full size and damage instead of half."
+  },
+  "Blades Of Wrath": {
+   "notes": "Buzzkill and Super Meat Gun shots gain 5% damage and 15% speed on each enemy hit. Box Of Surprises shots split into 12 projectiles spaced 30 degrees apart for each gun of the pair you hold."
+  },
+  "Blast Powered": {
+   "notes": "The mod defines this combination with no extra stats or effects, so the items work together as they normally do."
+  },
+  "Blessed are The Shriek": {
+   "notes": "When a blank is used, each hidden Black Phantom enemy in the room has a 70% chance (instead of 50%) to be revealed and takes 42 damage (instead of 30)."
+  },
+  "Blizzbulonial": {
+   "notes": "Each shot gets frost bullets status. One active element is picked at random per shot, and the water option leaves water goop."
+  },
+  "Blood For The Blood God": {
+   "notes": "Enemies killed by these shotgun shots have a 20% chance (10% normally) to burst and leave a blood puddle."
+  },
+  "Blood For Wood": {
+   "notes": "Each enemy devoured by the table has about a 92% chance to drop a heart pickup."
+  },
+  "Blood In The Water": {
+   "notes": "Gunshark kills have a 5% chance to burst the enemy (not bosses) into a ring of 8 piercing bullets."
+  },
+  "Blood Transfusion": {
+   "notes": "On each room change, the damage bonus from Hematic Rounds is kept with a 50% chance instead of always resetting. The hit counter that builds this bonus does not appear in the sources."
+  },
+  "Bloodbulonial": {
+   "notes": "Each shot that hits something or expires in the air spawns 10 bullets in a ring with a random starting angle."
+  },
+  "Bloodless": {
+   "notes": "Sympathy Bullets share more damage: other same-type enemies in the room take 65% of the hit's damage, split evenly, instead of 50%. With only one other such enemy, it is 33% instead of 25%."
+  },
+  "Bloodlust": {
+   "notes": "Beastly Pistol shots get 1.6x damage, 1.5x speed and 1.4x size while enemies are in the room. With the full set of extra items held, they get 1.8x damage, 2x speed and 1.6x size."
+  },
+  "Bloodthirsty Blades": {
+   "notes": "On each shot, the augment's slash has a 7% chance to destroy enemy bullets it touches."
+  },
+  "Bloodwash": {
+   "notes": "Changes the rifle into Bloodwash, with a 6-shot clip and 0.34-second cooldown. Shots fired in a room with enemies apply Exsanguination for 3 seconds to enemies in a 60-degree arc ahead."
+  },
+  "Blue Bomber": {
+   "notes": "Bombinomicon's bombs become Ice Bombs while you hold Ice Bomb, Ice Cube or Heart of Ice."
+  },
+  "Blue Shotgun+": {
+   "notes": "Each Reinforcement Radio use summons one extra friendly enemy, on top of its random squad."
+  },
+  "Blursed Bullets": {
+   "notes": "The mod defines this combination with no extra stats or effects, so the items work together as they normally do."
+  },
+  "Bomb Voyage!": {
+   "notes": "Each reload sets off a blast around you that does not hurt you, with radius 2.5 and 25 damage. While Nitro Bullets are held, the blast is radius 4 and 50 damage."
+  },
+  "Bomb+": {
+   "notes": "On use, calls in one extra allied companion on top of the random squad. Usable only in combat."
+  },
+  "Bounce To The Rhythm": {
+   "notes": "The gun also fires two extra shots at 90 degrees to each side of its aim, and these extra shots cost no ammo."
+  },
+  "Break Fast!": {
+   "notes": "Glass Shards auto-fire every 0.9 seconds in combat instead of every 1.5 seconds, while you hold a gun other than Glasster."
+  },
+  "Brothers in Copper": {
+   "notes": "Each shot sets the enemies it hits on fire."
+  },
+  "Brown And Sticky": {
+   "notes": "Thrown javelins fire a shot from themselves about every 0.05 seconds while they are in flight."
+  },
+  "Brrrrap!": {
+   "notes": "Each fatal kill adds 1 to the Popcorn multishot chance boost instead of 0.5 while Melted Rock is held."
+  },
+  "Bubble Blowing, Baby!": {
+   "notes": "Bubbles created when blanks turn enemy bullets into bubbles are 30% larger and deal 50% more damage."
+  },
+  "Bubble Column": {
+   "notes": "Bubble Fist's core bubble shots get a very long range of 100, so they fly until they hit something."
+  },
+  "Bubble+": {
+   "notes": "On use, calls in one extra allied companion on top of the random squad. Usable only in combat."
+  },
+  "Build Modifier: +1": {
+   "notes": "Each Build-A-Gun shot has a 30% chance to also fire an extra projectile along your aim that cannot hurt you."
+  },
+  "Build Modifier: Alpha": {
+   "notes": "Shots fired while the clip has 6 or more rounds left are meant to deal 1.5x damage and be twice as large."
+  },
+  "Build Modifier: Bees": {
+   "notes": "Each shot has a 10% chance to also fire an extra projectile from another gun. The extra shot cannot hit you."
+  },
+  "Build Modifier: Big": {
+   "notes": "Each shot has a 15% chance to be three times the size."
+  },
+  "Build Modifier: Blade": {
+   "notes": "Each shot has a 10% chance to also fire an extra projectile from a different gun. The extra shot cannot hit you."
+  },
+  "Build Modifier: Bouncy": {
+   "notes": "Each shot has a 20% chance to also fire a projectile 1.5x larger from another gun. The extra shot cannot hit you."
+  },
+  "Build Modifier: Chaos": {
+   "notes": "Each shot has a 15% chance to also fire a bullet from a randomly picked gun."
+  },
+  "Build Modifier: Charm": {
+   "notes": "Each shot has a 90% chance to also fire an extra projectile from another gun. The extra shot cannot hit you."
+  },
+  "Build Modifier: Cursed": {
+   "notes": "Each shot has a 10% chance to deal 40% more damage and be twice as large. Each curse level adds 10% more to both."
+  },
+  "Build Modifier: Devolved": {
+   "notes": "Each shot has a 10% chance to fire an extra projectile from another gun that cannot hit you."
+  },
+  "Build Modifier: Frost": {
+   "notes": "Each shot has a 10% chance to also fire an Icepick projectile that cannot hit you."
+  },
+  "Build Modifier: Gilded": {
+   "notes": "Each shot has a 10% chance to deal 3% more damage per point of carried currency and grow larger by that same amount. The shot turns yellow."
+  },
+  "Build Modifier: Heat": {
+   "notes": "Each Build-A-Gun shot has a 10% chance to also fire an extra projectile along your aim that cannot hurt you."
+  },
+  "Build Modifier: Heavy": {
+   "notes": "Each Build-A-Gun shot has a 5% chance to become 1.5 times larger, tinted gray, and stun the enemy it hits for 1.5 seconds."
+  },
+  "Build Modifier: Magic": {
+   "notes": "Each Build-A-Gun shot has a 10% chance to also fire an extra projectile along your aim that cannot hurt you."
+  },
+  "Build Modifier: Orbit": {
+   "notes": "Each Build-A-Gun shot has a 10% chance to also fire an extra projectile along your aim that cannot hurt you."
+  },
+  "Build Modifier: Poison": {
+   "notes": "Each Build-A-Gun shot has a 10% chance to also fire an extra projectile along your aim that cannot hurt you."
+  },
+  "Build Modifier: Rocket": {
+   "notes": "Each Build-A-Gun shot has a 10% chance to also fire an extra projectile along your aim that cannot hurt you. The normal shot still fires."
+  },
+  "Build Modifier: Shadow": {
+   "notes": "Each Build-A-Gun shot has a 10% chance to also fire an extra black projectile along your aim that cannot hurt you."
+  },
+  "Build Modifier: Shock": {
+   "notes": "Each Build-A-Gun shot has a 10% chance to also fire an extra projectile along your aim that cannot hurt you."
+  },
+  "Build Modifier: Snow": {
+   "notes": "Each Build-A-Gun shot has a 10% chance to also fire an extra Snowballer shot along your aim that cannot hurt you."
+  },
+  "Build Modifier: Spooky": {
+   "notes": "Each Build-A-Gun shot has a 10% chance to also fire an extra projectile that cannot hurt you. Enemies it hits flee from you for 7 seconds."
+  },
+  "Build Modifier: Zombie": {
+   "notes": "Each Build-A-Gun shot has a 10% chance to fire two extra projectiles along your aim that cannot hurt you."
+  },
+  "Bullet+": {
+   "notes": "Each Reinforcement Radio use summons one extra friendly enemy, on top of its random squad."
+  },
+  "Bullets With Knives": {
+   "notes": "In-flight projectiles from Bullets With Guns become swords instead of the usual projectile, and beam shots fire swords too."
+  },
+  "Burn, Baby Burn!": {
+   "notes": "While active, fire damage to all enemies is tripled and bullets from a few fire guns deal double damage."
+  },
+  "Burning Core": {
+   "notes": "Player bullets that hit the orbiting stone also set the enemies they strike on fire, using the Hot Lead effect."
+  },
+  "Burning With Passion": {
+   "notes": "Reloading an empty clip sets enemies within 5 units on fire. With this synergy it also leaves a 3.75-radius pool of charm goop around you."
+  },
+  "Buy 1 Get 1 Free": {
+   "notes": "Each item bought from a shop also gives you a free Blank, every time."
+  },
+  "By Beholster Eye, Dragun Tooth": {
+   "notes": "While Eye of the Beholster or Dragunfire is held, Gungeon Wind reveals the whole floor, including secret rooms, with 100% chance on each new floor instead of 67%."
+  },
+  "C-C-C-C-C-C-C-Combo!": {
+   "notes": "Coin ricochets deal less damage per bounce: the multiplier drops from 1.35x to 1.10x and the flat bonus drops by 1. The ricochet softcap rises by 50, so ricochets can chain much longer."
+  },
+  "COFFEE IS TURNING GNARLY": {
+   "notes": "Each mimic that appears has a 33% chance to be marked so your next shot kills it outright."
+  },
+  "Calling In The Heavy Support": {
+   "notes": "Each Support Contract use also summons 2 extra shooting companions that last 15 seconds and have triple health."
+  },
+  "Can't Shoot Straight": {
+   "notes": "While the GayK-47 is equipped, the accuracy stat is multiplied by 3, making shots much less accurate, and each shot bounces one extra time."
+  },
+  "Cause And Effect": {
+   "notes": "Unpredictabullets' random bonus to damage, range, speed, force and size can reach 250% instead of 200% on each shot."
+  },
+  "Centerfold": {
+   "notes": "Each beam deals 60% damage and splits one extra time."
+  },
+  "Century Greg": {
+   "notes": "Greg shows a hologram of the likely contents of the nearest closed chest within 5 units. This is display only and does not change the chest."
+  },
+  "Chamber Masters": {
+   "notes": "Each chamber orbiting the Libram fires its own shot or triggers its own effect on a timer while the player is in combat."
+  },
+  "Chamrock": {
+   "notes": "Each hit has a 50% chance to reduce the gun's max ammo to its current ammo, instead of every hit."
+  },
+  "Chapter Of Glass": {
+   "notes": "Using the Tome has a 10% chance to give you a Glass Guon Stone."
+  },
+  "Chapter Of Love": {
+   "notes": "When each guon orbital expires, it leaves a patch of charm goop that charms enemies standing in it."
+  },
+  "Chapter Of Purity": {
+   "notes": "The guon orbitals constantly clear goop within a small radius around themselves."
+  },
+  "Chapter Of Restoration": {
+   "notes": "Using the Tome has a 7% chance to heal half a heart."
+  },
+  "Chapter Of Silence": {
+   "notes": "Each guon orbital that expires has a 10% chance to fire a micro-blank."
+  },
+  "Chapter Of Speed": {
+   "notes": "You gain a speed boost while guon orbitals are active, growing with each orbital you have."
+  },
+  "Chapter Of Time": {
+   "notes": "Guon orbitals you create orbit twice as fast, at 120 degrees per second instead of 60."
+  },
+  "Chapter Of War": {
+   "notes": "When each guon orbital expires, it fires a shot at the nearest enemy if one is nearby."
+  },
+  "Charming Core": {
+   "notes": "Player bullets that hit the orbiting stone also charm the enemies they strike."
+  },
+  "Chickadoo": {
+   "notes": "Vacuum Gun also sucks up chickens, erasing them and adding 5 ammo for each one."
+  },
+  "Cloak and Mirrors": {
+   "notes": "Entering combat always stealths you instead of a 50% chance. Stealth still breaks when you take damage, steal, or perform an action that breaks it."
+  },
+  "Clockpunk": {
+   "notes": "While you hold Bullet Time, Springloaded Chamber's late-clip damage penalty is removed."
+  },
+  "Clown Town": {
+   "notes": "Pellet spread narrows from 40 to 10 degrees."
+  },
+  "Cobalt Streak": {
+   "notes": "Each consecutive Punishment Ray hit adds 5% damage to later shots in the streak instead of 2%."
+  },
+  "Code Blanks": {
+   "notes": "Autollet fires a blank whenever you enter an unvisited room, even one with no enemies."
+  },
+  "Collapsing Potential Vectors": {
+   "notes": "When a flipped table telefrags a non-boss enemy, 10% chance to also drop a bonus item."
+  },
+  "Comedy Gold": {
+   "notes": "Any enemy killed by damage drops a bullet casing while you hold at least one gold item, such as Gilded Bullets, Old Goldie, Gilded Hydra, AU Gun or Golden Armour."
+  },
+  "Concealed Carry": {
+   "notes": "When the Glock 42 is reloaded with an empty clip, there is a 50% chance the player turns stealthy. Stealth ends when they take damage, steal, or take another action that reveals them."
+  },
+  "Constellation": {
+   "notes": "Reloading the Crescent Crossbow or Mr. Accretion Jr. creates at least 8 stars, more with longer reloads, instead of the usual 3 or more."
+  },
+  "Continuum": {
+   "notes": "Immateria shots that wrap around the room leave up to 4 damaging rifts along their path, each dealing 3 damage per second for about 2 seconds to nearby enemies."
+  },
+  "Convenient Option": {
+   "notes": "Kunai throws made while holding the Kruller Glaive fire 3 glaives instead of kunai."
+  },
+  "Cop-Out": {
+   "notes": "Each shot has a 25% chance to apply Hot Lead, which sets targets on fire."
+  },
+  "Cordon Blue": {
+   "notes": "Chamembert's cheese shots get a range of 1000, so they fly until they hit something. Each has a 7% chance to create a blank on impact."
+  },
+  "Corrupted By Warp": {
+   "notes": "Warp Bullets' base 20% teleport chance is multiplied by the player's effect chance scalar, so stats that raise effect chance make teleports more frequent."
+  },
+  "Court Marshal": {
+   "notes": "Shots from the Judge and Void Marshal deal 20% more damage and travel 20% faster."
+  },
+  "Cow, on a Trash Farm": {
+   "notes": "Each shot from the Tear Jerker has a 25% chance to apply irradiated lead."
+  },
+  "Creatures of the Wood": {
+   "notes": "Each needle has a 10% chance to transmogrify the enemy it hits into another form."
+  },
+  "Critical Success": {
+   "notes": "The random stats rolled on entering combat are narrower and stronger: cooldown 0.05 to 0.5 seconds (instead of 0.1 to 0.8), and damage multiplier 0.5x to 2.5x (instead of 0.1x to 2x)."
+  },
+  "Crowd Supression": {
+   "notes": "Every Riot Gun bullet frightens nearby enemies for 2 seconds."
+  },
+  "Cry Of The Sun": {
+   "notes": "While the Mourning Star beam is active, each damage tick has a 5% chance to fire a red star in a random direction."
+  },
+  "Cursed Ceramics": {
+   "notes": "Potto turns into a cursed form that hits enemies within 4 units every 0.05 seconds for 0.35 damage plus 0.1 per point of Curse, capped at 1.2. Its random allied enemy spawns come out jammed."
+  },
+  "Cyaner Guon Stone": {
+   "notes": "The Cyan Guon Stone fires every 0.16 seconds instead of 0.35 seconds while you stand still in combat."
+  },
+  "D-rectional": {
+   "notes": "Each Spinning Death proc fires four rotating beams spaced 90 degrees apart, with damage scaled from the triggering hit."
+  },
+  "DARC Cannon": {
+   "notes": "Changes the gun into its DARC form: 24-damage lightning shots that explode for 48 damage in a 3-unit radius, with a 2-shot clip and 3-second reload."
+  },
+  "DARC Pistol": {
+   "notes": "Changes the gun into its DARC form: 7.2-damage shots that fly 5 times faster, pierce, and chain lightning to nearby enemies within 6 units."
+  },
+  "DARC Rifle": {
+   "notes": "Changes the gun into its DARC form: 31.2-damage piercing shots with a 10-round clip and 0.9-second cooldown."
+  },
+  "DARC Shotgun": {
+   "notes": "Changes the gun into its DARC form: 6-damage shots, a 10-shot clip, a 0.54-second cooldown and a 1.8-second reload."
+  },
+  "DARC Tactical": {
+   "notes": "Changes the gun into its DARC form: a rapid-fire weapon with 4.8-damage shots, a 32-round clip and a 0.099-second cooldown."
+  },
+  "Danger Is My Middle Name": {
+   "notes": "Each shot has a 20% chance to skip its self-damage, or 50% in some low-health cases."
+  },
+  "Dangerously Cheesy": {
+   "notes": "Blanks cheese nearby enemies with a 67% chance each, rising to 100% while Elimentaler is held."
+  },
+  "Dartistry": {
+   "notes": "Both guns are dual-wielded automatically while each still has ammo, so they fire together from each hand."
+  },
+  "De4l 0f 4 Lif3tim3": {
+   "notes": "Each enemy hit by a shot has a 5% chance to drop 2 to 4 coins where it was hit."
+  },
+  "Dear God That Pig Can Do Algebra": {
+   "notes": "Each Brain Blast shot also fires one extra projectile from your pig companion in a random direction."
+  },
+  "Delete This": {
+   "notes": "Enemies displaced by the Displacer Cannon have a 25% chance to be removed for good instead of returning later."
+  },
+  "Demolition Man": {
+   "notes": "Reloading an empty clip while ammo remains also drops a trap at your feet."
+  },
+  "Devil+": {
+   "notes": "On use, calls in one extra allied companion on top of the random squad. Usable only in combat."
+  },
+  "Deviled Gregs": {
+   "notes": "When an enemy bullet hits Greg, there is a 15% chance he fires 8 bullets in a ring around himself."
+  },
+  "Devolved": {
+   "notes": "The mod defines this combination with no extra stats or effects, so the items work together as they normally do."
+  },
+  "Diamond Gaxe": {
+   "notes": "The gun fires a two-part volley: a 14 damage diamond shot with twice the range and 1.5x speed, plus a 30 damage piercing gaxe slash that passes through every enemy at short range."
+  },
+  "Dig Deep": {
+   "notes": "Spade cards deal double damage, plus 7% for each key bullet you carry."
+  },
+  "Dirty Tricks": {
+   "notes": "Each enemy that spawns in a sealed room deals 50 damage to every boss in that room."
+  },
+  "Discord and Rhyme": {
+   "notes": "Turns the gun into a Wolfgun with a 5-shot clip, 1.6x damage, homing shots that bounce 5 times and pierce 5 enemies."
+  },
+  "Discworld": {
+   "notes": "Disc Gun discs curve toward enemies and Gonne shots home in much more strongly. Disc hits that would be fatal to you are ignored in some low-health states."
+  },
+  "Do-Gooder": {
+   "notes": "Heart of Gold drops 20 cash each time you take damage, instead of 10. Organ Donor Card gives 40 cash when used, instead of 20."
+  },
+  "Don't Trust The Toaster": {
+   "notes": "Beams travel five times faster, are 1.3x larger, deal double damage and glow."
+  },
+  "Double Barrelled": {
+   "notes": "Reloading an empty clip places barrels on a wider ring of tiles around you than normal."
+  },
+  "Double Maiden": {
+   "notes": "The Maiden Rifle's shots get double range, 20% more damage, and pierce through 2 enemies and breakable objects."
+  },
+  "Double Or Nothing": {
+   "notes": "Shots deal double damage and are 20% larger while Double Vision is active. While it is not active, shots deal zero damage and are shrunk to 10% size."
+  },
+  "Double Risk, Double Reward": {
+   "notes": "Risk Rifle shots deal double damage, and emptying its clip costs 1 health instead of 0.5. The Risky Ring's stat bonus and penalty double to 6 instead of 3."
+  },
+  "Dragun Punch": {
+   "notes": "Each Kunai throw triggered by a gun switch also performs a medium-range sword slash in your aim direction."
+  },
+  "Eat Your Veggies": {
+   "notes": "Carrot's damage bonus rises from 10% to 33% while Broccoli is held."
+  },
+  "Egg+": {
+   "notes": "On use, calls in one extra allied companion on top of the random squad. Usable only in combat."
+  },
+  "Elder Shot": {
+   "notes": "Shots that spend armour while Old Crest is held fire a crest bullet with 1000x base damage that bounces once and blanks on hit."
+  },
+  "Elimentaly, My Dear Watson": {
+   "notes": "When Chamembert is used while Elimentaler is your current gun, it fires one aimed shot instead of five random cheese shots."
+  },
+  "Elysian Night...": {
+   "notes": "While you hold Decoy, each killing blow has a 10% chance to place a decoy at the dead enemy's position."
+  },
+  "End Of Everything": {
+   "notes": "Firing one specific gun destroys your current gun and starts a scripted finale: enemy waves spawn around the room, fire goop is laid under you, and cave-ins follow."
+  },
+  "Enspore!": {
+   "notes": "Each shot from the Fungo Cannon or Spore Launcher has a 45% chance to add 1 ammo to the other gun if it is carried."
+  },
+  "Epic ____ Moments No.17": {
+   "notes": "Adds frail goop to the goop types Projectile Transmutator cycles through on a full-clip reload, so your projectiles can also leave frail goop."
+  },
+  "Epsiode": {
+   "notes": "After killing a normal enemy, has a 15% chance to slow time nearby for about 3 seconds. The chance rises to 35% while the holder also has Pig or Bullet Time."
+  },
+  "Eternal Prose": {
+   "notes": "Really Special Lute shots travel ten times as far and move twice as fast."
+  },
+  "Even Luckier!": {
+   "notes": "Lucky Coin on use is a 50/50 for 25 seconds of 1.3x move speed and 2x damage, or 0.7x speed and 0.5x damage. Seven-Leaf Clover raises the good chance to 75%."
+  },
+  "Even More Visible!": {
+   "notes": "Tracer Rounds trails and Graceful Goop's green fire, including their burst shots, spread over a wider radius (1 instead of 0.5)."
+  },
+  "Even Worse Choices": {
+   "notes": "Disc Gun bullets deal double damage, and a disc that hits you costs a full heart instead of half a heart."
+  },
+  "Event Horizon": {
+   "notes": "When an exit portal warps a projectile, it also fires an energy bolt in a random direction, dealing a third of that projectile's damage."
+  },
+  "Everlasting Love": {
+   "notes": "Love Pistol charms last permanently instead of for a limited time."
+  },
+  "Execution+": {
+   "notes": "On use, calls in one extra allied companion on top of the random squad. Usable only in combat."
+  },
+  "Expert Demolitionist": {
+   "notes": "Decorative objects that break have a 20% chance to explode, all money pots explode when broken, and decorative objects turn into money pots 5% of the time instead of 3.5%."
+  },
+  "Explosive Core": {
+   "notes": "Player bullets that hit the orbiting stone explode on impact with the Explosive Rounds blast."
+  },
+  "Eye of the Spider": {
+   "notes": "Bullets also instantly kill Phaser Spiders on hit, in addition to sliding cubes and cube blobulons."
+  },
+  "Eye+": {
+   "notes": "On use, calls in one extra allied companion on top of the random squad. Usable only in combat."
+  },
+  "F#!^@in' Bubbles": {
+   "notes": "While the Bubble Fist is reloading, it fires a Trank Gun shot every 0.1 seconds."
+  },
+  "False Pretences": {
+   "notes": "Using False Blank adds its curse penalty only half the time, instead of every use."
+  },
+  "Famished": {
+   "notes": "The first shot of each clip becomes a hungry bullet with a 1.5 unit radius and a purple tint."
+  },
+  "Fast Pass": {
+   "notes": "Bullets reflected by flipped tables and by the chisel's decoy tables travel at double speed."
+  },
+  "Fire Aspect": {
+   "notes": "Each hit sets the enemy on fire."
+  },
+  "Five Finger Fillet": {
+   "notes": "When a table is flipped, the Wooden Knife throws an extra burst of 3 knives on top of its usual 1 to 3. Each knife deals 30 damage."
+  },
+  "Five Finger Guns": {
+   "notes": "The gun fires four extra duplicate shots per trigger pull, its bullets become visible, and your accuracy is raised 20%."
+  },
+  "Flash In The Pan": {
+   "notes": "Each Musket Rifle shot also fires a smoke projectile from the barrel."
+  },
+  "Flashy": {
+   "notes": "With Camera held, Showoff Bullets' damage modifier changes from -10% to +10%."
+  },
+  "Flip-Side": {
+   "notes": "Each Guon Stone strike fires 4 electric bolts instead of 2, and the bolts travel farther (range 9 instead of 6)."
+  },
+  "Flippity Beoooow!": {
+   "notes": "Each table laser has a 20% chance to be a different beam type."
+  },
+  "For Big Mistakes": {
+   "notes": "Bullets from this gun knock enemies in the opposite direction."
+  },
+  "Fortissimo": {
+   "notes": "The Crescendo Blaster's clip becomes 12 shots, and its volley adds extra large crescendo shots."
+  },
+  "Forward Thinking": {
+   "notes": "Knockback from each shot is reversed and halved, pulling you toward your aim point instead of pushing you back."
+  },
+  "Frag Mental": {
+   "notes": "Each shrapnel fragment from a blank has a 20% chance to copy your current gun's bullet (charge guns use their charged shot; beam guns fire bouncing beams)."
+  },
+  "Free Range Gregs": {
+   "notes": "When Greg dies, the reward is a random S-tier item: 25% active item, 37.5% gun, 37.5% passive item, instead of an S-tier companion item."
+  },
+  "Freehand": {
+   "notes": "Each Pencil shot is moved to the player's cursor position, up to 30 units away, when it is fired."
+  },
+  "Frenemies": {
+   "notes": "Enemies removed in sealed rooms are charmed and made harmless instead of being erased with rewards."
+  },
+  "Fresh Air": {
+   "notes": "Each shot has a 10% chance to fire a 10-damage gust projectile instead of the normal shot."
+  },
+  "Friends On The Other Side": {
+   "notes": "Blanks used in a sealed room summon a jammed kin companion."
+  },
+  "Frost and Gunfire": {
+   "notes": "Frost Key gains 2 extra Coolness for each fire item you hold from its list, on top of the Coolness it already gets from keys."
+  },
+  "Frost-Key The Snowman": {
+   "notes": "Snowballer shots deal damage multiplied by the number of keys you carry, up to five times."
+  },
+  "Full Arsenal": {
+   "notes": "While a mine has an enemy in sight, it also fires missiles for 6 damage each, spread up to 20 degrees, firing faster the longer it keeps shooting."
+  },
+  "Fully Funded": {
+   "notes": "Kills of enemies with 15+ max health have a 25% chance to drop a coin while the Creditor is held; with the Microtransaction Gun held, kills of enemies with 10+ max health always drop a coin."
+  },
+  "G is for Gain": {
+   "notes": "G-Switch costs 1 cash per use instead of 3, and still spawns its shield."
+  },
+  "GHOST SWORD!!!": {
+   "notes": "Gives a 50-ammo spread blade with a 1-second charge shot that does 4x damage and bursts into 30 bullets when it hits something or dies in the air."
+  },
+  "Gale Force": {
+   "notes": "Each dodge roll triggers an extra companion blast with knockback and damage, on top of its timed blasts."
+  },
+  "Gatter Up": {
+   "notes": "The gun becomes the Gat Gun: a four-stream volley every 0.25 seconds, with the three side streams spreading wider and using no extra ammo."
+  },
+  "Gattlesnake": {
+   "notes": "Each shot has a 25% chance to also spawn one delayed shadow bullet."
+  },
+  "Girls Best Friend": {
+   "notes": "Diamond cards deal double damage, plus 0.3% for each unit of money you carry."
+  },
+  "Glassworks": {
+   "notes": "Each Glass Guon Stone gives 15% faster reload and 10% more damage, up from 10% and 5%."
+  },
+  "Glue Gunner": {
+   "notes": "The Hot Glue Gun switches to a faster Glue Gunner form with 15-shot clips, 0.15 seconds between shots, a 6-second lockdown, and a 14% chance on hit to poison."
+  },
+  "Going Clubbing": {
+   "notes": "Club cards deal double damage, plus 7% for each blank you carry."
+  },
+  "Gold Reserves": {
+   "notes": "When Golden Armour blocks a lethal hit by spending cash, it takes a random amount from 1 up to the rolled value instead of the full roll, so less cash is lost."
+  },
+  "Golden Apple": {
+   "notes": "Using an Apple fully heals you and grants 60 seconds of fire immunity, +2 movement speed and 1.25x damage."
+  },
+  "Golden Cylinder": {
+   "notes": "Multiplies the gun's clip size by about 0.37, so it holds fewer shots per reload."
+  },
+  "Golden Shower": {
+   "notes": "While you hold Mega Douser, Gilded Lead uses a casing on about 50% of bullets instead of 10%, and Mega Douser's beams are tinted gold."
+  },
+  "Good Lads": {
+   "notes": "Baby Good Chance Kin drops supplies when you take damage 60% of the time, instead of 40%."
+  },
+  "Good Old Guns": {
+   "notes": "Hand Cannon and Hand Mortar bullets deal 50% more damage and travel three times as far."
+  },
+  "Gorgun's Gaze": {
+   "notes": "After a partly used clip is reloaded, a 1.5 second wave stuns nearby enemies for 2 seconds. Bullet kin and shotgun kin caught by the wave are turned to stone, not only those below half health."
+  },
+  "Grease Lightning": {
+   "notes": "Sunlight Javelin bullets deal double damage."
+  },
+  "Great Skulls of Fire": {
+   "notes": "While one of the listed guns or items is held, Flaming Skull's curse is set to about half its usual value."
+  },
+  "Green Behind The Ears": {
+   "notes": "The fourth of the 6 split bullets gets 1.2 times speed, 3 times range, and one extra bounce. Without this synergy, that bullet deals half damage and is 90% size."
+  },
+  "Greg Salad": {
+   "notes": "When Greg dies, five more random items from a fixed loot list also spawn."
+  },
+  "Grenatterer": {
+   "notes": "Each Bullatterer shot has a 25% chance to summon a companion Grenatterer instead of a Bullat, with 10 bullet damage."
+  },
+  "Greyer Guon Stone": {
+   "notes": "Guon Wrath damage is doubled: an enemy whose shot hits you takes twice the damage (base 25), and contact with the orbiting stone deals 10 instead of 5. Both scale with your damage stat."
+  },
+  "Guild of the Gilded": {
+   "notes": "Gilded Lead's casing-powered shots deal 4 times damage instead of 3 times while you hold Gilded Bullets."
+  },
+  "Gum disease": {
+   "notes": "Toothy Bullets' bleed (15% chance) applies poison bleed instead of the normal hemorrhage effect while the synergy is active."
+  },
+  "Gumzookie": {
+   "notes": "When a gum bubble pops, it also fires a shot at the nearest enemy for up to 20 damage, scaled by bubble size, that passes through dead enemies."
+  },
+  "Gun Punch Man": {
+   "notes": "Shots deal double damage."
+  },
+  "Gun Snek Good Maybe?": {
+   "notes": "Each new room spawns a friendly Ammonconda ball that attacks enemies but cannot target you."
+  },
+  "Gunderbolts and Lightning": {
+   "notes": "Each Sunlight Javelin hit makes that enemy flee from you for 10 seconds. A few enemy types are immune."
+  },
+  "Gunsignor": {
+   "notes": "Kalibers Prayer lasts 8 seconds on a 10% chance per use, instead of 2 seconds."
+  },
+  "Gunvana": {
+   "notes": "Pressing reload while the SAA is already reloading makes you incorporeal for 1 second, passing through enemies and taking no damage. This triggers once per reload."
+  },
+  "HEADS FULL O' EYEBALLS": {
+   "notes": "While you hold Eyepatch, Bombinomicon also drops 10 bombs at random clear spots in the room."
+  },
+  "HYPERDEATH": {
+   "notes": "Coin ricochets deal more damage: the ricochet multiplier rises from 1.35x to 1.65x and the flat bonus from 5 to 6."
+  },
+  "Hack n' Slash": {
+   "notes": "Each bullet you fire has a 20% chance to trigger a Bayonet slash, the same attack used on reload."
+  },
+  "Handle The Heat": {
+   "notes": "The bullets' damage aura and beam can set enemies on fire (Hot Lead), with a 7% chance on the ring aura and 10% on the beam. The shock ring also carries the fire."
+  },
+  "Happy Blankday": {
+   "notes": "Each balloon companion that pops forces a blank. If the Toy Chest is carried, it also has a 1% chance to drop an item."
+  },
+  "Happy Sleet": {
+   "notes": "Your penguin throws snowballs at enemies within 10 units about every 0.9 seconds. With this synergy each snowball deals 4 damage at double size instead of 2.5."
+  },
+  "Hard Boiled Gregs": {
+   "notes": "Enemy bullets that hit Greg are reflected back as your bullets, and Greg takes 13 damage for each reflected bullet."
+  },
+  "Have A Heart": {
+   "notes": "Heart cards deal double damage, plus 2.5% for each point of your current health, or armor when you are at zero health."
+  },
+  "Headache": {
+   "notes": "Orgun becomes the Bigass Brain Thing, which fires 10 slow, heavy projectiles per shot at 4x damage, with a 6-round clip and 120 max ammo."
+  },
+  "Heads, Shoulders, Knees, and Toes": {
+   "notes": "Hip Holster shots and Shoulder Holster bonus shots deal double damage."
+  },
+  "Heart Attack": {
+   "notes": "For each heart item you carry (passive, gun or active), Orgun's clip grows by 2 rounds and its max ammo by 50, from a base of 6 rounds and 80 ammo."
+  },
+  "Heart so wet and cold...": {
+   "notes": "On use, the card drops 40 cash instead of 20."
+  },
+  "Heart-Piercingly Cool": {
+   "notes": "While Rad Gun, Ice Cube, Ballot or Heart of Ice is held, Trick Shot adds +5 to one more gun stat on top of its bounces."
+  },
+  "Hearts In Halves": {
+   "notes": "Candy Heart's discount on heart pickups and armor rises from 50% to 75% off."
+  },
+  "Heat Stress": {
+   "notes": "Hot Glue Gun bullets have three times the chance to set enemies on fire on hit, 21% instead of 7%."
+  },
+  "Heavy Metals": {
+   "notes": "The coil's stun shockwave has a radius of 4 instead of 2.5, and it stuns enemies for 5 seconds instead of 3."
+  },
+  "Hexadecimally!": {
+   "notes": "Radial Pulse-Cannon becomes a six-way gun that fires 6 projectiles 60 degrees apart in a circle from a random starting angle, instead of 4 projectiles 90 degrees apart."
+  },
+  "Hidden Gem": {
+   "notes": "Each bounce of the charged shot's bullet adds 40% damage and gives it homing toward nearby enemies."
+  },
+  "Hidden Tech Incineration": {
+   "notes": "Fire goop made by the table turns into green fire instead."
+  },
+  "Hidden Tech Nitro": {
+   "notes": "Flipped tables the Gravity Gun throws explode on impact with the Table Tech Rocket's blast."
+  },
+  "High Score": {
+   "notes": "Each apple Snaker drops becomes a hungry apple with a 1.5 unit radius that eats up to 8 bullets, gaining 10% damage per snack."
+  },
+  "High as a Kite": {
+   "notes": "Rocket Man's random rockets deal double damage when you also hold the rocket gun of that same type."
+  },
+  "His Grace": {
+   "notes": "Each use of the Toolbox also instantly kills one random regular enemy in the current room. Bosses are not affected."
+  },
+  "Holy Smackerel": {
+   "notes": "Cleansing Rounds have a 10% chance on hit to end the Black Phantom form of phantom enemies, or 50% when an extra item is also held."
+  },
+  "Holy Socks": {
+   "notes": "Each dodge roll fires the Cardinal's Mitre homing bullet, sharing the same 0.7-second cooldown as its normal shots."
+  },
+  "Honey, I'm Home!": {
+   "notes": "The Honey Pot leaves a larger honey puddle with a radius of 10 instead of 7."
+  },
+  "Hot Pics": {
+   "notes": "Each Camera shot leaves a fire patch under the shooter. If you also have Behind the Goops, the patch is green fire."
+  },
+  "Hot Sales": {
+   "notes": "The mod defines this combination with no extra stats or effects, so the items work together as they normally do."
+  },
+  "Hot Tempered": {
+   "notes": "Graceful Goop shots have a 10% chance to leave green fire instead of poison. Those shots fly 25% faster and burst into five fire shots when they end."
+  },
+  "Hungry Core": {
+   "notes": "Player bullets that hit the orbiting stone also gain the base game's Hungry Bullets behaviour."
+  },
+  "Hunter Spores": {
+   "notes": "Fungo Cannon spores that float in combat have a 50% chance to home in on enemies instead of 10%, and homing spores move at speed 10 instead of 5."
+  },
+  "Hyperlink Blocked": {
+   "notes": "Each shot has a 35% chance to become a purple hungry projectile with a 1.5 radius. The hungry behavior itself is defined in a library that is not in the sources."
+  },
+  "I CAN DO ANYTHING": {
+   "notes": "Alchemy Crucible turns enemies into random enemies from a chaos pool, which includes enemies from ExpandTheGungeon, Frost and Gunfire, or Planetside when those mods are installed."
+  },
+  "I Call Hacks": {
+   "notes": "Each bullet the RC-360 turret copies is aimed at the nearest enemy instead of its original direction."
+  },
+  "I HATE THIS GAME!!!!": {
+   "notes": "Rage Rifle shots always deal full damage (plus 20% per curse level), are 1.3x larger and turn magenta. Without this, they deal only 0.6x damage."
+  },
+  "Ice Is Nice": {
+   "notes": "With the Ice Cube held, the Ice pickup cuts an active item's cooldown by 55% instead of 45%, then is dropped."
+  },
+  "Ice Queen": {
+   "notes": "Dodge rolling while holding this gun spawns three hovering guns that fire for 1 second at their normal rate."
+  },
+  "In The Movement...": {
+   "notes": "Voodoo damage hits two other enemies instead of one when the room has three or more others, if you hold Spice, Face Melter, Gunzheng, Really Special Lute, Ghost Bullets, Gunslinger's Ashes or Spectre Bullets."
+  },
+  "Indigoer Guon Stone": {
+   "notes": "Each enemy bullet that hits the stone has a 60% chance to trigger a blank instead of 35%, and 20% of those use a second blank type."
+  },
+  "Infinite Ammo?": {
+   "notes": "Each shot costs 4 ammo and lowers max ammo by 4 (never below 25), but each kill restores 20 ammo instead of 5."
+  },
+  "Infrared Camera": {
+   "notes": "Each shot fires 8 infrared beams, 45 degrees apart, from every Infrared Guon Stone you carry."
+  },
+  "Infraredder Guon Stone": {
+   "notes": "The stone's beam deals double damage."
+  },
+  "Inspiral": {
+   "notes": "Shots have a 2% chance, instead of 1%, to fire a black hole projectile. The black hole travels fast and deals 5 damage."
+  },
+  "Invigorated": {
+   "notes": "Ammo refills from Shelltan's Blessing go to every other held gun instead of the current one: 2% of max ammo on normal kills and 20% on boss kills."
+  },
+  "It won't actually show up on screen, but there's no hard limit on how long you can make synergy names.": {
+   "notes": "Beams are tinted green and set targets on fire with green flames instead of normal fire."
+  },
+  "It's About Rime": {
+   "notes": "The charged shot's helix bullets apply the Frost Bullets status effect."
+  },
+  "It's a Key-per!": {
+   "notes": "Each shop purchase has a 10% chance to give an extra key."
+  },
+  "Jajanken": {
+   "notes": "The Ion Fist transforms into the Nen Fist: a 5-shot gun with 0.2 second shots, a 0.8 second reload, and piercing shots."
+  },
+  "KA-BLEWY!": {
+   "notes": "Thunder-Shot does 10% less direct damage, but the death explosion it causes on enemies deals 20 extra damage instead of 5."
+  },
+  "KEYGEN": {
+   "notes": "When the Keygen rolls an explosion, break, loot burst or countdown on a chest, the chest is spared instead."
+  },
+  "KILL KILL KILL": {
+   "notes": "Each table devour also pulls one random non-boss enemy from the room into the table."
+  },
+  "Kaleidoscopicer Guon Stone": {
+   "notes": "Your bullets that reach the orbiting stone split into 6 bullets fanned across 20 degrees instead of 40."
+  },
+  "Kalibers Hooks": {
+   "notes": "It pierces minor breakables and costs no ammo."
+  },
+  "Kellys Eye": {
+   "notes": "A Grandfather Glock shot fired from a clock hand deals triple damage while that hand's current reading contains a 1, such as hour 1 or minute 21."
+  },
+  "Kernel Panic": {
+   "notes": "Cornnon shots deal 20% more damage. Each Cornnon shot that kills an enemy fires 7 more shots in random directions from that spot."
+  },
+  "Key Death": {
+   "notes": "Using Heart Padlock has a 50% chance to not use up a key."
+  },
+  "Khh..k k k k": {
+   "notes": "The bullets' damage aura and beam can poison enemies (Irradiated Lead), with a 7% chance on the ring aura and 10% on the beam."
+  },
+  "King Bullatterer": {
+   "notes": "The Bullatterer transforms into a 400-ammo gun that fires a fan of 13 shot groups, mostly bouncing once at 1.2x damage. Its first projectile also summons a Bullat. Reload is 1.5s."
+  },
+  "Knockback": {
+   "notes": "Each hit pushes enemies back with twice the usual force."
+  },
+  "Kvothe, Kingkiller": {
+   "notes": "Sympathy Bullets gain homing that steers toward enemies within 30 units. While the gun is equipped, accuracy is multiplied by 0.5, rate of fire by 1.25, boss damage by 1.5 and range by 5."
+  },
+  "Leadbulonial": {
+   "notes": "Each shot gets hot lead status. One active element is picked at random per shot, and the fire option leaves fire goop and deals fire damage."
+  },
+  "Leader Baton": {
+   "notes": "Each gun swap triggers a Lead Baton slash that deals 125 damage with 1000 knockback instead of 75 and 400. The slash recharges every 10 seconds."
+  },
+  "Leafy Greens": {
+   "notes": "Reloading fires a fan of seven needles with 20 degrees of spread."
+  },
+  "Lefty Loosey": {
+   "notes": "While you face left, your bullets travel 1.5x faster and pierce 2 extra enemies."
+  },
+  "Let Loose": {
+   "notes": "Dodge rolls knock back enemies within 20 units instead of 10."
+  },
+  "Let's A Go!": {
+   "notes": "Each shot from the Brick Breaker is made twice as large."
+  },
+  "Level 20 Bard": {
+   "notes": "Bard shots from the Lorebook deal 25% more damage and charm enemies for three times the usual duration."
+  },
+  "Level 20 Fighter": {
+   "notes": "Fighter shots from the Lorebook deal 25% more damage, travel 15% faster and pierce 5 more enemies."
+  },
+  "Level 20 Rogue": {
+   "notes": "Rogue shots from the Lorebook deal 25% more damage and apply the irradiated lead poison effect on hit."
+  },
+  "Level 20 Wizard": {
+   "notes": "Wizard shots from the Lorebook deal 25% more damage and spawn extra projectiles in flight every 0.35 seconds."
+  },
+  "Liber Null": {
+   "notes": "Random bullet swaps can now also pick from the powerful bullet list, which is otherwise never used."
+  },
+  "Librarian": {
+   "notes": "The Lorebook and Bookllet automatically dual wield together whenever both are carried and have ammo."
+  },
+  "Life, The Universe, and Everything": {
+   "notes": "Every Glock 42 shot deals double damage and homes toward enemies from up to 1000 units away."
+  },
+  "Lightning Fast Strike": {
+   "notes": "When a Viper bullet ends, the projectiles it leaves along its path are placed every 1 unit instead of every 2, roughly doubling how many there are."
+  },
+  "Limer Guon Stone": {
+   "notes": "Each enemy bullet the stone strikes releases 2 orbiting shots instead of 1, up to 30 orbiting shots at a time."
+  },
+  "Literally Throwing": {
+   "notes": "Your total damage is multiplied by 2.5 while a gun is equipped."
+  },
+  "Liturgist": {
+   "notes": "On use, the incorporeal state from Kalibers Prayer lasts 4 seconds instead of 2, so you pass through enemies and cannot be damaged for longer."
+  },
+  "Live By The Sword": {
+   "notes": "When a slashing bullet is destroyed, it explodes with the Katana Bullets' chain blast."
+  },
+  "Loader Chassis": {
+   "notes": "Each pylon placed deals a fixed 9 damage per second instead of its normal rate."
+  },
+  "Loot Crate": {
+   "notes": "Spawns an extra lockbox on each floor, in addition to the normal one, both on pickup and when each new floor loads."
+  },
+  "Loot Vortex": {
+   "notes": "On reload with a full clip and at least 10 ammo, spends 10 ammo to drop a random item in the room."
+  },
+  "Lord of Rings": {
+   "notes": "Teleporting with the Flayed Revolver (costs 5 ammo) also leaves a ring of 6 orbiting bullets around your starting spot for 50 seconds. The bullets pass through walls and break minor breakables."
+  },
+  "Lost, Never Found": {
+   "notes": "Cash from Rusty Casing pickups gains 5 extra coins each time. Loose Change also adds 5 extra coins on each new floor."
+  },
+  "Love, Exciting and New": {
+   "notes": "While the GayK-47 is equipped, projectile speed is up 25%, rate of fire is up 25%, and damage is up 50%."
+  },
+  "Luck of the Quickdraw": {
+   "notes": "Each Keybullet Kin or Chance Kin you kill raises your damage by 10%, and these boosts stack."
+  },
+  "Lucky Day": {
+   "notes": "Paper Badge's chance for a shot to deal double damage and grow to 1.5x size rises by 30 percentage points. The other shots drop to 1% damage and half size."
+  },
+  "Lynks": {
+   "notes": "When you take damage, Clay Sculpture makes two random non-boss enemies fall through the floor instead of one."
+  },
+  "M1893": {
+   "notes": "Changes the gun into the M1893, a semi-automatic pistol with a 30-round clip, 0.1-second cooldown and 550 max ammo."
+  },
+  "MMMMMM MMMMMM!!!": {
+   "notes": "While you carry the Flamethrower and the gas mask, you take no fire damage."
+  },
+  "Mag-2-Zap": {
+   "notes": "Shots stun enemies for 1 second, and the stun chance rises 10% for each copy of the gun bought in a shop."
+  },
+  "Magic+": {
+   "notes": "On use, calls in one extra allied companion on top of the random squad. Usable only in combat."
+  },
+  "Magic-er Missile": {
+   "notes": "Magic Missile fires a second missile one second after the first."
+  },
+  "Magnum Opus": {
+   "notes": "Arriving on a new floor fully heals you, on top of the normal stored-heart gain."
+  },
+  "Mahoguny Guon Stones": {
+   "notes": "The Wood Guon Stone lasts 40 seconds instead of 20 before it destroys itself."
+  },
+  "Make Your Choice.": {
+   "notes": "Shop-In-A-Box shows three shop items at fixed spots around the box instead of one."
+  },
+  "Malicious": {
+   "notes": "Coins that ricochet a shot from a hitscan gun in this synergy explode for 0.5x that shot's damage, scaled up by the blanks used while alive."
+  },
+  "Manbat and Robin": {
+   "notes": "Reloading also summons a friendly, black-tinted Bullat companion next to you."
+  },
+  "Marooner Guon Stone": {
+   "notes": "Player bullets that hit the orbiting stone deal 2x damage instead of 1.5x."
+  },
+  "Masterglass": {
+   "notes": "Each Glass Shard orbiting you also fires a shot at your aim point every time Glasster fires."
+  },
+  "Mechanical Hands": {
+   "notes": "Bullets from this gun get one extra bounce, and each bounce homes in on enemies within 100 units."
+  },
+  "Meet The Pyro": {
+   "notes": "Pyromania places five explosive barrels when you enter combat."
+  },
+  "Megashark": {
+   "notes": "The gun becomes the Megashark: its bullets deal 25% more damage, travel three times as fast, ignore damage caps and pierce breakable objects."
+  },
+  "Menger Clip": {
+   "notes": "Ammo pickups raise AM-0 damage faster: the held AM-0 gains 0.1 per pickup of one type (0.05 without this), and AM-0s in the inventory gain 0.02 each when another gun is held."
+  },
+  "Mercury": {
+   "notes": "Mr. Accretion Jr.'s planet shots turn pink, grow to three times their size, and permanently charm the enemies they hit."
+  },
+  "Micro Aggressions": {
+   "notes": "Each Mini Gun shot has a 10% chance to tint the bullet orange and shrink the enemy it hits to 40% size for 5 seconds."
+  },
+  "Mightier Than The Gun": {
+   "notes": "Fires rapid 1-damage pen shots with 6000 ammo, and the shots stop when they hit walls. Pressing reload sends every fired shot flying toward your aim point."
+  },
+  "Miiiining Away~": {
+   "notes": "Fatal damage to a sliding cube or cube blobulon, while the bearer holds Miners Bullets, drops 5 coins. With Eye of the Spider too, killing a Phaser Spider also drops 5 coins."
+  },
+  "Mini Shotgun": {
+   "notes": "The Mini Gun becomes the Mini Shotgun, firing three shots at once, each dealing 7 damage, with a 4-round clip and 200 max ammo."
+  },
+  "Mirror Blade": {
+   "notes": "The Combat Knife's slash reflects enemy bullets it touches."
+  },
+  "Misfire Cannon": {
+   "notes": "Each Displacer Cannon shot is moved to the player's cursor position, up to 30 units away, when it is fired."
+  },
+  "Mixed Signals": {
+   "notes": "Each flare gun shot travels at double speed, gets 40 more force and bounces one extra time. Starter pistol shots also apply hot lead."
+  },
+  "Moldy Cheese": {
+   "notes": "The mod defines this combination with no extra stats or effects, so the items work together as they normally do."
+  },
+  "Molly Tov": {
+   "notes": "A second Molotov companion joins you, and it respawns 7 seconds after it is lost."
+  },
+  "Molotovs Revenge": {
+   "notes": "Reloading fires one extra molotov-style shot with 5 degrees of spread."
+  },
+  "Moonstone Weapon": {
+   "notes": "The last shot of every clip always locks the enemy it hits in place for 4 seconds."
+  },
+  "More To Ammo": {
+   "notes": "Ammo and half-ammo pickups turned into orbitals survive 120 and 80 hits instead of 90 and 60."
+  },
+  "More To Armor": {
+   "notes": "Armor pickups turned into orbitals survive 160 hits instead of 120."
+  },
+  "More To Blanks": {
+   "notes": "Blank pickups turned into orbitals survive 100 hits instead of 75."
+  },
+  "More To Greed": {
+   "notes": "Credit pickups turned into orbitals survive 40 hits instead of 30."
+  },
+  "More To Hearts": {
+   "notes": "Heart and half-heart pickups turned into orbitals survive 120 and 60 hits instead of 90 and 45."
+  },
+  "More To Keys": {
+   "notes": "Key pickups turned into orbitals survive 160 hits instead of 120."
+  },
+  "Mr. SandMan": {
+   "notes": "Sand clouds put enemies to sleep for 6 seconds on hit instead of blinding them, and the sand slashes use a different visual."
+  },
+  "Multimorbidities": {
+   "notes": "When combat starts, Pestilence plagues up to two enemies in the room instead of one."
+  },
+  "Mush Ado About Nothing": {
+   "notes": "Each Fun Guy attack also releases a blank around the companion."
+  },
+  "My Favourite Blankie": {
+   "notes": "While in combat, each blank the Blanket modifies has a 10% chance to also give you an extra blank."
+  },
+  "My New Favorite Toy": {
+   "notes": "The B.F.O. marks a random enemy in the room. If the Toy Chest is carried, that enemy's death has a 1% chance to drop a random reward item."
+  },
+  "Myshellium": {
+   "notes": "Fungo Cannon shots deal double damage."
+  },
+  "Nanobiology": {
+   "notes": "Mutagen's boss-kill healing is boosted: 1.5 instead of 1 per kill, and extra heart pickups drop when at zero health."
+  },
+  "Negative Matter": {
+   "notes": "The gun becomes a dark matter form: infinite ammo, a shot every 0.1 seconds, no ammo cost. While it is held, you are immune to electric damage, can grab enemies up to about 20 max health, and launched objects fly 1.5x faster."
+  },
+  "New run, New me": {
+   "notes": "On use, Identity Crisis gives the starting loadouts of all six playable characters at once, instead of one random character."
+  },
+  "Newton": {
+   "notes": "After you use an Apple, any Apple Cores you hold give you flight while you carry them."
+  },
+  "Nick Of Time": {
+   "notes": "Each Minute Gun shot's damage is multiplied by 3 minus 0.05 for every second left on its timer, so shots hit harder as the timer runs down."
+  },
+  "No Pain, No Gain": {
+   "notes": "With Gundromeda Strain, every enemy gets 75% of its base health instead of a random 60% to 120%."
+  },
+  "No Pane, No Gain": {
+   "notes": "Glasster's shots deal double damage, but taking any damage while holding Glasster empties its ammo."
+  },
+  "No Running Away!": {
+   "notes": "Each enemy that spawns while you hold the Spear of Justice has a 25% chance to turn green and be unable to move."
+  },
+  "No Virus Included": {
+   "notes": "T4-GTR mines turn toward your aim point (the cursor) instead of the gun's angle, and turn twice as fast in controller mode."
+  },
+  "No Will To Break": {
+   "notes": "When the shield breaks, it also fires a blank around you."
+  },
+  "Nobel Effort": {
+   "notes": "Each Dynamite Launcher shot also summons a companion Dynamite Kin, and the shot keeps flying after spawning it."
+  },
+  "Non Desistas Non Exieris": {
+   "notes": "Head of the Order reloads in 1 second instead of 2, holds 200 ammo instead of 100, and fires with a 0.4 second cooldown instead of 0.65."
+  },
+  "Non Lethal Solutions": {
+   "notes": "Both guns are dual-wielded automatically while each still has ammo, so they fire together from each hand."
+  },
+  "North Star": {
+   "notes": "Each shot the gun fires applies a freezing status effect on hit."
+  },
+  "Not Mu' Shroom Left": {
+   "notes": "Each Shroomed Gun volley gets a second pass of side shots, so the outermost shots fly 40 degrees off aim instead of 20. The extra shots cost no ammo."
+  },
+  "NullReferenceException": {
+   "notes": "The Wrench transforms into a 400-ammo burst gun with 3-shot bursts, 12-round clips and a 0.5s cooldown. Each shot deals 1.8x damage with 10x range."
+  },
+  "Number 9": {
+   "notes": "On use: also lays a matching charm goop line behind you, opposite your aim."
+  },
+  "Offhand Immortal": {
+   "notes": "Lets the two guns be dual-wielded together as a pair."
+  },
+  "Oil Can What?": {
+   "notes": "Tin Heart has a 10% chance to fully negate any damage taken. The player also gains a flat +1 to one base stat while it is active."
+  },
+  "Old War": {
+   "notes": "The gun transforms into the Veteraner Shotgun, which adds angled extra volleys that fire in a V shape and raises the chance to inflict debuffs."
+  },
+  "Old and New": {
+   "notes": "Darts stun enemies for 10 extra seconds on every hit, while Dart Rifle bullets always poison."
+  },
+  "One Click Away!": {
+   "notes": "Clicker shots are 1.5x larger even with mouse and keyboard, and the size bonus stacks with the controller bonus."
+  },
+  "One Man's Treasure": {
+   "notes": "While Trash Bag is held, Gold Junk adds +1 to a stat, and each Junk item adds +0.1 to that same stat."
+  },
+  "Ooh Eee Ooh Ah Ah!": {
+   "notes": "On use: the charm goop line is longer and wider, 20 by 4 instead of 13 by 2.5."
+  },
+  "Orange U Glad": {
+   "notes": "The second of the 6 split bullets gets 1.2 times speed, 3 times range, and one extra bounce. Without this synergy, that bullet deals half damage and is 90% size."
+  },
+  "Orbital Velocity": {
+   "notes": "Orbiter shots travel at twice their normal speed. They keep their orbiting, bouncing and piercing behavior."
+  },
+  "Overclock": {
+   "notes": "Shock-Chain shots that trigger Spinning Death gain 5 extra pierce and can break breakable objects, and Spinning Death is guaranteed to trigger on them."
+  },
+  "Overclocked": {
+   "notes": "Shock-Chain projectiles start at 70 percent speed, then slow to 30 percent of that speed over 0.4 seconds after they curve."
+  },
+  "Pac is Back!": {
+   "notes": "Every enemy kill fires a ghost, instead of only half the time, and each ghost is one of Pac-Man's four ghosts chosen at random."
+  },
+  "Paid In Full": {
+   "notes": "When you take damage, Payback gilds nearby enemies in a larger area (radius 4 instead of 2). Enemies that shoot you stay gilded for 1000 seconds instead of 10."
+  },
+  "Paint It Black": {
+   "notes": "Paintball shots deal 20% more damage and 10% more damage to bosses."
+  },
+  "Paned Expression": {
+   "notes": "Each shot adds a stack, and each stack multiplies bullet damage by 4%."
+  },
+  "Parallel Lines": {
+   "notes": "The Fat Line has a 10% chance per enemy hit to fire a silencing blank or an explosion. The Thin Line makes a mini blank half the time on collision instead of an explosion."
+  },
+  "Pealadin": {
+   "notes": "Peanut's 7-shot spread attack has a 10% chance per projectile to fire a different projectile instead, and that projectile does not get the double damage boost."
+  },
+  "Pen To Paper": {
+   "notes": "Each shot from the Drawn has a 30% chance to also fire an extra Origuni projectile that cannot hit you."
+  },
+  "People's Army": {
+   "notes": "M70 shots also release two side flak shells angled 135 degrees from aim. Makarov shots also release two flak shells angled 90 degrees off aim."
+  },
+  "Pepper X": {
+   "notes": "Its shots have a 15% chance to launch a popper instead of 10%, and that popper also gets the player's projectile item effects."
+  },
+  "Perfected": {
+   "notes": "Colossus becomes a beam form with 70 damage, a 40-shot clip and 360 max ammo. Reloading with at least half the clip spent fires 5 shots in three waves toward your aim."
+  },
+  "Pickled Poppers": {
+   "notes": "Poppers that damage enemies also apply Irradiated Lead to them on each damage tick."
+  },
+  "Pillars Of Salt": {
+   "notes": "Salt Gun bullets travel three times as far."
+  },
+  "Pirate's Life": {
+   "notes": "Shots deal double damage for 3 seconds after using a Grappling Hook or Bullet Time."
+  },
+  "Pistols Requiem": {
+   "notes": "Shots re-aim at the nearest enemy on every reload, up to 100 times instead of once. Muggun bullets also keep re-aiming on later reloads."
+  },
+  "Plan B": {
+   "notes": "After taking damage, enemy bullets turn friendly for 6 seconds instead of 2 seconds."
+  },
+  "Pluralitas Non Est": {
+   "notes": "The Belt Feeder fires 25% faster and its shots travel 10% faster."
+  },
+  "Pocket Shotgun": {
+   "notes": "The mod defines this combination with no extra stats or effects, so the items work together as they normally do."
+  },
+  "Pointiest One": {
+   "notes": "The companion's attacks, 15 shots every 4 seconds, fire slow piercing triangle shots for 12.5 damage that pass through one enemy and break breakables."
+  },
+  "Poisbulonial": {
+   "notes": "Each shot gets irradiated lead status. One active element is picked at random per shot, and the poison option leaves poison goop and deals poison damage."
+  },
+  "Polydactyly": {
+   "notes": "Finger Guns get a 6-round clip instead of 5, 350 max ammo instead of 250, and deal about 14% more damage per shot."
+  },
+  "Poopulonial": {
+   "notes": "Each shot slows what it hits, using the triple crossbow slow effect."
+  },
+  "Pot O' Gold": {
+   "notes": "Potto has a 1% chance on each room clear to drop 49 or 50 coins instead of its usual coin drop."
+  },
+  "Power Line": {
+   "notes": "Each hitscan shot leaves a line of damaging energy along its path that lasts at least 5 seconds. The gun's cooldown rises from 0.1 to 0.333 seconds."
+  },
+  "Power Of Friendship": {
+   "notes": "Each companion adds 40% damage instead of 20% while Potion of Gun Friendship, a Friendship ring, or Space Friend is held."
+  },
+  "Practically Pungent": {
+   "notes": "Gunsmoke Perfume's range doubles from 2 to 4 units, so it charms enemies from twice as far away."
+  },
+  "Praise The Gun!": {
+   "notes": "The sun's burn zone also applies Heat Stroke, a debuff that gets stronger and deals more damage the longer it stays on an enemy."
+  },
+  "Pretty Boy": {
+   "notes": "The mod defines this combination with no extra stats or effects, so the items work together as they normally do."
+  },
+  "Prima Materia": {
+   "notes": "Each time you take damage while holding this gun, a hovering copy of it fires for 2 seconds. Hits during that time do not extend the duration."
+  },
+  "Prismatismer Guon Stone": {
+   "notes": "The guon stone's laser hits for 75 damage instead of 50 and can fire again after 1 second in combat instead of 2. The orbiting stone also spins faster."
+  },
+  "Prop Fly": {
+   "notes": "While holding a caught object with the Gravity Gun, you can fly and gain +2 movement speed."
+  },
+  "Proper Care & Maintenance": {
+   "notes": "Shots alternate between bouncing off a wall once and piercing one enemy, dealing 8 damage at 0.7x range. Reload takes 1.5 seconds and the clip holds 3 shots."
+  },
+  "Prototype Form": {
+   "notes": "Using the G-Switch also spawns a shield on every coin pickup in the current room."
+  },
+  "Puff": {
+   "notes": "Reloading with Air Blaster also deals radial damage within 5.5 units, equal to (shots left in the clip plus the Coolness stat) times the Damage stat times 2.5."
+  },
+  "Punch Line": {
+   "notes": "Each shot the gun fires applies the Charm status effect on hit."
+  },
+  "Purple Gungeon Eater": {
+   "notes": "Each bounce releases a shockwave that deals 4 damage to enemies within a 3-tile radius."
+  },
+  "Purplest": {
+   "notes": "Purpler bullets travel three times as far and deal double damage."
+  },
+  "Pyromaniac": {
+   "notes": "Flame Chamber's fire on empty reload reaches enemies within 10 units instead of 5."
+  },
+  "Quick Scope": {
+   "notes": "While one of the listed sniper guns is held, Longshot also lowers one stat by 0.3, on top of its longer range."
+  },
+  "Quick, Draw!": {
+   "notes": "The gun fires automatically with a 33-round clip, 0.1 seconds between shots and a 0.7 second reload."
+  },
+  "R.N.GOD": {
+   "notes": "With Crystal Die, each R.N.GUN shot gets a random damage multiplier of 1x to 4.8x, speed of 1.1x to 4.95x, size of 0.5x to 4.5x, and extra force."
+  },
+  "ROCK, AAAAND, STOOOOONE!": {
+   "notes": "Bug enemies hit by Thunder-Shot take 40% more damage and are made to flee from you. Minelets are permanently charmed, made harmless, and no longer count toward clearing the room."
+  },
+  "Radical!": {
+   "notes": "While Rad Gun or Sunglasses is held, Showoff Bullets adds +3 to one more gun stat, and its shots home in on enemies."
+  },
+  "Rainbower Guon Stone": {
+   "notes": "The stone's random colour states get stronger: cyan fires every 0.16s, blue hits all room enemies for 15 when struck by an enemy bullet, grey doubles its damage, and yellow shields for 2s."
+  },
+  "Rally The Slacker": {
+   "notes": "While Lewis is held alongside the Battle Standard, his stat bonuses grow: three stats rise to a 1.5x multiplier (from 1.2x), one drops to 0.5x (from 0.8x), and one more gets +2."
+  },
+  "Rangaround": {
+   "notes": "Shots deal double damage and travel twice as fast."
+  },
+  "Ranger Class": {
+   "notes": "The gun fires piercing gem shots for 10 damage at 1.5x speed. Each shot passes through up to 10 enemies, and each enemy passed raises its damage by 20%."
+  },
+  "Re Roll We Roll": {
+   "notes": "Each time you roll, the Goobleck companion is re-randomised: its form, clip size, reload time, fire rate, spread and projectile change."
+  },
+  "Re-Heat": {
+   "notes": "Beams set targets on fire after 0.1 seconds instead of 1 second, and every beam applies the fire effect (100% chance instead of 50%)."
+  },
+  "ReShelletonKeyter": {
+   "notes": "The Rekeyter never uses ammo while this synergy is active."
+  },
+  "Rebirth": {
+   "notes": "Swapping to the Phoenix makes its next shot a 40 damage piercing fire phoenix. It can trigger again 5 seconds after firing."
+  },
+  "Rebondissement": {
+   "notes": "The gun's bolts bounce up to six times instead of three, and each bounce multiplies damage by 1.6 instead of 1.3. It fires automatically with 20 shots per clip."
+  },
+  "Recursive Recursions": {
+   "notes": "Each on-hit trigger rolls two random effects instead of one."
+  },
+  "Recycling": {
+   "notes": "Each new enemy Resault kills gives twice the ammo: 10 instead of 5."
+  },
+  "Red Letter Day": {
+   "notes": "Minor breakables thrown by the gun (like crates) have a 10% chance (crates always) to gain irradiated lead, hot lead, an explosion, or glitter."
+  },
+  "Red Shotgun+": {
+   "notes": "Each Reinforcement Radio use summons one extra friendly enemy, on top of its random squad."
+  },
+  "Redbirds": {
+   "notes": "While the gun is held, its rate of fire is 30% higher and its accuracy stat is multiplied by 0.8, giving 20% tighter shots."
+  },
+  "Reddy Steady": {
+   "notes": "The first of the 6 split bullets gets 1.2 times speed, 3 times range, and one extra bounce. Without this synergy, that bullet deals half damage and is 90% size."
+  },
+  "Redox Reload": {
+   "notes": "While both rounds are held, the reload speed stat is multiplied by 0.66, which changes how fast reloads go."
+  },
+  "Refilled Trays": {
+   "notes": "The Glacier's max ammo rises to 150 while the Ice Tray is held, and returns to normal when the tray is dropped."
+  },
+  "Refridgeration": {
+   "notes": "The gun transforms into Polarity Forme, which fires both projectile types in a tight helix pattern and releases a different set of shards on reload."
+  },
+  "Regular Hottie": {
+   "notes": "Gunsmoke Perfume also applies the Hot Lead status effect to each enemy it affects, in addition to charming them."
+  },
+  "Repeater": {
+   "notes": "Each Pea Shooter shot also spawns one shadow copy of itself, chained behind it."
+  },
+  "Repeating Yourself": {
+   "notes": "Repeatovolver shots that kill an enemy refill the empty clip slots from your ammo reserve."
+  },
+  "Rerollin Rollin Rollin": {
+   "notes": "Pressing reload with a full clip and at least 10 ammo spends 10 ammo to re-roll the G20's stats: reload time, fire cooldown, clip size, damage, range and speed."
+  },
+  "Restoration": {
+   "notes": "On entering a room, also reveals rooms one step beyond the adjacent ones on the minimap."
+  },
+  "Reuknighted": {
+   "notes": "Gunknight Amulet's chance to skip a reload rises from 25% to 50%."
+  },
+  "Reverberation": {
+   "notes": "The Oscillator transforms into a rapid-fire form with 600 max ammo and 60-shot clips. Its bursts come about 0.02 seconds apart and fire double the projectiles."
+  },
+  "Ring of Fire": {
+   "notes": "Tracer Rounds leave a fire trail on every shot instead of on about 10% of shots, while you are not holding Graceful Goop."
+  },
+  "Rock Python": {
+   "notes": "Melted Rock's leftover corpses count as corpses for the Necromancer's Right Hand while this synergy is active."
+  },
+  "Rod of Iron": {
+   "notes": "Kalibers Prayer grants a shield for its duration that makes you invulnerable and reflects enemy bullets, instead of letting you pass through enemies."
+  },
+  "Roll Dem Bones": {
+   "notes": "Each corpse raised by the hand has a 25% chance to become a different enemy type."
+  },
+  "Roll With Advantage": {
+   "notes": "Each dice grenade explosion also leaves a circle of random goop (fire, oil, water, honey, cheese, plague and others) with a 4-unit radius."
+  },
+  "Royal Flush": {
+   "notes": "On reload with a full clip and more than 15 ammo, it spends 15 ammo to fire a set of five cards in a wide spread toward your aim."
+  },
+  "Russel's Teapot": {
+   "notes": "Each shot has a 15% chance to fire a random planet projectile instead."
+  },
+  "Rust Bucket": {
+   "notes": "Adds tarnish goop to the goop types Projectile Transmutator cycles through on a full-clip reload, so your projectiles can also leave tarnish goop."
+  },
+  "Rust In Peace": {
+   "notes": "While the gun is equipped, rate of fire rises 20% and clip capacity doubles."
+  },
+  "S H A K E N": {
+   "notes": "Skeleton's shots fire the Rattler's second volley projectile type and deal 2.5 times damage while the gun is equipped."
+  },
+  "Sabre Throw": {
+   "notes": "Slashing bullets (35% of shots) also reflect the enemy bullets they touch, sending them back at enemies."
+  },
+  "Sack Pack": {
+   "notes": "The sack holds up to 100 shells instead of 70. Each shot has a 25% chance to add one. Once 15 or more are stored, using it refills the current gun's ammo with them."
+  },
+  "Sacrifices Must Be Made": {
+   "notes": "Each nearby enemy that Bullet Idol affects adds 2 kills to Blood Idol's kill counter."
+  },
+  "Saw Your Heart Out": {
+   "notes": "Saw Controlled Dispenser's saw moves at 0.4x speed and cuts for 12 seconds, pulling in Buzzkill and Super Meat Gun shots. Pulled shots get 0.5x damage, 2x range, and 10 extra bounces and pierces."
+  },
+  "Scarlet Tanager": {
+   "notes": "The gun's bonus-damage shots deal 2x damage instead of 1.75x, and each of those shots is also made 20% larger."
+  },
+  "Schwarzschild Radius": {
+   "notes": "Enemy bullets the stone slows to a stop stay for 1 second before vanishing, instead of 0.5 seconds."
+  },
+  "Scrambled Gregs": {
+   "notes": "While in combat, Greg fires one shot at the nearest enemy every 5 seconds."
+  },
+  "Screamosynthesis": {
+   "notes": "Each spore from a Blasting Cap explosion has a 7% chance to act as a blank when it lands, and each Percussion Cap spore has a 7% chance to explode on impact."
+  },
+  "Screwdriver": {
+   "notes": "Saw Controlled Dispenser explosions deal 20 damage instead of 8 (scaled by damage stat) and stun nearby non-boss enemies for 2.5 seconds. Bullet Bore drills 16 damage per second into the enemy it is in."
+  },
+  "Scytheclone": {
+   "notes": "Dodge rolls knock back enemies within 10 units and also deal radial damage equal to 3 times one of your character stats to enemies in that radius."
+  },
+  "Secrets of the Ancients": {
+   "notes": "Each shot from this gun has a 25% chance not to use a blank."
+  },
+  "Sentry Goin' Up!": {
+   "notes": "Portable Pylon can be used 3 times per charge instead of 2, and each pylon deals 1.5 more damage per second."
+  },
+  "Serpents Reach": {
+   "notes": "The Snake Pistol summons a hovering Snake Minigun that fires constantly beside you. The Snake Minigun is set up to do the same for the Pistol."
+  },
+  "Several Truths": {
+   "notes": "With this synergy, tier-1 chests are also replaced: each fades out over about 5 seconds while a Truth chest appears in its place."
+  },
+  "Shapes N' Beats": {
+   "notes": "Octagun bullets travel three times as fast, and the gun's rate of fire is multiplied by four."
+  },
+  "Sharpest Tool In The Shed": {
+   "notes": "Each use of the Toolbox also spawns two more random objects, such as tables or barrels, in the current room."
+  },
+  "Sharpness": {
+   "notes": "Shots deal 50% more damage."
+  },
+  "Shattering Justice": {
+   "notes": "The first hit on an enemy also inflicts Broken Armor for 1 second, which raises damage taken by 35% and adds 1 damage to each hit on it."
+  },
+  "Shattershot": {
+   "notes": "Each Glass Shard shot fires three bullets in a spread, one straight and one 14 degrees to each side, instead of a single bullet."
+  },
+  "ShellllehS llehSShell": {
+   "notes": "Damage bonus per pellet rises from 5% to 7%, with total damage from this bonus capped at 3 times normal."
+  },
+  "Shocker": {
+   "notes": "Chain lightning from the Guon Stone deals 15 damage per hit instead of 5."
+  },
+  "Shoot Your Shot": {
+   "notes": "Damage bonus per pellet is tripled to 15%, or 21% when the other shell synergy is also active, with total damage capped at 3 times normal."
+  },
+  "Shortstop": {
+   "notes": "While Casey is held, catching a bullet with the mitts always refills 1 ammo instead of having a 50% chance."
+  },
+  "Shot in the Back": {
+   "notes": "Flak shells fired by the M70 gain one extra bounce."
+  },
+  "Shotgatterer": {
+   "notes": "Each Bullatterer shot has a 25% chance to summon a companion Shotgatterer instead of a Bullat, with 30 bullet damage."
+  },
+  "Shotgun Club": {
+   "notes": "Blanks used in a sealed room have a 50% chance to summon a different kin type."
+  },
+  "Shotgun Pheromones": {
+   "notes": "Shotgun Kin are charmed harmless and removed when the room is cleared. Shutdown Shells bullets also instantly kill them."
+  },
+  "Shotgun Wedding": {
+   "notes": "Holding both guns pairs them as a dual-wield set that switches to them together while both still have ammo."
+  },
+  "Shotkeeper": {
+   "notes": "Justice fires 3-shot bursts from a 12-round clip, and its max ammo rises to 600."
+  },
+  "Silver Baton": {
+   "notes": "Lead Baton hits on normal enemies instantly kill Umbral enemies and deal double damage to Black Phantoms, which lose their phantom form."
+  },
+  "Silverer Guon Stone": {
+   "notes": "Stored damage from enemy black phantom bullets that hit the orbiting stone caps at 8x instead of 5x and is spent on your next bullet. Your bullets deal 1.3x to black phantoms instead of 1.15x."
+  },
+  "Sin Wave": {
+   "notes": "With the synergy, helix shots swing in a wider wave, deal 10% more damage and travel twice as far."
+  },
+  "Single A": {
+   "notes": "The electric tether deals double damage."
+  },
+  "Sinister Handed": {
+   "notes": "While you face left, each bullet has a 6% chance to transmogrify the enemy it hits."
+  },
+  "Six Bullets": {
+   "notes": "Each time a Pista shot is reaimed, it travels twice as fast, deals 25% more damage and leaves a fading trail."
+  },
+  "Six Sharp": {
+   "notes": "A Grandfather Glock shot fired from a clock hand deals triple damage while that hand's current reading contains a 6, such as hour 6 or minute 26."
+  },
+  "Skorpion Sting": {
+   "notes": "Fires one extra projectile with 5 degrees of spread each time the gun reloads."
+  },
+  "Sleepin In a Cardboard Box": {
+   "notes": "Each time you take damage, you become stealthed for a short time, so enemies can lose track of you."
+  },
+  "Smart Core": {
+   "notes": "Player bullets that hit the orbiting stone also gain the base game's homing behaviour."
+  },
+  "Smite": {
+   "notes": "Each hit kills undead enemies outright, such as Shelleton, Skullet, Gummy and Revolvenant."
+  },
+  "Snake World Champion": {
+   "notes": "Each Snaker shot spawns a chain of shadow bullets equal to the apples eaten in the current room, up to 10."
+  },
+  "Sniper Viper": {
+   "notes": "Viper's spawned projectiles fly twice as fast, pierce one extra enemy, and can break breakable objects."
+  },
+  "Sniper+": {
+   "notes": "On use, calls in one extra allied companion on top of the random squad. Usable only in combat."
+  },
+  "Soda Pop": {
+   "notes": "Doubles the projectile speed of shots while the gun is equipped."
+  },
+  "Softnose": {
+   "notes": "Bullets from this gun deal double damage but travel at half speed."
+  },
+  "Soiree": {
+   "notes": "Voodoo damage dealt to other enemies is doubled while you hold Badge."
+  },
+  "Song of my people": {
+   "notes": "Each Glock 42 shot has a 33% chance to be tinted pink and apply the Charming Rounds effect to what it hits."
+  },
+  "Soulless": {
+   "notes": "With Life Cube held, a reload releases stored soul damage to nearby enemies at 100% with Life Orb, or 50% without."
+  },
+  "Sound Barrier": {
+   "notes": "The speed boost from flipping a table lasts 14 seconds instead of 7 seconds."
+  },
+  "Spare Kin": {
+   "notes": "Each Keybullet Kin that spawns drops two extra keys instead of one."
+  },
+  "Spare The Rod": {
+   "notes": "When a Punishment Ray streak ends at 7 or more hits instead of 15, you take a fake hit that costs no health."
+  },
+  "Spectrecular": {
+   "notes": "Each trigger fires two ghosts instead of one. Each ghost deals half damage, is 75% size and chain-lightnings between enemies."
+  },
+  "Spellcatcher": {
+   "notes": "Witch Pistol shots have a 20% chance and Hexagun shots a 100% chance to transform into a different projectile type when fired."
+  },
+  "Spiratterer": {
+   "notes": "Each Bullatterer shot has a 25% chance to summon a companion Spiratterer instead of a Bullat."
+  },
+  "Spirit+": {
+   "notes": "On use, calls in one extra allied companion on top of the random squad. Usable only in combat."
+  },
+  "Spitfire": {
+   "notes": "The gun transforms into a fully automatic form: 8-damage bullets every 0.21 seconds, a 10-round clip and 2000 max ammo. Each bullet also releases a spit ball."
+  },
+  "Spreadshot": {
+   "notes": "Fires several bullet modules across a 35-degree spread, each bullet at 0.55x damage and 2x range, with 500 total ammo."
+  },
+  "Spun": {
+   "notes": "Your damage is doubled while the synergy is active."
+  },
+  "Starsign": {
+   "notes": "The crossbow's bolts split into Heavens Call stars when they collide."
+  },
+  "Stationary": {
+   "notes": "Bullets from this gun that hit an enemy delete that enemy's own bullets (only about a third against bosses)."
+  },
+  "Step To The Beat": {
+   "notes": "While you move, shots are sent along your movement direction and deal about 4x damage (2x from the redirect, 2x from the matching direction) and grow 1.2x."
+  },
+  "Sterling": {
+   "notes": "Decoy tables made by the chisel get the mirror's shiny look and reflect bullets, like flipped tables do."
+  },
+  "Stick 2 It": {
+   "notes": "Javelins that kill an enemy give ammo back to the gun."
+  },
+  "Stick In The Mud": {
+   "notes": "Hot Glue Gun bullets hold enemies in place for 10 seconds instead of 5."
+  },
+  "Stop!": {
+   "notes": "The Hardlight Nailgun and Nail Gun are dual wielded, so both fire together."
+  },
+  "Storm Rod": {
+   "notes": "The gun fires three continuous lightning beams: a centre beam that costs 10 ammo per shot, and two beams angled 30 degrees to either side that cost none. Each deals 30 damage."
+  },
+  "Suds": {
+   "notes": "After Bullet Sponge absorbs 10 bullets, it bursts into 17 shots in a full circle that cannot hurt you. With this synergy the burst uses a different projectile type."
+  },
+  "Sugar Breath": {
+   "notes": "With Shotga Cola or Shotgun Coffee held, the energy drink skips its immediate base-stat penalties to damage, fire rate, reload, speed and dodge roll."
+  },
+  "Suicide King": {
+   "notes": "Every card bullet deals double damage and instakills royalty-tagged enemies. King of Hearts cards double again and ignore damage caps. Damage you take while holding the gun is tripled."
+  },
+  "Super Bounce Bros": {
+   "notes": "The two guns are paired as a dual-wield set, so holding both puts them in both hands together."
+  },
+  "Super Disc": {
+   "notes": "The Disc Gun becomes the Super Disc Gun, firing five discs at once in a spread, with a 10-round clip and 300 max ammo."
+  },
+  "Supersonic Man": {
+   "notes": "Mr. Fahrenheit's speed bonus rises from +2 to +4 while you also hold Supersonic Shots, and its fire trail is laid with a different goop."
+  },
+  "Superspreader": {
+   "notes": "Spit balls are replaced by plague balls that deal 6.1 damage each and leave plague goop where they land."
+  },
+  "Sword Mage": {
+   "notes": "Slashing bullets hit again every 0.15 seconds instead of every 0.3 seconds."
+  },
+  "Sword Stance": {
+   "notes": "Doubles the rate of fire while this gun is equipped."
+  },
+  "Table Salt": {
+   "notes": "Each table flip gives the Salt Gun 7 seconds of double damage."
+  },
+  "Tabletop": {
+   "notes": "Each table flip gives 5 to 9 ammo with this synergy, instead of 1 to 4."
+  },
+  "Tank+": {
+   "notes": "Each Reinforcement Radio use summons one extra friendly enemy, on top of its random squad."
+  },
+  "Tappy Toes": {
+   "notes": "Shots fired roughly in your movement direction deal 2x damage and grow 1.2x. Shots fired against your movement deal 3x damage and grow 1.4x instead of normal size."
+  },
+  "Teapotto": {
+   "notes": "Normal enemies within 4 units catch fire (Hot Lead effect), and enemies within 7 units do too while you hold gun ID 596."
+  },
+  "Thats How I Lost My Medical License": {
+   "notes": "Enemies hit by Injector Rounds leave goop pools twice as large."
+  },
+  "The Bone Zone": {
+   "notes": "Shots turn toward targets 1.5x faster, pierce minor breakables and pierce one more enemy."
+  },
+  "The Classics": {
+   "notes": "Hand Mortar explosions have twice the radius, and Old Goldie bullets travel twice as far."
+  },
+  "The Green Room Pale": {
+   "notes": "Each fist shot is replaced by six projectiles in a 45 degree spread, and with this synergy those six are a different projectile type."
+  },
+  "The Last Crusade": {
+   "notes": "Curses still apply with Holey Water. Curse bats become your allies, curse goop (Sludge, Hive) hurts enemies instead of you, and Darkness reveals the whole map."
+  },
+  "The Love You Cannot Show Me": {
+   "notes": "Each time Voodoollets damages another enemy, that enemy is charmed 25% of the time while you hold Charming Rounds."
+  },
+  "The Potter Boy": {
+   "notes": "Every 2 seconds in combat, Potto has a 5% chance to turn a random non-boss enemy in its room into a different enemy."
+  },
+  "The Sprinting Dead": {
+   "notes": "Corpses raised by the Necromancer's Right Hand move at twice their normal speed."
+  },
+  "The Sum Of It's Parts": {
+   "notes": "While this gun is held, each of its five partner guns you carry fires a hovering copy alongside it."
+  },
+  "The Two Tables": {
+   "notes": "The table laser also fires two extra beams angled 35 degrees to either side of the main beam, and each of those side beams bounces off one extra wall."
+  },
+  "There are some who call me...": {
+   "notes": "Shots get an effectively unlimited range (set to 1000) and 20 times their normal speed."
+  },
+  "They Grow Inside": {
+   "notes": "Every 2 seconds in combat, Potto has a 50% chance to fire a projectile at the nearest enemy on any floor. Without it the chance is 25%, and only on one floor type."
+  },
+  "Thicker Than Water": {
+   "notes": "Blood Thinner turns each heart at full health into two random consumables instead of one."
+  },
+  "Thinking With Portals?": {
+   "notes": "Teleporter Prototype's normal effect is replaced: a random normal non-boss enemy is telefragged and a folding table appears where it stood. A room-wide version telefrags every normal non-boss enemy."
+  },
+  "Those We Left Behind": {
+   "notes": "On use, Identity Crisis also gives the bearer up to three specific guns they do not already have."
+  },
+  "Throne Butt": {
+   "notes": "Each room clear or start of combat applies a -0.3 penalty to one stat."
+  },
+  "Timeless Flight": {
+   "notes": "Rocket Man fires a random rocket on about 5% of your shots."
+  },
+  "Times Tables": {
+   "notes": "Each shot costs one less ammo than its damage multiplier, so a 3x shot costs 2 ammo."
+  },
+  "Tinker Toys": {
+   "notes": "With Wind Up Gun, Springloaded Chamber's 30% damage boost lasts through the first three quarters of the clip instead of the first half."
+  },
+  "To Brie or Not To Brie": {
+   "notes": "Chamembert fires twice as many cheese shots per use, and each non-Elimentaler shot bounces once. Its wait before it can be used again drops from 3 seconds to 2."
+  },
+  "To The Point": {
+   "notes": "While a mine's laser sight is on an enemy, that enemy is slowed and takes 4 damage per second, and the mine moves much slower while aiming."
+  },
+  "Tomorrow, or just the end of time?": {
+   "notes": "The sixth bullet split off each enemy bullet the stone hits gets 1.2x speed, 3x range and one extra bounce, instead of the usual half damage."
+  },
+  "Topaz Weapon": {
+   "notes": "The last shot of every clip always shrinks what it hits: the bullet is 30% smaller and the enemy is shrunk to 40% size for 10 seconds."
+  },
+  "Toxic Core": {
+   "notes": "Player bullets that hit the orbiting stone also poison the enemies they strike, using the Irradiated Lead effect."
+  },
+  "Toxic Love": {
+   "notes": "Love Pistol bullets deal double damage."
+  },
+  "Toxic Shock": {
+   "notes": "Explosions leave poison pools with a radius of 8 instead of 5."
+  },
+  "Toxic Solutions": {
+   "notes": "Shots leave poison goop and fire a high-pressure poison beam."
+  },
+  "Transparent Lies": {
+   "notes": "Each use of False Blank also grants a specific passive item."
+  },
+  "Tri-Forked": {
+   "notes": "The table's fire goop line gets two extra lines, angled 45 degrees to each side of the normal line."
+  },
+  "Tri-Tip Dagger": {
+   "notes": "The Combat Knife's slash also fires two extra slashes at 45 degrees to either side, and its knockback is cut to a third."
+  },
+  "True Gunpowder": {
+   "notes": "For every 80 damage dealt, a random enemy in the room is killed. Bosses take 60 damage instead."
+  },
+  "Trust In The All-Seeing": {
+   "notes": "On entering a room, also reveals secret rooms next to you on the minimap."
+  },
+  "Turn Gundead": {
+   "notes": "When an enemy black phantom's bullet hits the orbiting stone, the phantom has a 10% chance to stop being a black phantom, or 5% for bosses."
+  },
+  "UNLIMITED POWER!!!": {
+   "notes": "Shock-Chain and Thunderclap are dual wielded, so both guns fire together."
+  },
+  "Ugly Duckling": {
+   "notes": "The Swan-Off gets an orbiting Ugly Duckling gun that fires about every 0.33 seconds. Its shots deal 5 damage, with 8 shots per clip."
+  },
+  "Ultra": {
+   "notes": "Siren transforms into a rapid-fire form: 13 damage per shot, 6-shot clips with 0.3 seconds between shots, 200 max ammo and a 1.5 second reload."
+  },
+  "Ultra Mutation": {
+   "notes": "Each room cleared while carrying the Risky Ring has a 5% chance to spawn an extra reward chest in a random spot."
+  },
+  "Ultraserum": {
+   "notes": "Mutagen's boss-kill healing is boosted: 1.5 instead of 1 per kill, and extra heart pickups drop when at zero health."
+  },
+  "Ultravioleter Guon Stone": {
+   "notes": "The stone jumps to a new orbit spot every 0.1 to 0.5 seconds instead of 0.1 to 1 second, and orbits closer, at a radius of 1 to 5 instead of 2 to 6."
+  },
+  "Under Lock And Key": {
+   "notes": "Blanks lock every enemy in the room in place for 10 seconds, and each locked enemy takes 7 damage for every key you carry."
+  },
+  "Underground": {
+   "notes": "While the gun is your active weapon, you move 45% faster, deal 10% more damage and get 45% better dodge rolls. Your character is tinted blue."
+  },
+  "Undying": {
+   "notes": "Each Spear of Justice shot has a 10% chance to home in on enemies, its fire rate doubles, and its max ammo rises to 400."
+  },
+  "Unsealed": {
+   "notes": "While you carry at least one key, each hit is blocked by spending one key. The synergy's extra 30% block chance adds no visible effect, because the key block already runs first."
+  },
+  "Upgraded": {
+   "notes": "Each swing also sends out an extra slash, 4 tiles long, that knocks enemies back."
+  },
+  "Vermincide": {
+   "notes": "Using Dead King's Desparation also drops a doll onto a random enemy in the room, slaying it."
+  },
+  "WEH": {
+   "notes": "While the gun is held, a Denksnavel companion appears and the player becomes immune to pits. If the player falls into a pit, the companion moves to them. It also comments on the chests in each room."
+  },
+  "Warp Sickness": {
+   "notes": "Warping with Warp-Techs Kit triples the landing explosion damage and grants a 5-second warp buff afterward, which the item tip says raises Teleporting Gunfire's proc chance to 100%."
+  },
+  "Water Jacket": {
+   "notes": "Bullets gain bounces off walls, and each bounce adds 5 homing radius so they curve toward enemies."
+  },
+  "Watered Down": {
+   "notes": "Each use of Blast Shower deals an extra 1/20 of the enemy's max HP (1/100 for bosses) on top of its 30 damage."
+  },
+  "Wealth Untold": {
+   "notes": "Using Opulent Blank also gilds every normal enemy in the room for 50 seconds."
+  },
+  "Wel Wel Wel": {
+   "notes": "Holding both guns automatically dual-wields them while both have ammo. Dual-wielding stops when either gun runs out."
+  },
+  "What does it do?": {
+   "notes": "Potto drops 2 to 6 coins on each room clear instead of 1 to 3."
+  },
+  "What's Up?": {
+   "notes": "While you hold the Balloon Gun and have balloon companions, you float and can dodge roll while flying."
+  },
+  "Whirling Blade": {
+   "notes": "The Combat Knife's slash becomes four slashes in 90 degree steps, spaced 0.25 seconds apart, with no knockback. Longsword Shot's slash also sweeps through four 90 degree directions."
+  },
+  "White Ethesia": {
+   "notes": "Glass Guon Stones orbit at 4 times normal speed instead of 3 times."
+  },
+  "Wincheese-ter": {
+   "notes": "While Winchester's Hat is held, the Prize Pistol has infinite ammo when it is your current gun. Using an item also permanently charms nearby enemies, at most once every 5 seconds."
+  },
+  "Wombular": {
+   "notes": "The gun transforms into the Wombular Polyp, firing 15-damage shots that pierce one extra enemy, with a 0.25-second cooldown and 300 max ammo."
+  },
+  "Woodcutter": {
+   "notes": "When Tin Heart's heart-loss protection triggers while the Huntsman is equipped and reloading, the usual -1 stat penalty is skipped. The blank and shield still happen."
+  },
+  "Workplace Accident": {
+   "notes": "Measuring Tape and Rebar Puncher are set up as a dual-wield pair, so holding both uses them together."
+  },
+  "Worship": {
+   "notes": "Each supply drop from Baby Good Chance Kin spawns two items instead of one."
+  },
+  "Wouldn't You Agree?": {
+   "notes": "Rapid Riposte bullets it reflects that hit an enemy without killing it have a 50% chance to trigger a genie punch on that enemy."
+  },
+  "Wrong Kind Of Drone": {
+   "notes": "Each time the drone fires, there is a 20% chance it also fires a bee aimed at your crosshair."
+  },
+  "Wuv... twue wuv...": {
+   "notes": "Each shot has a 10% chance to tint the bullet pink and apply charming rounds, which charm the enemies it hits."
+  },
+  "Xenobiology": {
+   "notes": "The gun can grab blob enemies no matter how much max health they have."
+  },
+  "Xenochrome": {
+   "notes": "The Infrared stone's beam pierces one extra enemy and reflects one extra time. In combat, the Ultraviolet stone sometimes fires a projectile toward you that does not hurt you, with a 50% chance each time its orbit resets."
+  },
+  "Yellow There": {
+   "notes": "The third of the 6 split bullets gets 1.2 times speed, 3 times range, and one extra bounce. Without this synergy, that bullet deals half damage and is 90% size."
+  },
+  "You Call Punching A Coin An Art?": {
+   "notes": "Coins from Coin Tosser fly 20% slower, bounce one extra time, and pierce through 2 enemies and breakable objects."
+  },
+  "You Can Liquidate That???": {
+   "notes": "Adds cheese to the goop types Projectile Transmutator cycles through on a full-clip reload, so your projectiles can also leave cheese goop."
+  },
+  "You Killed Us All!": {
+   "notes": "Goop from Projectile Transmutator covers double the radius, 4.5 instead of 2.25, for each of your projectiles."
+  },
+  "You Need To Chill": {
+   "notes": "Icicle bullets freeze enemies twice as much, with a freeze amount of 80 instead of 40."
+  },
+  "Zero Risk": {
+   "notes": "The last shot in a clip no longer costs half a heart of health."
+  },
+  "Zilvered Up": {
+   "notes": "When Golden Armour saves you from a lethal hit, you also get 2 extra armor."
+  },
+  "[todo: Add funny synergy name]": {
+   "notes": "On hit, enemies have a 20% chance to be jammed (40% normally), and otherwise take 30 times the bullet damage (15 times normally). Bosses are not affected."
+  },
+  "da ba dee da ba die": {
+   "notes": "The fifth bullet split off each enemy bullet the stone hits gets 1.2x speed, 3x range and one extra bounce, instead of the usual half damage."
+  },
+  "new Vector2(x, y)": {
+   "notes": "Laser Bullets always fire the star-shaped beam pattern instead of a random plus or cross pattern."
+  },
+  "pipis": {
+   "notes": "The gun fires a slower, shorter-range 29.99 damage shot. When it collides or dies in the air, it spawns five 7 damage projectiles."
+  }
+ }
+}

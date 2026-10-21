@@ -1,0 +1,46 @@
+{
+ "metadata": {
+  "name": "Modpack tips: Cut Characters Reborn",
+  "url": "",
+  "version": "2.0.0"
+ },
+ "items": {
+  "ccr:contrackter": {
+   "name": "Contrackter",
+   "notes": "On entering combat, marks one random enemy with a bounty for 15 seconds. Killing it in time drops 5 casings. Bosses and most enemies that explode on death can't be marked."
+  },
+  "ccr:cyber_pistol": {
+   "name": "Cyber Pistol",
+   "notes": "Fires homing shots in 4-shot clips, 0.15 seconds apart. The shots curve toward nearby enemies."
+  },
+  "ccr:cyber_smg": {
+   "name": "Cyber SMG",
+   "notes": "Fully automatic with 18-shot clips at 0.1 seconds per shot. Bullets home in on nearby enemies and deal 3.5 damage each."
+  },
+  "ccr:disguise_kit": {
+   "name": "Disguise Kit",
+   "notes": "On use: stealths you, and the disguise stops you stealing from shops. Usable once per room, and not while already stealthed."
+  },
+  "ccr:dot_zip_carbine": {
+   "name": "Dot Zip Carbine",
+   "notes": "Raises max ammo and clip size for all your guns by 0.05% per kill of an enemy that drops casings. Fires lightning bolts in 20-shot clips. With You Win Rar synergy, it fires a 4-bolt spread."
+  },
+  "ccr:dot_zip_carbine+you_win_rar": {
+   "name": "WinRar",
+   "notes": "Dot Zip Carbine form under You Win Rar synergy. Each shot fires 4 lightning bolts in a spread, and only the first bolt uses ammo."
+  },
+  "ccr:lamey_gun_alt": {
+   "name": "Lamey Gun",
+   "notes": "Infinite-ammo gun that fires single shots with no spread, 15-shot clips at 0.2 seconds per shot, and 5.5 damage per bullet. The starting owner can't drop it."
+  },
+  "ccr:magnifying_glass": {
+   "name": "Magnifying Glass",
+   "notes": "Orbits you and enlarges player bullets that pass through it: 2x size and 1.15x damage. While stealthed, bullets get 2.5x size, 3x damage and 1 extra pierce."
+  },
+  "ccr:vegas_smg": {
+   "name": "Vegas SMG",
+   "notes": "Fully automatic with 8-shot clips at 0.1 seconds per shot. With Pewpew Boy synergy, using an active item gives +50% damage and fire rate for 5 seconds, with a 10 second cooldown."
+  }
+ },
+ "synergies": {}
+}

@@ -1,0 +1,690 @@
+{
+ "metadata": {
+  "name": "Modpack tips: Planetside of Gunymede",
+  "url": "",
+  "version": "2.0.0"
+ },
+ "items": {
+  "psog:_unbreakable_spirit": {
+   "name": " Unbreakable Spirit",
+   "notes": "Each pickup adds a revive. A lethal hit instead revives you at 3 HP, grants 5 seconds of invulnerability and triggers a huge explosion. The first revive also grants +0.3 damage."
+  },
+  "psog:air_blaster": {
+   "name": "Air Blaster",
+   "notes": "Shots gain speed from the rounds left in the clip, so they are slowest when the clip is nearly empty. Reloading with rounds left knocks back nearby enemies, with more force the more rounds remain."
+  },
+  "psog:all-seeing_eye": {
+   "name": "All-Seeing Eye",
+   "notes": "Reveals secret and boss rooms when you enter each floor and marks nearby chests with a hint icon. Clearing a room can drop a Foresight pickup, more often with more stacks."
+  },
+  "psog:all_seeing_interactable": {
+   "name": "All Seeing Interactable",
+   "notes": "Interact to spawn 3 items from the floor's single-item reward table. Taking one removes the other two."
+  },
+  "psog:all_stats_up": {
+   "name": "All Stats Up",
+   "notes": "Each pickup permanently multiplies several stats: six go up by 2.5% to 15% and one goes down by 15%."
+  },
+  "psog:antarctic_oscillator": {
+   "name": "Antarctic Oscillator",
+   "notes": "Fires two 4-shot bursts at once, 14 degrees either side of aim. The left shots deal 4.5 damage and the right shots 3 damage, from a 60-round clip."
+  },
+  "psog:arm_warmer": {
+   "name": "Arm Warmer",
+   "notes": "Fires 3-shot bursts 0.025 seconds apart every 0.6 seconds from a 33-round clip. Each glob bounces once, sticks to the first enemy it hits, and after 3 seconds doubles in size and bursts for 11 damage in a 3-unit radius."
+  },
+  "psog:aura_bullets": {
+   "name": "Aura Bullets",
+   "notes": "Projectiles and beams with range 3 or more get a 3-tile aura that hits nearby enemies every 0.2 s for 15% of bullet damage plus 0.5, scaled by damage and size stats. Synergies add poison, fire or freeze chances."
+  },
+  "psog:baby_good_candle": {
+   "name": "Baby Good Candle",
+   "notes": "Summons a candle companion that follows you, fires 40-damage fire bullets about every 3.5 s at enemies 9 or more tiles away, and ignites enemies within 2.5 tiles of it."
+  },
+  "psog:balanced_polarity": {
+   "name": "Balanced Polarity",
+   "notes": "Automatic 30-shot clip at 0.05 second intervals. Each trigger pull fires both polarity bullets together, 11 damage each, with a 450 max ammo pool and a 1.6 second reload."
+  },
+  "psog:bandits_revolver": {
+   "name": "Bandits Revolver",
+   "notes": "Six-shot revolver with a 3.75 second reload. The final shot of each clip deals 25 damage and reloads the gun instantly on a kill. Enemies that the final shot would kill are marked while it is held."
+  },
+  "psog:blast_shower": {
+   "name": "Blast Shower",
+   "notes": "On use: deals 30 damage to every enemy in the room, applies burn or poison to them if you have those, and makes you immune to fire and poison for 10 s. Watered Down adds bonus damage."
+  },
+  "psog:blood_idol": {
+   "name": "Blood Idol",
+   "notes": "Lowers damage 10% while held. Each enemy killed while held adds 1 to a permanent counter. At 250 or more, its use removes 250 and drops a random gun or item, weighted by quality."
+  },
+  "psog:blue_casing": {
+   "name": "Blue Casing",
+   "notes": "Passive. When you would die, it is removed from you, the Something Wicked event is disabled, and that enemy ignores you. Found on a shrine that gives it up once."
+  },
+  "psog:blue_resault": {
+   "name": "Blue Re-Sault",
+   "notes": "Re-Sault's high-rate version with a 50-shot clip at 0.025 second intervals and 4-damage fast shots. It uses Re-Sault's ammo-for-kills system, and Re-Sault turns into this gun while the Infinite Ammo? synergy is active."
+  },
+  "psog:box_of_surprises": {
+   "name": "Box Of Surprises",
+   "notes": "Charge to fire a 75-damage saw that travels along walls and pierces without limit (1.3 s charge). With Blades Of Wrath, each saw end fires 12 Super Meat Gun shots, 30 degrees apart, per Buzzkill or Super Meat Gun you hold."
+  },
+  "psog:broken_chamber": {
+   "name": "Broken Chamber",
+   "notes": "Cannot be dropped. Every 9 seconds, two boulders fall: one on your position and one on a random floor cell. The interval drops 0.75 s per floor, to a minimum of 6 seconds."
+  },
+  "psog:burning_sun": {
+   "name": "Burning Sun",
+   "notes": "Charge for 2.5 seconds to fire a slow 55-damage sun that pulls nearby enemies in. While flying it burns enemies within 4.5 units for 8.5 damage every 0.33 seconds, then leaves a fire pool."
+  },
+  "psog:candy_heart": {
+   "name": "Candy Heart",
+   "notes": "While held, hearts and armor in shops cost 50% less. With Hearts In Halves (Antibody, Pink Guon Stone or Medkit), the discount rises to 75%."
+  },
+  "psog:canister_launcher": {
+   "name": "Canister Launcher",
+   "notes": "Fires slow canisters that bounce twice and explode for 25 damage on impact. Explosions turn nearby enemy bullets into yours and launch them at 1.5x speed, and double the damage and speed of nearby player bullets."
+  },
+  "psog:capacitor": {
+   "name": "Capacitor",
+   "notes": "Hold fire to charge: while your held active item is on cooldown, each round drained cuts 15 seconds off its cooldown (20 with Back For Seconds). Normal fire shoots a three-barrel volley."
+  },
+  "psog:chaotic_shift": {
+   "name": "Chaotic Shift",
+   "notes": "Fuses each of your guns with a random gun of the same shot style, adding its volley and 30% of its ammo. Each stack fuses another gun and multiplies gun damage by 0.65."
+  },
+  "psog:chroma": {
+   "name": "CHROMA",
+   "notes": "Single use. After about 5 seconds the held gun is locked, then gains 2 random guns as extra firing modules, cutting its damage by 33%."
+  },
+  "psog:coin_tosser": {
+   "name": "Coin Tosser",
+   "notes": "On use: spends 1 casing to toss a coin that deals 5 damage, bounces twice and pierces 2 enemies. A blank doubles the damage and speed of coins in flight and adds 2 bounces and 1 pierce each."
+  },
+  "psog:colossus": {
+   "name": "Colossus",
+   "notes": "Continuous beam for 55 damage, 360 max ammo, 1.3 second reload. With the Perfected synergy, reloading with the clip half empty or more fires 5 projectiles of 22 damage at your aim point."
+  },
+  "psog:connoisseurs_robes": {
+   "name": "Connoisseurs Robes",
+   "notes": "20% chance per player projectile (lower for guns firing many projectiles) to slow it sharply and spawn a hovering copy of your gun that shoots the nearest enemy. Beam hits have a 40% chance to spawn one too."
+  },
+  "psog:contractual_obligation": {
+   "name": "Contractual Obligation",
+   "notes": "Hires a friendly Contract Killer that attacks enemies and takes very little damage. Each stack hires another, one of three random types, and all of them return on each new floor."
+  },
+  "psog:corrupt_bullets": {
+   "name": "Corrupt Bullets",
+   "notes": "Increases damage and fire rate by 20%. Bullets orbit their firing spot on random tight paths. Beams orbit too, gain penetration and a minimum speed."
+  },
+  "psog:corrupted_wealth": {
+   "name": "Corrupted Wealth",
+   "notes": "Health and armor pickups are stored: stored health raises your damage and drains you when hit without armor. Losing stored armor boosts your shots for 5 seconds."
+  },
+  "psog:crystalline": {
+   "name": "Crystalline",
+   "notes": "Hero sword with infinite ammo and 26 damage per swing. Weak enemies such as bullet kin become allied companions with triple health. Rain starts on the floor while it is held."
+  },
+  "psog:daisukes_polymorphine": {
+   "name": "Daisukes Polymorphine",
+   "notes": "Usable with more than 2 enemies in the room. On use: picks a random valid enemy and turns the other non-boss enemies into it, stunning same-type enemies for 3 s. If no valid pick is found, deals 40 damage to the last pick."
+  },
+  "psog:damned_guon_stone": {
+   "name": "Damned Guon Stone",
+   "notes": "Orbiting guon stone passive that adds +1.5 Curse while held."
+  },
+  "psog:dead_kings_desparation": {
+   "name": "Dead Kings Desparation",
+   "notes": "Usable once per room. On use, every enemy takes 20% more damage, 3x poison and fire damage, and loses debuff resistance. You gain damage scaled by each enemy's max HP and are immune to fire and poison until the room clears."
+  },
+  "psog:deadeyes_handgun": {
+   "name": "Deadeyes Handgun",
+   "notes": "Quick shot deals 6 damage. Charge 0.8 s to fire a coin for 10 ammo. Bullets that ricochet off a coin deal much more damage. 10-round clip."
+  },
+  "psog:death_warrant": {
+   "name": "Death Warrant",
+   "notes": "Marks a random enemy when combat starts. Marked enemies take 25% more damage, and killing one passes the mark to another. Room clear rewards scale with how many marked enemies were killed."
+  },
+  "psog:derpy_bullets": {
+   "name": "Derpy Bullets",
+   "notes": "Gives +10% damage. Player projectiles zigzag, turning 90 degrees left and right every 0.025 to 0.075 seconds."
+  },
+  "psog:diamond_chamber": {
+   "name": "Diamond Chamber",
+   "notes": "Each Mastery token held gives bonus health and +10% money. Each item with 'Chamber' in its name, including this one, gives +20% damage. Once all 15 run flags are set, it converts itself into Netherite Chamber."
+  },
+  "psog:drone_control_unit": {
+   "name": "Drone Control Unit",
+   "notes": "Fires pings that command your drone on hit: priority attacks on bosses, tazing other enemies, opening chests and locks, revealing secret doors, putting out fires. The drone fires 4-damage shots in bursts of 8."
+  },
+  "psog:echolocation_ammolet": {
+   "name": "Echolocation Ammolet",
+   "notes": "+1 blank. Using a blank reveals the whole minimap."
+  },
+  "psog:electro-static_guon_stone": {
+   "name": "Electro-Static Guon Stone",
+   "notes": "Adds a guon stone tethered to you: enemies its tether crosses take 5 damage every 0.25 s (15 with Shocker). When an enemy bullet hits the stone, it fires 2 piercing bolts (4 with Flip-Side) for 7 damage each."
+  },
+  "psog:energy-plated_shield": {
+   "name": "Energy-Plated Shield",
+   "notes": "Keeps four orbiting energy guons around you as shields. The mod notes that orbitals taking enough damage are disabled for a time."
+  },
+  "psog:executioners_crossbow": {
+   "name": "Executioners Crossbow",
+   "notes": "Tap to fire a 30-damage bolt from a 4-shot clip. Hold for 1 second to fire a homing spectral arrow for 10 damage that pierces up to 30 enemies and applies Execute."
+  },
+  "psog:explosive_birth": {
+   "name": "Explosive Birth",
+   "notes": "Each explosion fires homing Vengeful Shells outward, about one per 18 explosion damage (at least 1, at most 8). Each stack raises the maximum by 2 and the minimum by 1. Shells deal 8 damage and pierce 2 enemies."
+  },
+  "psog:eye_of_annihilation": {
+   "name": "Eye OF Annihilation",
+   "notes": "Gun that fires 7-damage eye spear projectiles."
+  },
+  "psog:favouritism": {
+   "name": "Favouritism",
+   "notes": "+10% fire rate and +20% clip capacity."
+  },
+  "psog:flowder": {
+   "name": "Flowder",
+   "notes": "On use: spawns a Lost Adventurer NPC at your position. The item is not consumed and has a 1 second cooldown."
+  },
+  "psog:forgotten_round_1": {
+   "name": "Forgotten Round",
+   "notes": "+10% damage. Mastery token for the Oubliette chamber. It counts as a master round and is removed from normal loot."
+  },
+  "psog:forgotten_round_2": {
+   "name": "Forgotten Round",
+   "notes": "+10% damage. Mastery token for the Abbey chamber. It counts as a master round and is removed from normal loot."
+  },
+  "psog:forgotten_round_3": {
+   "name": "Forgotten Round",
+   "notes": "+10% damage. Mastery token for the Rat chamber. It counts as a master round and is removed from normal loot."
+  },
+  "psog:forgotten_round_4": {
+   "name": "Forgotten Round",
+   "notes": "+10% damage. Mastery token for the fourth chamber. It counts as a master round and is removed from normal loot."
+  },
+  "psog:frailty_ammolet": {
+   "name": "Frailty Ammolet",
+   "notes": "Grants +1 blank. Each blank used applies Frailty to every active enemy in the room. Frailty makes enemies take more damage, including from debuffs."
+  },
+  "psog:frailty_rounds": {
+   "name": "Frailty Rounds",
+   "notes": "Each bullet has a 33% chance to be poisoned and apply Frailty on hit. Beam ticks have a 33% chance to apply Frailty. Frailty makes enemies take more damage, including from debuffs."
+  },
+  "psog:funcannon": {
+   "name": "Funcannon",
+   "notes": "Fires a 20-damage rocket that leaves a trail of homing spores (about 30 per second) and bursts into 24 more spores on impact. Clip of 1, 20 max ammo, 2.9 second reload."
+  },
+  "psog:gilded_pot": {
+   "name": "Gilded Pot",
+   "notes": "Decorative breakables have a 3.5% chance (5% with Expert Demolitionist) to become a money pot. With Expert Demolitionist, broken decorative objects have a 20% chance to explode."
+  },
+  "psog:glass": {
+   "name": "Glass",
+   "notes": "Grants 1.75x damage, but armor and health are held to a very low cap and any gain past it is removed for a small permanent damage bonus. Each stack adds 0.2 to the damage multiplier and lowers the armor cap."
+  },
+  "psog:greed": {
+   "name": "Greed",
+   "notes": "Each enemy you kill drops a glowing coin that fades after about 3 seconds. Collecting one sets off a small explosion that hurts nearby enemies and gives speed and damage boosts for 6 seconds, which stack with more coins."
+  },
+  "psog:gun-printer": {
+   "name": "Gun-Printer",
+   "notes": "On use: fires one free shot for each projectile in your held gun's volley, aimed along the gun with about 10 degrees of random spread. Cooldown is 5 seconds."
+  },
+  "psog:gun_of_power": {
+   "name": "Gun Of Power",
+   "notes": "Each copy rolls its own clip (12 to 49), cooldown and fire style. Each shot picks one of 36 effects, such as bombs, turrets, enemies or heavy projectiles, and recoils you. When the clip ends, the gun is thrown away."
+  },
+  "psog:gun_warrant": {
+   "name": "Gun Warrant",
+   "notes": "Refills all your guns when picked up. Guns cost 50% less in shops, and some shops get an extra random gun."
+  },
+  "psog:gun_with_no_name": {
+   "name": "Gun With No Name",
+   "notes": "Fires 36-shot clips at 0.1 second intervals. Each shot becomes a marker orbiting you; when you stop firing, each marker fires a 5-damage hitscan that cannot miss and can pierce or bounce."
+  },
+  "psog:gunknown": {
+   "name": "Gunknown",
+   "notes": "Infinite-ammo gun that must be recharged like an active item. Each shot summons 12 guons for 15 seconds; they fire 30-damage shots and burst into a 20-damage shot after 3 hits."
+  },
+  "psog:gunslinger": {
+   "name": "Gunslinger",
+   "notes": "Thrown guns deal 2.5x damage and fly back like boomerangs. Holding reload for 3 seconds with ammo in the gun dumps the magazine into a burst of 1 to 20 shots, about a fifth of the ammo."
+  },
+  "psog:gunslingers_ring": {
+   "name": "Gunslingers Ring",
+   "notes": "Grants one bonus based on your held gun's type: bigger shots, +20% damage, charming nearby enemies, or immunity to fire or poison."
+  },
+  "psog:hardlight_nailgun": {
+   "name": "Hardlight Nailgun",
+   "notes": "Default mode fires 19-damage nails from a 10-shot clip at 0.3 second intervals. A successful active reload switches to alternate mode, which adds 13.5-damage fast final shots at the end of each clip."
+  },
+  "psog:heat_sink": {
+   "name": "Heat Sink",
+   "notes": "Hold fire for a 7-damage beam that pierces up to 10 enemies. A heat bubble grows at the beam tip, its radius rising 1.33 per second. Releasing fire detonates it for 26 damage per unit of radius, scaled by your damage stat."
+  },
+  "psog:heavens_call": {
+   "name": "Heavens Call",
+   "notes": "Rapid-fire gun (0.05 s cooldown) that fires five star types: normal, homing, fast piercing, sparkly and explosive. Starsign with Crescent Crossbow gives its projectiles a random buff and star splits."
+  },
+  "psog:hegemony_repair_node": {
+   "name": "Hegemony Repair Node",
+   "notes": "Currently has no effect: this item is unfinished in its mod."
+  },
+  "psog:hegemony_shipment_ticket": {
+   "name": "Hegemony Shipment Ticket",
+   "notes": "On use: air drops 6 random pickups and consumes the ticket. If you still hold it unused when a run ends, the next run starts with 6 higher-value crates."
+  },
+  "psog:heretics_hammer": {
+   "name": "Heretics Hammer",
+   "notes": "Active (1 second cooldown): use it within 2.5 units of a shrine to break the shrine open for its reward. Passive: +20% fire rate."
+  },
+  "psog:hexagonal_pulse_cannon": {
+   "name": "Hexagonal Pulse Cannon",
+   "notes": "Fires a ring of 6 bullets, 23 damage each, 60 degrees apart. After every shot the ring turns a random 30 to 75 degrees. 80-shot clip and 1200 max ammo."
+  },
+  "psog:hidden_gem": {
+   "name": "Hidden Gem",
+   "notes": "Brown chests always spawn unlocked. Each floor also buries a lockbox in a random room, marked by a dirt patch, to dig up for loot. With Loot Crate, an extra buried lockbox spawns each floor."
+  },
+  "psog:hitboxshower": {
+   "name": "HitBoxShower",
+   "notes": "Draws the hitbox of each enemy your projectiles or beams hit, once per enemy until the room is cleared."
+  },
+  "psog:hm_autocannon": {
+   "name": "H.M Auto-Cannon",
+   "notes": "Fires explosive rounds (5 damage plus a 2.5-damage blast of radius 3.5). Rate of fire climbs the longer you hold fire. 110-round clip and 550 max ammo."
+  },
+  "psog:hollow_walls": {
+   "name": "Hollow Walls",
+   "notes": "Adds an extra secret room to each floor, up to five in total. Each secret room gets two items on arrival, and each stack past the fifth adds one more item to every secret room."
+  },
+  "psog:hot_swapper": {
+   "name": "Hot Swapper",
+   "notes": "Kills with a gun not yet used in the streak add a stack (needs 2+ guns): +2.5% fire rate and more damage per stack. Swapping to an unused gun blasts nearby enemies for the stack count. A kill with a used gun resets the stacks."
+  },
+  "psog:hull-breaker_bullets": {
+   "name": "Hull-Breaker Bullets",
+   "notes": "The first hit on each enemy deals 2.5x damage. With the Shattering Justice synergy, that first hit also applies Broken Armor."
+  },
+  "psog:immateria": {
+   "name": "Immateria",
+   "notes": "Fires 5 projectiles per trigger pull, each 8 damage with an 80 degree scatter. Shots wrap around walls up to 4 times, exploding for 6.5 damage on each wrap, and pierce up to 5 enemies."
+  },
+  "psog:immolation_powder": {
+   "name": "Immolation Powder",
+   "notes": "On use, sets you on fire and burns enemies nearby. Passively, you burn 80% slower, and while on fire your shots deal 7.5% more damage plus 1 and you gain stat boosts. Recharges by dealing 350 damage."
+  },
+  "psog:injector_rounds": {
+   "name": "Injector Rounds",
+   "notes": "+10% damage and +15% projectile speed. Enemies hit by your shots leave a goop pool of a random debuff they carry when they die, with a 2.5 radius (5 with its synergy)."
+  },
+  "psog:jammed_jar": {
+   "name": "Jammed Jar",
+   "notes": "Active with 3 uses and a 1 second cooldown: each use gives you a Damned Guon Stone, a passive that adds +1.5 Curse."
+  },
+  "psog:kinetic_bombardment": {
+   "name": "Kinetic Bombardment",
+   "notes": "Use once to place a targeting reticle, which clears its cooldown. Use again to lock it; after 10 seconds it deals 5000 damage in a 4.2-unit blast that destroys projectiles. Recharges after 1250 damage taken."
+  },
+  "psog:kunai": {
+   "name": "Kunai",
+   "notes": "On switching guns, throws 3 kunai (18 damage each, pierce breakables) if the new gun is off its 5 second cooldown. Dragun Punch adds a slash; with the Kruller Glaive it throws glaives instead."
+  },
+  "psog:laser_chainsaw": {
+   "name": "Laser Chainsaw",
+   "notes": "Grants a 1.3x speed boost while held and fires a 120-damage beam with a 4.5 unit range that pierces every enemy in its path. Each hit has an 11% chance to stun for 0.15 seconds."
+  },
+  "psog:lead_baton": {
+   "name": "Lead Baton",
+   "notes": "On switching guns, after a 10 second recharge, swings a baton for 75 damage that reflects projectiles. Leader Baton raises the damage to 125; Silver Baton kills Umbral enemies outright."
+  },
+  "psog:lightningmaker": {
+   "name": "LightningMaker",
+   "notes": "On use, calls down a lightning bolt near you after a 2.5 second delay, with a large explosion at each of its 3 to 5 strike points. Cooldown is 0.25 seconds."
+  },
+  "psog:lost_potential": {
+   "name": "Lost Potential",
+   "notes": "Grants +1 blank per floor, +1 coolness, +1 active item slot and 20% more ammo capacity. Can be sold for 75 casings."
+  },
+  "psog:lucky_charm": {
+   "name": "Lucky Charm",
+   "notes": "Raises item quality in room rewards, shops and boss pedestals, and removes D-tier items from shops and boss pedestals. Chests cannot be fused while you hold it."
+  },
+  "psog:malice": {
+   "name": "Malice",
+   "notes": "Effects scale with your Curse stat: normal enemies may turn into Black Phantoms and chests may hold extra loot. Boss rooms can get extra reward pedestals. Stacks raise the chances."
+  },
+  "psog:measuring_tape": {
+   "name": "Measuring Tape",
+   "notes": "Hold fire for a long tape beam. Hits do more damage the faster the tape sweeps: 1.2x damage and 3x knockback at 30 degrees per second, 1.4x damage and 5x knockback at 60."
+  },
+  "psog:mop": {
+   "name": "Mop",
+   "notes": "Reloading while standing in goop refills the clip, and its bullets take that goop's effect, such as fire, poison, charm or cheese. 8.5 base damage, 25 max ammo, 2.5 second reload."
+  },
+  "psog:nemesisgun": {
+   "name": "NemesisGun",
+   "notes": "Fires 35-damage revolver rounds that pierce up to 3 enemies or breakables and stop at internal walls. 5-round clip with a 1.7 s reload."
+  },
+  "psog:nemesisrailgun": {
+   "name": "NemesisRailgun",
+   "notes": "Fires 35-damage rounds at 3x speed that pierce up to 3 enemies or breakables and pass through internal walls. 5-round clip with a 1.7 s reload."
+  },
+  "psog:nemesisshotgun": {
+   "name": "NemesisShotgun",
+   "notes": "Fires 35-damage rounds at 3x speed that pierce up to 3 enemies or breakables and pass through internal walls. 5-round clip with a 1.7 s reload."
+  },
+  "psog:netherite_chamber": {
+   "name": "Netherite Chamber",
+   "notes": "While held, multiplies the loot weight of mod items in gun and item drop tables by 100. Each Mastery token adds bonus health, 10% money and 10% fire rate; each 'Chamber' item adds 25% damage."
+  },
+  "psog:neutronium_core": {
+   "name": "Neutronium Core",
+   "notes": "+10% damage and x1.3 on a second stat. Projectiles and beams pull enemies toward them and are slowed to 70% speed. Larger, stronger shots pull harder."
+  },
+  "psog:never_forgive_me": {
+   "name": "Never Forgive Me",
+   "notes": "Places a doll for 8 seconds that fakes enemy damage events, triggering four 1-damage hits and one 10-damage hit each second for on-damage item effects. It then costs you half a heart."
+  },
+  "psog:null_pickup_interactable": {
+   "name": "Null Pickup Interactable",
+   "notes": "Interactable that nullifies keys, casings and blanks from your inventory to grant small boosts to damage and several other stats."
+  },
+  "psog:off-world_medicine": {
+   "name": "Off-World Medicine",
+   "notes": "On use: fully heals you, clears Spice addiction, and is consumed. If you take fatal damage while holding it, it is used automatically and gives a 1.8x damage and 1.4x speed boost."
+  },
+  "psog:orbital_insertion": {
+   "name": "Orbital Insertion",
+   "notes": "On use: after about 3.75 s a friendly H.M. Prime companion spawns at your position. At 5 s a 1000-damage, radius 6 blast goes off there. Not usable in combat or sealed rooms."
+  },
+  "psog:oscillating_bullets": {
+   "name": "Oscillating Bullets",
+   "notes": "Increases damage by 30%. Projectile speed follows a repeating curve from 0.7x down to -0.1x, so bullets slow, reverse and speed up. Beams get an oscillating path."
+  },
+  "psog:oscillator": {
+   "name": "Oscillator",
+   "notes": "Fires 4-shot bursts every 0.25 seconds from a 60-round clip. Each 5-damage shot pierces one enemy and its speed pulses over its flight."
+  },
+  "psog:parasitic_heart": {
+   "name": "Parasitic Heart",
+   "notes": "Its own shots deal no damage. Reloading an empty clip releases a ghost Annihi-Chamber that charges in your aim direction for about 3 seconds, dealing 40 damage per second to enemies it touches."
+  },
+  "psog:particle_collapser": {
+   "name": "Particle Collapser",
+   "notes": "The first shot of a clip fires a rift (20 damage) that pulls later needles in the clip toward it. Needles release with the final shot, 5 pierce and 3 bounces each. Reload closes all rifts."
+  },
+  "psog:patience": {
+   "name": "Patience",
+   "notes": "Currently has no effect: this item is unfinished in its mod."
+  },
+  "psog:perfected_colossus": {
+   "name": "Perfected Colossus",
+   "notes": "Beam gun whose beam deals 70 damage, the Perfected form of Colossus."
+  },
+  "psog:petrifier": {
+   "name": "Petrifier",
+   "notes": "Each enemy killed adds 1 round to the next clip on top of its base clip size of 2. Holds 120 ammo with a 1.7 second reload."
+  },
+  "psog:pinch_of_stardust": {
+   "name": "Pinch Of Stardust",
+   "notes": "Reloading fires at least 3 stars (1 plus the reload time in seconds, rounded up) spread up to 30 degrees around your aim. With Crescent Crossbow or Mr. Accretion Jr., at least 8."
+  },
+  "psog:pit_lords_pact": {
+   "name": "Pit Lords Pact",
+   "notes": "Enemies over pits take 7.5 damage per second, and enemies that fall into pits explode for 50 damage. Once per floor, a gun that falls into a pit is swapped for a random gun of the same quality."
+  },
+  "psog:pointnull": {
+   "name": "PointNull",
+   "notes": "Infinite-ammo gun that fires almost instantly. Each shot spawns 12 orbiting guons that last 15 seconds and fire at enemies for 20 damage."
+  },
+  "psog:polarity": {
+   "name": "Polarity",
+   "notes": "Automatic 30-shot clip at 0.05 second intervals, 8 damage per shot. The second half of each clip fires the alternate projectile type, and the Refridgeration synergy makes shots spiral in a helix."
+  },
+  "psog:portable_pylon": {
+   "name": "Portable Pylon",
+   "notes": "Active item usable only in combat, with 2 uses per cooldown (3 with Sentry Goin' Up!). Drops a pylon for 60 seconds or until the room clears, whose tethers zap enemies crossing them for 6 damage (9 with Loader Chassis)."
+  },
+  "psog:powerbank": {
+   "name": "Powerbank",
+   "notes": "Gains one tier per room cleared without firing in combat, up to tier 5, each tier swapping in a stronger shot from 4.25 to 22.5 damage, with stuns from tier 3. Reloading after firing resets it to tier 0."
+  },
+  "psog:prayer_amulet": {
+   "name": "Prayer Amulet",
+   "notes": "Adds an extra shrine room to every floor, matched to the floor's tileset, with a separate shrine on Hell floors."
+  },
+  "psog:projectile_transmutator": {
+   "name": "Projectile Transmutator",
+   "notes": "On use: bursts all your projectiles into goop pools. Reload on a full clip to cycle goop: fire and poison by default, plus cheese, frailty or tarnish with synergies. 10 second cooldown."
+  },
+  "psog:protractnon": {
+   "name": "Protract-non",
+   "notes": "Hold fire to charge. Shots start at about 4 damage and gain about 8 per second charged, up to roughly 2 seconds, while accuracy gets worse as the charge builds."
+  },
+  "psog:psychic_dust": {
+   "name": "Psychic Dust",
+   "notes": "On use: knocks back nearby enemies (a strong push on one random enemy), shoves nearby debris, and turns enemy bullets near you back into your own bullets. Cooldown is 5 seconds."
+  },
+  "psog:puncture_wound": {
+   "name": "Puncture Wound",
+   "notes": "Charge for 0.7 s to fire a 24-damage bolt that applies Tarnish (Corrosion). On impact, enemies within 3 units take a third of the bolt damage and gain Tarnish. 1-round clip."
+  },
+  "psog:radial_pulsecannon": {
+   "name": "Radial Pulse-Cannon",
+   "notes": "Fires a ring of 4 bullets, 20 damage each, 90 degrees apart. After every shot the ring turns a random 30 to 75 degrees. 80-shot clip and 1200 max ammo."
+  },
+  "psog:rebar_puncher": {
+   "name": "Rebar Puncher",
+   "notes": "Hold to charge for 0.85 seconds to fire a 65-damage one-round shot with a 0.5 second cooldown. Switching away and back arms the next shot to also fire 7 fanned nails, each 11.5 damage scaled by your damage stat."
+  },
+  "psog:red_casing": {
+   "name": "Red Casing",
+   "notes": "Passive. When you would die, it is removed from you and the Something Wicked enemy ignores you."
+  },
+  "psog:resault": {
+   "name": "Re-Sault",
+   "notes": "Automatic 50-shot clip at 0.05 second intervals. Every shot lowers max ammo by 1, down to 25. Each new kill adds 10 max ammo and 5 ammo (10 with Recycling)."
+  },
+  "psog:revenant": {
+   "name": "Revenant",
+   "notes": "Revolver with a 5-shot clip and 0.75 second cooldown. Its 45-damage shots pierce 3 enemies and pass through walls, and deal 5x damage when fired from stealth and 3x damage to Jammed enemies."
+  },
+  "psog:riftaker": {
+   "name": "Riftaker",
+   "notes": "Regular shots leave wormholes that fire 12-damage darts every 0.8 seconds at the final-shot wormhole, which pulls in nearby projectiles and warps them out of a regular wormhole. Two-shot clip, 3.4 second reload."
+  },
+  "psog:roomreader": {
+   "name": "RoomReader",
+   "notes": "1 second cooldown, not consumed."
+  },
+  "psog:sack_of_pickups": {
+   "name": "Sack Of Pickups",
+   "notes": "Pickup costing 35 in shops. On touch it spawns 3 to 5 random items or pickups, usually from the normal table, with about a 25% chance of the health-focused table and 5% of the wacky table."
+  },
+  "psog:saw_controlled_dispenser": {
+   "name": "Saw Controlled Dispenser",
+   "notes": "Fires saw blades that bounce 3 times and stick into the first enemy they hit, grinding it for about 7 seconds before exploding for 8 times your damage stat."
+  },
+  "psog:scroll_of_guonification": {
+   "name": "Scroll Of Guonification",
+   "notes": "Use near a pickup to turn it into an orbiting guon of that type, or near a heart dispenser to convert stored hearts. Near one special guon stone, it opens a 5-second damaging portal (500 per second)."
+  },
+  "psog:self-replicating_blank": {
+   "name": "Self-Replicating Blank",
+   "notes": "Each blank used leaves spores behind. When a room is cleared, you may get blanks back: the first blank since you last took damage is always refunded, the second with 50% chance, the third with 33%, and so on."
+  },
+  "psog:shell-heart": {
+   "name": "Shell-Heart",
+   "notes": "Gives 1 armor on pickup. Each hit you take refills 15% of your current gun's max ammo. Damage absorbed by armor no longer breaks a room's flawless Mastery."
+  },
+  "psog:shell-snake_oil": {
+   "name": "Shell-snake Oil",
+   "notes": "Multiplies projectile knockback and size by 1.5x, and hits on Ammoconda enemies deal 1.5x damage. Gun Snek synergy spawns a harmless allied Ammoconda ball at combat start. Shop items have a 33% chance of half price while held."
+  },
+  "psog:shells_of_the_mountain": {
+   "name": "Shells Of The Mountain",
+   "notes": "+35% damage, plus extra damage that scales with the floor. Non-boss enemies have a 20-35% chance to become elites when a room activates them; bosses are always elite."
+  },
+  "psog:shelltans_blessing": {
+   "name": "Shelltans Blessing",
+   "notes": "Damage x0.8 and fire rate x1.5. Each kill has a chance to refill 4% of the current gun's max ammo (10% for bosses) and force a reload, about 55% at 1000 max ammo."
+  },
+  "psog:shockchain": {
+   "name": "Shock-Chain",
+   "notes": "Fires two 9-damage bolts 30 degrees off aim from a 10-shot clip. The bolts link to each other within 7 units and zap enemies they cross for 20% of bolt damage every 0.1 seconds, doubled by Single A."
+  },
+  "psog:shop-in-a-box": {
+   "name": "Shop-In-A-Box",
+   "notes": "On use: places a small shop beside you. 30% of the time it stocks guns or items instead of the usual stock. Recharges after dealing 800 damage. Not usable in combat or sealed rooms. With Make Your Choice., it sells 3 items."
+  },
+  "psog:siren_can_roll": {
+   "name": "Siren Can Roll",
+   "notes": "Ultra form of the Siren gun, reached with Gun Warrant. Fires 13-damage shell projectiles."
+  },
+  "psog:soul-bound_skull": {
+   "name": "Soul-Bound Skull",
+   "notes": "Builds one wisp token about every 0.67 s, up to 12. Each enemy you damage spends a token with a chance of 1% of the damage (max 50%) to fire a homing wisp; fatal hits always fire one. Wisp hits recharge active items."
+  },
+  "psog:soul_lantern": {
+   "name": "Soul Lantern",
+   "notes": "Fires 3-damage homing wisps every 0.2 seconds with no clip limit. Each wisp applies the Possessed debuff and pierces one enemy."
+  },
+  "psog:spinning_death": {
+   "name": "Spinning Death",
+   "notes": "25% chance per projectile to gain 10 extra pierce and two spinning laser beams. Beam hits have a 33% chance to spawn two more beams. D-rectional makes four beams, and Overclock makes Shock-Chain shots always spin."
+  },
+  "psog:spore_shot": {
+   "name": "Spore Shot",
+   "notes": "12% chance per shot (8% per beam) to fire a spore that sticks to a non-piercing hit. The spore grows over 2 s, then bursts for 8.5 x damage stat and may release 1 or 2 new spores."
+  },
+  "psog:statiblast": {
+   "name": "StatiBlast",
+   "notes": "Fires 7-damage piercing shots, 6 per clip at 0.133 second intervals. Enemies near a shot are tethered and take 7 damage every 0.25 seconds while crossed; a shot's impact fires a bolt at the nearest enemy."
+  },
+  "psog:stolen_backpack": {
+   "name": "Stolen Backpack",
+   "notes": "+1 curse and +2 item capacity. Grants a random active item on first pickup."
+  },
+  "psog:stolen_shield": {
+   "name": "Stolen Shield",
+   "notes": "+2 curse and 1 armor on pickup. Blocks the next 3 hits, with 0.5 seconds of invulnerability after each. After the third block it is dropped and breaks."
+  },
+  "psog:stolen_sword": {
+   "name": "Stolen Sword",
+   "notes": "+2 curse. Enemies that come within 5.5 tiles of you flee from you until they are more than 10 tiles away."
+  },
+  "psog:storm_bringer": {
+   "name": "Storm Bringer",
+   "notes": "Charging fires a 25 damage bolt after 0.6 seconds, or a piercing 40 damage bolt after 2 seconds for 3 ammo. Impacts explode into lightning, and reloading calls down 8 to 11 lightning strikes."
+  },
+  "psog:surge_grenade": {
+   "name": "Surge Grenade",
+   "notes": "Throw a grenade that arms and detonates when an enemy comes near. The blast deals 125 damage in a small radius and calls lightning onto nearby coins, which explode too. Recharges by dealing 250 damage."
+  },
+  "psog:swanoff": {
+   "name": "Swan-Off",
+   "notes": "Fires a spread of four 6-damage shots, 22.5 degrees wide, every 0.9 seconds from an 8-shot clip. Each volley costs one round of ammo."
+  },
+  "psog:t4gtr": {
+   "name": "T4-GTR",
+   "notes": "Fires kinetic mines for 8.75 damage each, with a clip of 12. Hold fire for 0.2 seconds to switch all active mines into tripwire mode, where they aim at your cursor. Release to end it."
+  },
+  "psog:table_rwxg_telefrag": {
+   "name": "Table Rwxg Telefrag",
+   "notes": "Flipping a table moves it to an enemy in its flip direction and kills that enemy. Bosses take 75 damage and the table breaks instead."
+  },
+  "psog:table_tech_devour": {
+   "name": "Table Tech Devour",
+   "notes": "Flipping a table pulls non-boss enemies within 5 tiles that have under 30 HP (scaled by floor) into it, then fires bouncing 22-damage blood shots, more per devoured enemy. KILL KILL KILL adds one extra devoured enemy."
+  },
+  "psog:table_tech_ignition": {
+   "name": "Table Tech Ignition",
+   "notes": "Flipping a table lays a line of fire goop from it in the flip direction. Tri-Forked adds two lines at 45 degrees either side, and Hidden Tech Incineration swaps the fire for green fire."
+  },
+  "psog:tarnished_ammolet": {
+   "name": "Tarnished Ammolet",
+   "notes": "Grants +1 blank per floor. Each blank you use applies Tarnish to all active enemies in the room."
+  },
+  "psog:tarnished_rounds": {
+   "name": "Tarnished Rounds",
+   "notes": "Player projectiles have a 20% chance to inflict Tarnish (the Corrosion effect) on hit, and beam hits have a 25% chance per tick. Chances scale with the effect chance stat."
+  },
+  "psog:teleporting_gunfire": {
+   "name": "Teleporting Gunfire",
+   "notes": "Each fired bullet has a 50% chance to spawn a copy that flies at a random enemy, with 2.5x range. Beam ticks have about a 1.7% chance to spawn a sweeping beam near a random enemy."
+  },
+  "psog:the_anchor": {
+   "name": "The Anchor",
+   "notes": "+1 curse."
+  },
+  "psog:thundershot": {
+   "name": "Thunder-Shot",
+   "notes": "Fires 10-damage rounds from a 4-round clip. Each hit arms the enemy to explode on death and adds 5 to its blast damage (20 with KA-BLEWY!). ROCK, AAAND STOOOONE! charms minelets and gives bug enemies 40% more damage taken."
+  },
+  "psog:tome_of_guonmancy": {
+   "name": "Tome Of Guonmancy",
+   "notes": "Use to capture enemy bullets within about 3.5 units for half a second and turn them into orbiting bullets that last up to 10 seconds. Recharges after 300 damage taken."
+  },
+  "psog:torn_cloth": {
+   "name": "Torn Cloth",
+   "notes": "Adds +1 health and fully heals on your first pickup in a run. Dodge-rolling through 16 enemy projectiles triggers a void blast after 1 second that deals 60 damage to each non-harmless enemy in the room."
+  },
+  "psog:tractor_beam": {
+   "name": "Tractor Beam",
+   "notes": "Fires a continuous beam that pulls enemies toward you, with five times the normal range and speed. Pressing reload while firing stops the beam."
+  },
+  "psog:trap_defusal_kit": {
+   "name": "Trap Defusal Kit",
+   "notes": "Disables most traps while held, including minecart turrets, forge hammers, crush doors, pathing traps and High Priest wall shots. Basic traps still trigger from blanks and explosions."
+  },
+  "psog:trespass_stone": {
+   "name": "Trespass Stone",
+   "notes": "On use, opens a portal under you into a hidden Trespass room, drawn from a pool that includes deeper rooms. Recharges from damage taken (1250 threshold)."
+  },
+  "psog:ugly_duckling": {
+   "name": "Ugly Duckling",
+   "notes": "Fires a single 5-damage shot every 0.9 seconds from an 8-round clip with no spread. Its ammo pool is set to 69420, so it effectively never runs out."
+  },
+  "psog:unsta-bullets": {
+   "name": "Unsta-bullets",
+   "notes": "+10% damage. Each projectile has a 20% chance to teleport to the nearest enemy while in combat (pierce +1, 0.75x damage) and a 20% chance to split into two 0.6x damage shots at 90 degrees."
+  },
+  "psog:veteraner_shotgun": {
+   "name": "Veteraner Shotgun",
+   "notes": "Fires a 7-pellet fan of 7.5-damage pellets every 0.75 seconds, with a 90 max ammo pool. Each pellet has about a 15% chance to apply one random debuff and about 1.7% to apply three."
+  },
+  "psog:veterans_shotgun": {
+   "name": "Veterans Shotgun",
+   "notes": "Fires a 7-pellet spread of 6-damage pellets every 0.75 seconds, with a 90 max ammo pool. Each pellet has about an 11% chance to apply one random debuff and about 1% to apply three."
+  },
+  "psog:volatile_tesla-pack": {
+   "name": "Volatile Tesla-Pack",
+   "notes": "Enemies within 7 tiles are linked by arcs that deal 6 damage (scaled by damage stat) to enemies they cross every 0.25 s. Arcs that kill an enemy set off a 2.5-tile stun wave (4 with Heavy Metals) stunning non-boss enemies 3 s."
+  },
+  "psog:warp-techs_kit": {
+   "name": "Warp-Techs Kit",
+   "notes": "On use, places a teleporter you can also use from the map and cuts 7.5 seconds off the cooldown. If a teleporter is already in the room, warps you to it, hitting enemies along the way with small explosions."
+  },
+  "psog:weapon_pre-igniter": {
+   "name": "Weapon Pre-Igniter",
+   "notes": "Each time combat starts, your next 3 reloads finish instantly."
+  },
+  "psog:whistler": {
+   "name": "Whistler",
+   "notes": "Hold to charge for 0.6 s, then fire a homing 2.5-damage bolt that pierces every enemy and bounces off walls up to 1000 times, gaining 3% damage per pierce. Bolts vanish when the room has no enemies."
+  },
+  "psog:wisp_in_a_bottle": {
+   "name": "Wisp In A Bottle",
+   "notes": "On use: a sun surrounds you for about 10 seconds and applies Heat Stroke every 0.2 s to engaged enemies within 20 tiles. Damage-based cooldown of 900."
+  },
+  "psog:wrapa-rounds": {
+   "name": "Wrapa-Rounds",
+   "notes": "Projectiles that hit a wall wrap around to the other side of the room, up to 4 times. Each wrap cuts damage by 7% and speed by 10%."
+  }
+ },
+ "synergies": {}
+}

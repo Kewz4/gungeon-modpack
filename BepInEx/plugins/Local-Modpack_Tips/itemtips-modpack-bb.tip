@@ -1,0 +1,242 @@
+{
+ "metadata": {
+  "name": "Modpack tips: A Bleaker Item Pack",
+  "url": "",
+  "version": "2.0.0"
+ },
+ "items": {
+  "bb:aegis_shield": {
+   "name": "Aegis Shield",
+   "notes": "On use: disables engaged normal enemies in the room by stopping their AI and movement, and removes their damage immunities. Bosses are slowed and greyed for 15 s."
+  },
+  "bb:ammoconda's_nest": {
+   "name": "Ammoconda's Nest",
+   "notes": "Three uses. On use: spawns a charmed snake whose shots cannot hit you, and grants 10 s of +50% damage, +1 movement speed and +50% dodge roll speed. Killing a snake has a 10% chance to heal 1 health."
+  },
+  "bb:baby_good_shellicopter": {
+   "name": "Baby Good Shellicopter",
+   "notes": "Companion that follows you and flies at nearby enemies. Within 5 units of a target it fires every 1.5 s, choosing at random from a napalm fire line, an 8-rocket spread, or a radial or forward bullet volley."
+  },
+  "bb:beholster's_belt": {
+   "name": "Beholster's Belt",
+   "notes": "On use: sends six guns from your inventory orbiting you for 10 s. Each copy fires automatically at its gun's cooldown without using ammo, repeating guns if you carry fewer than six. Combat only."
+  },
+  "bb:bleaker": {
+   "name": "Bleaker",
+   "notes": "Immune to fire, poison and electric damage. Each kill has a 66% chance to leave a fire, poison or water goop pool. Standing in fire goop gives +50% damage, water goop +50% rate of fire, and blobulon goop makes your shots home."
+  },
+  "bb:bowler's_briefcase": {
+   "name": "Bowler's Briefcase",
+   "notes": "On use: spends keys to spawn an unlocked chest. 1 key gets a D, C or B chest, 2 keys an A or S chest, and 7 keys a rainbow chest. 5 uses, 5 s cooldown."
+  },
+  "bb:cape_of_the_resourceful_rat": {
+   "name": "Cape Of The Resourceful Rat",
+   "notes": "On use: cycles through three attacks: a piercing projectile tracking your aim with a ring of 16 bullets, two cheese-wheel bursts of 15-damage shots, or 12 charmed enemies that deal contact damage and vanish when the room clears."
+  },
+  "bb:carrot": {
+   "name": "Carrot",
+   "notes": "Raises damage by 10% (33% with Broccoli or Blasphemy synergy), refreshed whenever your item or gun count changes. Also zooms the camera out for a wider view and adds passive projectile speed and range boosts."
+  },
+  "bb:catcher's_mitts": {
+   "name": "Catcher's Mitts",
+   "notes": "Interact with an enemy bullet within 3 units to catch it. Each catch has a 50% chance to refill 1 ammo (100% with Shortstop synergy), with at least 0.25 seconds between catches."
+  },
+  "bb:chamber_of_frogs": {
+   "name": "Chamber Of Frogs",
+   "notes": "Each shot has a 20% chance, scaled by effect chance, to be halved in speed and send out a tongue. The tongue hits the nearest engaged enemy for half damage, stunning it for 2 seconds and knocking it back."
+  },
+  "bb:cheese_ammolet": {
+   "name": "Cheese Ammolet",
+   "notes": "Each blank used in combat applies the cheese effect to every enemy in the room with a 67% chance each, or 100% with the Elimentaler synergy."
+  },
+  "bb:distribullets": {
+   "name": "Distribullets",
+   "notes": "Each shot's damage is split evenly among the enemies in the room, and the reduced hit is applied to every other enemy when it lands. Also +15% damage and rate of fire, with smaller boosts to other offensive stats."
+  },
+  "bb:effigy_of_vengeance": {
+   "name": "Effigy Of Vengeance",
+   "notes": "On use: a statue falls on a random enemy, explodes and fires a ring of 16 bullets. While enemies remain it repeatedly chases and slams foes. Needs enemies in the room. 350 damage cooldown."
+  },
+  "bb:fatal_optics": {
+   "name": "Fatal Optics",
+   "notes": "On use: slows time for up to 6 s and roots you in place while you aim. Firing ends it and deals 30 damage per second of aim time to normal enemies within 100 units. Combat only."
+  },
+  "bb:fitted_tank_barrel": {
+   "name": "Fitted Tank Barrel",
+   "notes": "Each shot has a 10% chance, scaled by effect chance, to be special, cycling through three types: a different projectile, a shot that bursts into 8 bullets on impact, and a shot that spawns a harmless charmed enemy."
+  },
+  "bb:flaming_skull": {
+   "name": "Flaming Skull",
+   "notes": "Grants fire immunity. On first pickup each run it doubles your curse (or adds 5 if you have none) and stops your curse from rising past that. Certain fire synergy items hold it at the original value instead."
+  },
+  "bb:friendship_bracelet": {
+   "name": "Friendship Bracelet",
+   "notes": "Adds 20% damage for each companion following you. Potion of Gun Friendship, Ring of Chest Friendship, Ring of Mimic Friendship or Space Friend raise this to 40% per companion."
+  },
+  "bb:gatling_gullets": {
+   "name": "Gatling Gullets",
+   "notes": "Each enemy hit has a 10% chance, scaled by your effect chance, to call 3 skyrockets onto that enemy. The rockets can hurt you too."
+  },
+  "bb:glass_princes_cannon": {
+   "name": "Glass Princes Cannon",
+   "notes": "Gun with a 3-round clip, infinite ammo and a 1 second reload. Its damage modifier is -70 and it fires glass cannon projectiles."
+  },
+  "bb:golden_circlet": {
+   "name": "Golden Circlet",
+   "notes": "Each shot has a 10% chance to fire a homing projectile that carries 18 attached bullets. All of them deal 4x damage and pierce."
+  },
+  "bb:gun_shredder": {
+   "name": "Gun Shredder",
+   "notes": "On use: destroys your current gun for a permanent damage boost: S-tier guns +25%, A +20%, B +15%, C +10%, others +5%. Not usable on infinite-ammo guns."
+  },
+  "bb:gundromeda_pain": {
+   "name": "Gundromeda Pain",
+   "notes": "Each enemy you first see in a room gets 60% to 120% of its base max health, with its size scaled to match (not bosses). The Gundromeda Strain synergy sets them to a fixed 75% instead."
+  },
+  "bb:gungeon_wind": {
+   "name": "Gungeon Wind",
+   "notes": "Reveals the whole floor map, secret rooms included, on first pickup and on each new floor with a 67% chance. Holding Eye of the Beholster or Dragunfire makes the reveal certain."
+  },
+  "bb:healthy_bullets": {
+   "name": "Healthy Bullets",
+   "notes": "Enemy bullets have a 20% chance to turn green, up to 10 per combat. Touching one heals half a heart, or gives +25% damage for 10 seconds if you are at full health."
+  },
+  "bb:heroic_cape": {
+   "name": "Heroic Cape",
+   "notes": "Reward cape: reload time reduced by 25%, damage and rate of fire each +25%, +1.5 movement speed, plus several other stat multipliers."
+  },
+  "bb:horn_of_the_dragun": {
+   "name": "Horn Of The Dragun",
+   "notes": "On use: for 10 s you fly, deal double damage, fire twice as fast, tighten accuracy (x0.5 stat), and enemies in the room flee from you. 300 damage cooldown."
+  },
+  "bb:hungry_clips": {
+   "name": "Hungry Clips",
+   "notes": "Killing an enemy with a shot refills your current gun's clip from reserve ammo. Reload time is reduced by 25%."
+  },
+  "bb:jammomancer's_hat": {
+   "name": "Jammomancer's Hat",
+   "notes": "While held, a companion hat floats over your head: +20% damage, +1.5 movement speed, and your bullets turn black."
+  },
+  "bb:lead_crown": {
+   "name": "Lead Crown",
+   "notes": "On entering combat, every enemy in the room flees from you for 4 seconds."
+  },
+  "bb:life_cube": {
+   "name": "Life Cube",
+   "notes": "While held, when your gun kills an enemy, the total damage you dealt to that enemy is stored. Reloading then hits all nearby enemies for the stored amount times 50% (100% with Life Orb synergy)."
+  },
+  "bb:micro_enhancement": {
+   "name": "Micro Enhancement",
+   "notes": "On use: for 10 s, shots deal 1.5x damage, or 1.2x with a companion. With a companion, non-projectile hits deal 5x instead. Combat only, 400 damage cooldown."
+  },
+  "bb:mimic_bullets": {
+   "name": "Mimic Bullets",
+   "notes": "Raises damage by 50%. Your shots pass through enemy bullets they touch, turning each one into a black bullet."
+  },
+  "bb:overpill": {
+   "name": "Overpill",
+   "notes": "On use: the current gun's clip becomes a single shot that carries the whole clip's damage and ignores damage caps. Works on guns with clips above 1, once per gun. 5 uses, 1 s cooldown."
+  },
+  "bb:pendant_of_the_first_order": {
+   "name": "Pendant Of The First Order",
+   "notes": "Reloading an empty clip fires an extra 50 damage homing shot with a strong homing radius. The shot is 25% slower than normal."
+  },
+  "bb:phase-shifter_stopwatch": {
+   "name": "Phase-Shifter Stopwatch",
+   "notes": "First use drops a marker where you stand. Use again within 10 seconds to teleport there, restoring any health or armor lost since placing it and telefragging nearby regular enemies. Damage-based cooldown of 200."
+  },
+  "bb:pilot's_guide_to_pickpocketing": {
+   "name": "Pilot's Guide to Pickpocketing",
+   "notes": "While in combat, use to become stealthed for 3 seconds and steal from nearby enemies by pressing interact. Uses a damage-based cooldown of 200."
+  },
+  "bb:popcorn": {
+   "name": "Popcorn",
+   "notes": "Each shot that kills an enemy adds a stacking +0.5 to a stat that raises the chance for shots to fire extra projectiles (+1.0 with Melted Rock synergy)."
+  },
+  "bb:portable_sewer_grate": {
+   "name": "Portable Sewer Grate",
+   "notes": "On use: for 4 s you are invulnerable and cannot shoot, and gain +4 movement speed for about 3 s. Eight 25-damage shots burst outward, bounce once, then fly back at you after 4 s. 250 damage cooldown."
+  },
+  "bb:pouch_launcher": {
+   "name": "Pouch Launcher",
+   "notes": "Fires money pouches, 6 per clip with a 1 second reload. A pouch that hits an enemy bursts into piercing coins, with coin damage scaled by your damage stat."
+  },
+  "bb:prismatic_guon_stone": {
+   "name": "Prismatic Guon Stone",
+   "notes": "Orbits you. In combat, interacting fires a laser for 50 damage, or 75 with the Prismatismer Guon Stone synergy, once every 2 seconds (1 second with the synergy)."
+  },
+  "bb:prize_rifle": {
+   "name": "Prize Rifle",
+   "notes": "Reloading spawns 4 targets and fires bouncing shots at them. Each target hit adds 25% damage to your next clip. Clip of 20 with a 3 second reload."
+  },
+  "bb:protractor": {
+   "name": "Protractor",
+   "notes": "Each shot is split into two shots fired in opposite directions, perpendicular to your aim, and all damage is doubled."
+  },
+  "bb:repurposed_shell_casing": {
+   "name": "Repurposed Shell Casing",
+   "notes": "When a shot overkills an enemy, the leftover damage is saved and added to your next shot. This can chain across several overkills in a row."
+  },
+  "bb:rewind": {
+   "name": "Rewind",
+   "notes": "On use: respawns you in a visited room one step back, raising health, armor, blanks, casings and ammo to the values saved when combat began there. Damage cooldown."
+  },
+  "bb:rhythminator": {
+   "name": "Rhythminator",
+   "notes": "Fires about 7.5 shots a second from a 25-round clip, with a 4 second reload. Hitting the timed active-reload windows multiplies damage, from 1.75x on the first window up to 2.75x on the fifth."
+  },
+  "bb:shades's_shades": {
+   "name": "Shades's Shades",
+   "notes": "After each dodge roll, fires 8 double-damage bullets outward. Taking damage starts a 6 s rage with double damage and +2 movement speed. On use: summons four harmless charmed allies."
+  },
+  "bb:shotgun_energy_drink": {
+   "name": "Shotgun Energy Drink",
+   "notes": "On use: for 15 s, adds damage, fire rate, reload speed, movement and dodge-roll boosts that grow with each use. Each use also lowers base stats slightly unless you hold Shotga Cola or Shotgun Coffee."
+  },
+  "bb:showoff_bullets": {
+   "name": "Showoff Bullets",
+   "notes": "Every shot becomes homing and gains 2 extra bounces, but deals 10% less damage (10% more with the Camera synergy)."
+  },
+  "bb:smoking_skull": {
+   "name": "Smoking Skull",
+   "notes": "On use: cycles through three attacks: 6 s of invulnerability and stealth where you cannot shoot but three cannonball volleys fire, a 50-bullet spray, or 50 pairs of side-firing shots. 400 damage cooldown."
+  },
+  "bb:spill-o'_jar": {
+   "name": "Spill-O' Jar",
+   "notes": "On use, lays a line of blobulon goop in front of you. Holds 3 uses before cooldown. Standing in the goop gives +50% damage while you are in it."
+  },
+  "bb:star_splitter": {
+   "name": "Star Splitter",
+   "notes": "Laser that pierces up to 3 enemies and bounces off walls once, firing about 6 shots a second from a 25-round clip. Hits and wall impacts can spawn extra 1-damage shots aimed at nearby enemies."
+  },
+  "bb:suspicious_looking_bell": {
+   "name": "Suspicious Looking Bell",
+   "notes": "Each use cycles through four attacks: bouncing bullet volleys, six erratic helper enemies that attack foes, a stealth turn with 1 HP decoys that enemies target, and a 50-shot spiral. Combat only."
+  },
+  "bb:targeting_specs": {
+   "name": "Targeting Specs",
+   "notes": "On use: for 15 s, +30% damage, 2x fire rate, +50% shot speed, +1 piercing and faster reload. Shots fired while active home in on enemies. Combat only."
+  },
+  "bb:tattered_cape": {
+   "name": "Tattered Cape",
+   "notes": "Each combat has a 10% chance (not in boss rooms) to spawn a red-caped Bullet Kin. If 5 spawned kin are still alive when the room clears, you get the Heroic Cape in place of this one."
+  },
+  "bb:telegunesis": {
+   "name": "Telegunesis",
+   "notes": "On use: for 6 s pulls nearby enemies toward you with six radial pulses, one per second, and grants a stat boost. Damage cooldown."
+  },
+  "bb:trick_shot": {
+   "name": "Trick Shot",
+   "notes": "Shots bounce 5 extra times and gain projectile speed, but deal 20% less base damage. Each bounce adds 25% damage to that shot."
+  },
+  "bb:winchester's_hat": {
+   "name": "Winchester's Hat",
+   "notes": "Charmed enemies do not block room clear and are killed when it clears. Charm triggers at most once every 5 seconds."
+  },
+  "bb:wow-tastic_paintbrush": {
+   "name": "Wow-Tastic Paintbrush",
+   "notes": "Three uses, 1 s cooldown. Passive: immune to fire, poison and electric damage. Holding the input while active paints goop at the aim point: napalm, then poison, then water goop that electrifies goop."
+  }
+ },
+ "synergies": {}
+}

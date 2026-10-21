@@ -1,7 +1,7 @@
-# sha256 path (relative to BepInEx). Published 2026-10-21 16:33: Co-op 1.1.2, co-op crash fixes, character locks, faster loading, auto-updater
+# sha256 path (relative to BepInEx). Published 2026-10-21 16:36: Lock every character without a quest (Rancher/Beatrix by identity, Veteran quest, general goal for unknown characters)
 b7822ed5bc6c60e18b06f9ae9cbba31eec7be2c5ec4785cff75b8baf6833853d patchers/Local-FastLoad/FastLoad.Patcher.dll
 65098eb51499fe7f97488ffab5249e27b4f00464bf2e36ff4c8c356206d04389 plugins/Local-FastLoad/FastLoad.dll
-150f8c142d46c33df542faaef1d0cb43f00cf50d992f49c15217b05fbdd2965e plugins/Local-ModpackFixes/ModpackFixes.dll
+4f4a0ed486133d6ee835e2fd0ffd4a7533955919524835c6b61884012d5d314b plugins/Local-ModpackFixes/ModpackFixes.dll
 7f81d01e6a5e731840abe00ecbe3a0b9a626f2ca3280fe9b76d984cce72b1600 plugins/Hero88go-GungeonOnline/GungeonOnline.dll
 5dfb0d26caa5725eb7b5e0a1258abff75ba1840fcbee1c378e09ea5c788e7798 plugins/Local-Modpack_Tips/itemtips-modpack-bb.tip
 9cb7349418dbd632424f224668dd9982e477dc571373bcf641e88efd75ff4186 plugins/Local-Modpack_Tips/itemtips-modpack-ccr.tip

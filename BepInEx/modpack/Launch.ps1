@@ -31,7 +31,8 @@ try {
                 $tmp = "$local.download"
                 try {
                     New-Item -ItemType Directory -Force (Split-Path -Parent $local) | Out-Null
-                    & $curl -s -f -L --connect-timeout 4 -m 120 -o $tmp ($base + 'BepInEx/' + [Uri]::EscapeUriString($rel))
+                    # ?v= : GitHub keeps files cached for a few minutes; a new fingerprint is a new address
+                    & $curl -s -f -L --connect-timeout 4 -m 120 -o $tmp ($base + 'BepInEx/' + [Uri]::EscapeUriString($rel) + '?v=' + $hash)
                     if ($LASTEXITCODE -ne 0 -or (Sha256 $tmp) -ne $hash) { throw 'download failed or did not match' }
                     Move-Item $tmp $local -Force
                     $changed++

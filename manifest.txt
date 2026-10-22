@@ -1,9 +1,9 @@
-# sha256 path (relative to BepInEx). Published 2026-10-21 22:03: Co-op 2.5.0: same rooms on later runs (floor layout plans stay loaded), no more endless loading or error floods after someone swaps characters in the Breach, floor loads finish even if a mod errors, Modular modules reach the host; launcher shows a 'checking for updates' window
-7862daf34876b0a7d2566c75e18797c28fa16f0029c64def1809318a36f490f8 patchers/Local-FastLoad/FastLoad.Patcher.dll
+# sha256 path (relative to BepInEx). Published 2026-10-21 23:32: ModpackFixes 2.5.0: Modular available from a fresh save, Modular guests' modules reach the host; GungeonCraft 1.33.1 from Thunderstore; launcher fetches mods from their official downloads
+86d2ecec2121449c463343d75d156156607bd145d9ffec6ab759b38d676a9044 patchers/Local-FastLoad/FastLoad.Patcher.dll
 65098eb51499fe7f97488ffab5249e27b4f00464bf2e36ff4c8c356206d04389 plugins/Local-FastLoad/FastLoad.dll
-21c257357867a47daa6b8b72fd84eaf071145f8e2df6ea79342350cbcfb4eb45 plugins/Local-ModpackFixes/ModpackFixes.dll
+d9e88d3def092f415e9dda9fffb1202e888f002d8fc9cd03cb130baa4d0f5f1c plugins/Local-ModpackFixes/ModpackFixes.dll
 7f81d01e6a5e731840abe00ecbe3a0b9a626f2ca3280fe9b76d984cce72b1600 plugins/Hero88go-GungeonOnline/GungeonOnline.dll
-d0f325371a4bf8e0e253fb94343ba4e18b9c149dc5d259e076c3c2a95aeb95d6 modpack/Launch.ps1
+9b3d5d9013a47c43394daaae83c77f4b6f5c237cc36234b2163b1e4eea3925a0 modpack/Launch.ps1
 5dfb0d26caa5725eb7b5e0a1258abff75ba1840fcbee1c378e09ea5c788e7798 plugins/Local-Modpack_Tips/itemtips-modpack-bb.tip
 9cb7349418dbd632424f224668dd9982e477dc571373bcf641e88efd75ff4186 plugins/Local-Modpack_Tips/itemtips-modpack-ccr.tip
 72168f10130fdefa31b8952aa235bb5381f34434adf5a9ec53c2df222bf385a3 plugins/Local-Modpack_Tips/itemtips-modpack-ck.tip
@@ -17,3 +17,5 @@ d8ec36c15cfdff654197bc50d60c046666e905136b81c0abbac526a0684d96eb plugins/Local-M
 d20f300f6577c5a6420d236e819d538bdc4a02f89d090455b083cc391f6cc4b5 plugins/Local-Modpack_Tips/itemtips-modpack-spapi.tip
 94748c808c9f92d94e7d5a1e9cf37228777154e5567cbdb415c5d653ab01106b plugins/Local-Modpack_Tips/itemtips-modpack-synergies.tip
 423afc95377d0b4311829067d597335ca0bec52663cd30d28819f0f7f1740773 plugins/Local-Modpack_Tips/README.txt
+c6c71c4edca0d2adf79abbcd3f08b99f5629250f401f44f6f978adb577719d3a plugins/CaptainPretzel-GungeonCraft/GungeonCraft.dll @ https://thunderstore.io/package/download/CaptainPretzel/GungeonCraft/1.33.1/!GungeonCraft.dll
+a7d6d7b6bfc8c83c3a923106e6065a77921a71b1542b3b0a66a61e22f8cd7d6d plugins/CaptainPretzel-GungeonCraft/itemtips-cg.tip @ https://thunderstore.io/package/download/CaptainPretzel/GungeonCraft/1.33.1/!itemtips-cg.tip

@@ -9,6 +9,9 @@
 param([string]$Game, [string]$BepInEx, [switch]$Doorstop, [string]$GameArgs = '')
 $ErrorActionPreference = 'Stop'
 $base = 'https://raw.githubusercontent.com/Kewz4/gungeon-modpack/main/'
+# Tests only: another source for manifest and files, and no window or game start.
+if ($env:MODPACK_UPDATE_BASE) { $base = $env:MODPACK_UPDATE_BASE }
+$testOnly = $env:MODPACK_LAUNCHER_TEST -eq '1'
 if (-not $BepInEx) { $BepInEx = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path) }
 if (-not $Game) { $Game = Split-Path -Parent $BepInEx }
 $curl = Join-Path $env:SystemRoot 'System32\curl.exe'
@@ -26,6 +29,7 @@ function Sha256($f)
 # ---------- status window ----------
 $form = $null; $label = $null
 try {
+    if ($testOnly) { throw 'no window in tests' }
     Add-Type -AssemblyName System.Windows.Forms, System.Drawing
     [System.Windows.Forms.Application]::EnableVisualStyles()
     $form = New-Object System.Windows.Forms.Form -Property @{
@@ -61,27 +65,47 @@ try {
             $todo = @()
             foreach ($line in $manifest) {
                 $line = "$line".Trim()
-                if ($line -notmatch '^([0-9a-f]{64}) (.+)$') { continue }
-                $hash = $Matches[1]; $rel = $Matches[2].Trim().Replace('\', '/')
+                # "<sha256> <path>", or "<sha256> <path> @ <zip url>!<file in zip>" for a mod taken from its own official download
+                if ($line -notmatch '^([0-9a-f]{64}) (.+?)(?: @ (https://\S+)!(.+))?$') { continue }
+                $hash = $Matches[1]; $rel = $Matches[2].Trim().Replace('\', '/'); $zip = $Matches[3]; $entry = $Matches[4]
                 if ($rel.Contains('..') -or $rel -notmatch '^(plugins|patchers|config|modpack)/') { continue }
                 $local = Join-Path $BepInEx $rel.Replace('/', '\')
                 if ((Test-Path $local) -and (Sha256 $local) -eq $hash) { continue }
-                $todo += ,@($hash, $rel, $local)
+                $todo += ,@($hash, $rel, $local, $zip, $entry)
             }
-            $changed = 0; $failed = 0
+            $changed = 0; $failed = 0; $zips = @{}
             foreach ($t in $todo) {
-                $hash, $rel, $local = $t
+                $hash, $rel, $local, $zip, $entry = $t
                 Status ("Updating the modpack ({0} of {1})...`n{2}" -f ($changed + $failed + 1), $todo.Count, (Split-Path -Leaf $rel))
                 $tmp = "$local.download"
                 try {
                     New-Item -ItemType Directory -Force (Split-Path -Parent $local) | Out-Null
-                    # ?v= : GitHub keeps files cached for a few minutes; a new fingerprint is a new address
-                    & $curl -s -f -L --connect-timeout 4 -m 120 -o $tmp ($base + 'BepInEx/' + [Uri]::EscapeUriString($rel) + '?v=' + $hash)
-                    if ($LASTEXITCODE -ne 0 -or (Sha256 $tmp) -ne $hash) { throw 'download failed or did not match' }
+                    if ($zip) {
+                        # a mod's own package (Thunderstore): fetched once per run, the one file taken out of it
+                        if (-not $zips.ContainsKey($zip)) {
+                            $z = Join-Path $env:TEMP ('gungeon-modpack-' + [Math]::Abs($zip.GetHashCode()) + '.zip')
+                            & $curl -s -f -L --connect-timeout 4 -m 300 -o $z $zip
+                            if ($LASTEXITCODE -ne 0) { throw "download of $zip failed" }
+                            $zips[$zip] = $z
+                        }
+                        Add-Type -AssemblyName System.IO.Compression, System.IO.Compression.FileSystem
+                        $archive = [IO.Compression.ZipFile]::OpenRead($zips[$zip])
+                        try {
+                            $found = $archive.Entries | Where-Object { $_.FullName.Replace('\', '/') -eq $entry } | Select-Object -First 1
+                            if (-not $found) { throw "$entry is not in $zip" }
+                            [IO.Compression.ZipFileExtensions]::ExtractToFile($found, $tmp, $true)
+                        } finally { $archive.Dispose() }
+                    } else {
+                        # ?v= : GitHub keeps files cached for a few minutes; a new fingerprint is a new address
+                        & $curl -s -f -L --connect-timeout 4 -m 120 -o $tmp ($base + 'BepInEx/' + [Uri]::EscapeUriString($rel) + '?v=' + $hash)
+                        if ($LASTEXITCODE -ne 0) { throw 'download failed' }
+                    }
+                    if ((Sha256 $tmp) -ne $hash) { throw 'download did not match' }
                     Move-Item $tmp $local -Force
                     $changed++
                 } catch { $failed++; Note "could not update ${rel}: $_"; Remove-Item $tmp -ErrorAction SilentlyContinue }
             }
+            foreach ($z in $zips.Values) { Remove-Item $z -ErrorAction SilentlyContinue }
             Note "update check: $changed updated, $failed failed"
             if ($failed -gt 0) { Status "Some updates didn't download; they'll be tried next time.`nStarting the game..." }
             elseif ($changed -gt 0) { Status "Modpack updated. Starting the game..." }
@@ -91,6 +115,7 @@ try {
 } catch { Note "update check failed: $_"; Status 'Starting the game...' }
 
 # ---------- start ----------
+if ($testOnly) { exit }
 try {
     if ($Doorstop) { $GameArgs = ('--doorstop-enable true --doorstop-target "' + (Join-Path $BepInEx 'core\BepInEx.Preloader.dll') + '" ' + $GameArgs).Trim() }
     $exe = Join-Path $Game 'EtG.exe'

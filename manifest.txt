@@ -1,8 +1,9 @@
-# sha256 path (relative to BepInEx). Published 2026-10-21 16:36: Lock every character without a quest (Rancher/Beatrix by identity, Veteran quest, general goal for unknown characters)
-b7822ed5bc6c60e18b06f9ae9cbba31eec7be2c5ec4785cff75b8baf6833853d patchers/Local-FastLoad/FastLoad.Patcher.dll
+# sha256 path (relative to BepInEx). Published 2026-10-21 19:32: Co-op: same floors for everyone, guests follow the host back to the Breach, boss pedestals and revives reach guests, menus and wheels on your own screen, shop items no longer black, locked characters stay hidden; launcher updates before the game starts
+7862daf34876b0a7d2566c75e18797c28fa16f0029c64def1809318a36f490f8 patchers/Local-FastLoad/FastLoad.Patcher.dll
 65098eb51499fe7f97488ffab5249e27b4f00464bf2e36ff4c8c356206d04389 plugins/Local-FastLoad/FastLoad.dll
-4f4a0ed486133d6ee835e2fd0ffd4a7533955919524835c6b61884012d5d314b plugins/Local-ModpackFixes/ModpackFixes.dll
+c5d291642bf1571c48726826cca8b409daaad499e9649ed7ba78eacdde0bbe65 plugins/Local-ModpackFixes/ModpackFixes.dll
 7f81d01e6a5e731840abe00ecbe3a0b9a626f2ca3280fe9b76d984cce72b1600 plugins/Hero88go-GungeonOnline/GungeonOnline.dll
+cf82f140fd4c1ced5990e91e48807a13c1702997d3fa6f97980188ee5d9c336c modpack/Launch.ps1
 5dfb0d26caa5725eb7b5e0a1258abff75ba1840fcbee1c378e09ea5c788e7798 plugins/Local-Modpack_Tips/itemtips-modpack-bb.tip
 9cb7349418dbd632424f224668dd9982e477dc571373bcf641e88efd75ff4186 plugins/Local-Modpack_Tips/itemtips-modpack-ccr.tip
 72168f10130fdefa31b8952aa235bb5381f34434adf5a9ec53c2df222bf385a3 plugins/Local-Modpack_Tips/itemtips-modpack-ck.tip

@@ -1,8 +1,8 @@
-# sha256 path (relative to BepInEx). Published 2026-10-21 23:32: ModpackFixes 2.5.0: Modular available from a fresh save, Modular guests' modules reach the host; GungeonCraft 1.33.1 from Thunderstore; launcher fetches mods from their official downloads
+# sha256 path (relative to BepInEx). Published 2026-10-25 20:17: Online co-op 1.1.8 (upstream fixes for floors, pedestals, revives, Breach return, shops, swaps); ModpackFixes 2.6.0 stands its overlapping fixes down
 86d2ecec2121449c463343d75d156156607bd145d9ffec6ab759b38d676a9044 patchers/Local-FastLoad/FastLoad.Patcher.dll
 65098eb51499fe7f97488ffab5249e27b4f00464bf2e36ff4c8c356206d04389 plugins/Local-FastLoad/FastLoad.dll
-d9e88d3def092f415e9dda9fffb1202e888f002d8fc9cd03cb130baa4d0f5f1c plugins/Local-ModpackFixes/ModpackFixes.dll
-7f81d01e6a5e731840abe00ecbe3a0b9a626f2ca3280fe9b76d984cce72b1600 plugins/Hero88go-GungeonOnline/GungeonOnline.dll
+f74de09c4ab8ead9d1265d968c14bed4347ed8b2d81b709a141e4db66b7e3937 plugins/Local-ModpackFixes/ModpackFixes.dll
+03d8c2ab4123aefd25eb944ec0f265b3170ea8930e95c6224eb041d00b502b0e plugins/Hero88go-GungeonOnline/GungeonOnline.dll
 9b3d5d9013a47c43394daaae83c77f4b6f5c237cc36234b2163b1e4eea3925a0 modpack/Launch.ps1
 5dfb0d26caa5725eb7b5e0a1258abff75ba1840fcbee1c378e09ea5c788e7798 plugins/Local-Modpack_Tips/itemtips-modpack-bb.tip
 9cb7349418dbd632424f224668dd9982e477dc571373bcf641e88efd75ff4186 plugins/Local-Modpack_Tips/itemtips-modpack-ccr.tip
